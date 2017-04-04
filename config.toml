@@ -1,0 +1,35 @@
+baseurl = "http://example.org"
+title = "ComedySportz San Antonio"
+theme = "dimension"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+disableRSS = true
+
+[params]
+  title = "ComedySportz San Antonio"
+  description = '<!--[-->
+Fast-paced improvisational comedy, played as a sport. An all-ages show!<!--]-->'
+  logoimage = "https://static1.squarespace.com/static/55c2a4dfe4b097da4dd922f2/t/563960b2e4b03ea21f00be78/1446600883878/ComedySportz_SHIELD_Color.png"
+  copyright = "ComedySportz San Antonio"
+
+[[params.social]]
+  medium = "twitter"
+  icon = "twitter"
+  link = "https://twitter.com/CSzSanAntonio"
+
+[[params.social]]
+  medium = "facebook"
+  icon = "facebook"
+  link = "https://www.facebook.com/ComedySportzSanAntonio/"
+
+[[params.social]]
+  medium = "instagram"
+  icon = "instagram"
+  link = "https://www.instagram.com/cszsa/"
+
+[languages]
+[languages.en]
+languageName = "English"
+weight = 1
+title = "ComedySportz San Antonio"
