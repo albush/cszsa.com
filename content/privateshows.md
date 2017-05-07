@@ -1,7 +1,8 @@
 +++
-title = "Hire Us"
-weight = 40
+title = "Book us for your next event"
+weight = 20
 draft = false
+menuname = "Hire Us"
 +++
 
 You want your event to be special. You want comedy that's fresh, appeals to everyone, and offends no one. You want entertainment that's customized to you? You want ComedySportz®  
@@ -23,7 +24,7 @@ It's about meeting your needs for fast, fun, clean entertainment.
 We offer ComedySportz Match, ComedySportz Half-Court and ComedySportz Exhibition formats, something for almost every budget. Need something out of the ordinary? Just ask! Need a location? We've got one, and we know about some great spaces around the metro area, too.  
 
 
-Please contact us at (210)338-0279 or email us at info@cszsa.com for more details
+Please contact us at (210) 338-0279 or email us at <a href="mailto:info@cszsa.com">info@cszsa.com</a> for more details
 
 <form method="post" action="#">
 	<div class="field half first">

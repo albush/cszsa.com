@@ -1,4 +1,4 @@
-baseurl = "http://example.org"
+baseurl = "http://cszsa.com"
 title = "ComedySportz San Antonio"
 theme = "dimension"
 languageCode = "en-us"
@@ -8,10 +8,12 @@ disableRSS = true
 
 [params]
   title = "ComedySportz San Antonio"
-  description = '<!--[-->
-Fast-paced improvisational comedy, played as a sport. An all-ages show!<!--]-->'
+  description = '<!--[-->Fast-paced improvisational comedy, played as a sport. An all-ages show!<!--]-->'
+  meta_description = "ComedySportz San Antonio is the only family friendly comedy in San Antonio. Bring your kids, bring Grandma. We won't offend anyone. We promise."
   logoimage = "https://static1.squarespace.com/static/55c2a4dfe4b097da4dd922f2/t/563960b2e4b03ea21f00be78/1446600883878/ComedySportz_SHIELD_Color.png"
   copyright = "ComedySportz San Antonio"
+  keywords = ["Comedy", "Comedy in San Antonio", "Improv", "Improvisational theater", "family friendly", "comedy classes", "corporate training", "team building"]
+  images = ["/images/bg2.jpg", "/images/cszsa-111.JPG"]
 
 [[params.social]]
   medium = "twitter"
@@ -33,3 +35,10 @@ Fast-paced improvisational comedy, played as a sport. An all-ages show!<!--]-->'
 languageName = "English"
 weight = 1
 title = "ComedySportz San Antonio"
+
+  [params.meta]
+    facebook		= "ComedySportzSanAntonio"
+    #facebook_admin	= "17807199"  # This needs to be a page admin to get domain insights
+    twitter		= "CSzSanAntonio"
+    twitter_domain	= "cszsa.com" # This domain shows in twitter cards as "View on `twitter_domain`"
+    instagram		= "cszsa"

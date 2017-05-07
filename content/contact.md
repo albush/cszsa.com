@@ -1,10 +1,11 @@
 +++
 title = "Contact"
-weight = 40
+weight = 60
 draft = false
 +++
 
-<form method="post" action="#">
+<form action="https://formspree.io/al@albush.com"
+      method="POST">
 	<div class="field half first">
 		<label for="name">Name</label>
 		<input type="text" name="name" id="name" />
