@@ -12,14 +12,14 @@ menuname = "Team Building"
 
 As CSz performers, we use our improvisation skills onstage to get people laughing. Conveniently, offstage, we use them to run a successful business. We specialize in teaching people HOW to use improvisation techniques in their work lives. We teach the essential, yet often overlooked or discarded, communication and listening skills that will consistently improve the quality of your work, home and social relationships. We call this **Applied Improvisation**.
 
-Contact us for more information about creating your own personalized corporate training program.    
+Contact us for more information about creating your own personalized corporate training program.
 <a href="/#contact" class="button special">Contact Us</a>
 
 ### Customer Service
 
 > What if your employees were empowered to make customer service an opportunity instead of a cost?
 
-The top of your game is not your rulebook, nor your script, nor what you did with the last customer. It's improvisation - a highly refined system of observing, connecting and responding.  
+The top of your game is not your rulebook, nor your script, nor what you did with the last customer. It's improvisation - a highly refined system of observing, connecting and responding.
 We apply improv to these areas:
 
 - Listening with focus
@@ -36,6 +36,8 @@ And while we help your people become more effective, we're bonding them together
 
 Workshops range from two hours to multiple days to a series over several weeks.  Let us know what you need.  We'd love to help you get your service to the next level.
 
-Please contact us at (210) 338-0279 or email us at <a href="mailto:info@cszsa.com">info@cszsa.com</a> for more details
+Please contact us at (210) 338-0279 or email us at <a href="mailto:info@cszsa.com">info@cszsa.com</a> for more details.
+
+---
 
 {{< socialLinks >}}
