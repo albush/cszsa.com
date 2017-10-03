@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://cszsa.albush.com//sitemap.xml
+Sitemap: //cszsa.com/sitemap.xml

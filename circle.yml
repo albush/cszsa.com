@@ -1,0 +1,24 @@
+machine:
+  environment:
+    CIRCLE_BUILD_DIR: $HOME/$CIRCLE_PROJECT_REPONAME
+    PATH: $PATH:$CIRCLE_BUILD_DIR/bin
+  post:
+    - mkdir -p $CIRCLE_BUILD_DIR/bin
+
+dependencies:
+  pre:
+    - bash ./ci-install-hugo.sh
+  cache_directories:
+    - bin
+
+test:
+  pre:
+    - pygmentize -V
+  override:
+    - hugo -v
+
+deployment:
+  prod:
+    branch: master
+    commands:
+      - aws s3 sync $HOME/$CIRCLE_PROJECT_REPONAME/public --region us-west-1 s3://cszsa.com/ --delete

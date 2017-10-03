@@ -18,7 +18,7 @@ To get the pb parameter value, search the desired place on google maps and click
 This is **bold** and this is __strong__. This is *italic* and this is _emphasized_.
 This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
 This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>.
-Finally, [this is a link to a markdown cheatsheet](https://beegit.com/markdown-cheat-sheet).
+Finally, [this is a link to a markdown cheatsheet](//beegit.com/markdown-cheat-sheet).
 
 > Not all markdown syntax is allowed but you can mix most html tags into the markdown text.
 

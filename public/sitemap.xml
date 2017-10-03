@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="//www.sitemaps.org/schemas/sitemap/0.9">
 
   
   <url>
-    <loc>http://cszsa.albush.com//#matches</loc>
+    <loc>//cszsa.com/#tickets</loc>
   </url>
   
   <url>
-    <loc>http://cszsa.albush.com//#privateshows</loc>
+    <loc>//cszsa.com/#privateshows</loc>
   </url>
   
   <url>
-    <loc>http://cszsa.albush.com//#training</loc>
+    <loc>//cszsa.com/#training</loc>
   </url>
   
   <url>
-    <loc>http://cszsa.albush.com//#about</loc>
+    <loc>//cszsa.com/#about</loc>
   </url>
   
   <url>
-    <loc>http://cszsa.albush.com//#teambuilding</loc>
+    <loc>//cszsa.com/#teambuilding</loc>
   </url>
   
   <url>
-    <loc>http://cszsa.albush.com//#contact</loc>
+    <loc>//cszsa.com/#contact</loc>
   </url>
   
   <url>
-    <loc>http://cszsa.albush.com//#</loc>
+    <loc>//cszsa.com/#</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://cszsa.albush.com//#</loc>
+    <loc>//cszsa.com/#</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://cszsa.albush.com//#</loc>
+    <loc>//cszsa.com/#</loc>
     <priority>0</priority>
   </url>
   

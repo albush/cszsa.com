@@ -1,4 +1,4 @@
-baseurl = "http://cszsa.com"
+baseurl = "//cszsa.com"
 title = "ComedySportz San Antonio"
 theme = "dimension"
 languageCode = "en-us"
@@ -18,17 +18,17 @@ disableRSS = true
 [[params.social]]
   medium = "twitter"
   icon = "twitter"
-  link = "https://twitter.com/CSzSanAntonio"
+  link = "//twitter.com/CSzSanAntonio"
 
 [[params.social]]
   medium = "facebook"
   icon = "facebook"
-  link = "https://www.facebook.com/ComedySportzSanAntonio/"
+  link = "//facebook.com/ComedySportzSanAntonio/"
 
 [[params.social]]
   medium = "instagram"
   icon = "instagram"
-  link = "https://www.instagram.com/cszsa/"
+  link = "//www.instagram.com/cszsa/"
 
 [languages]
 [languages.en]

@@ -4,7 +4,7 @@ weight = 60
 draft = false
 +++
 
-<form action="https://formspree.io/al@albush.com"
+<form action="//formspree.io/info@cszsa.com"
       method="POST">
 	<div class="field half first">
 		<label for="name">Name</label>

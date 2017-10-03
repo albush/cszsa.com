@@ -8,9 +8,9 @@ menuname = "Classes"
 
 #### Introduction to Fun
 
-Next Improv 101 class starts June 3, 2017
+New classes starting in November!
 
-<a href="https://cszsanantonio.vbotickets.com/event/Improv_101/20063" class="button special">Register Now</a>
+<a href="//cszsanantonio.vbotickets.com/event/Improv_101/20063" class="button special">Register Now</a>
 
 We focus on the basics of improvisation: team-building, trust, speed, status, active listening, and agreement. You will learn to be fearless and have fun on stage!
 

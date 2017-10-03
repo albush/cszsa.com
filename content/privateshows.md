@@ -26,7 +26,8 @@ We offer ComedySportz Match, ComedySportz Half-Court and ComedySportz Exhibition
 
 Please contact us at (210) 338-0279 or email us at <a href="mailto:info@cszsa.com">info@cszsa.com</a> for more details
 
-<form method="post" action="#">
+<form action="//formspree.io/info@cszsa.com"
+      method="POST">
 	<div class="field half first">
 		<label for="name">Name</label>
 		<input type="text" name="name" id="name" />
