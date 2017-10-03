@@ -1,6 +1,6 @@
 baseurl = "//cszsa.com"
 title = "ComedySportz San Antonio"
-theme = "dimension"
+theme = "cszsa"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
