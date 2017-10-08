@@ -13,7 +13,7 @@ disableRSS = true
   logoimage = "/images/ComedySportz_SHIELD_Color.png"
   copyright = "CSz San Antonio"
   keywords = ["Comedy", "Comedy in San Antonio", "Improv", "Improvisational theater", "family friendly", "comedy classes", "corporate training", "team building"]
-  images = ["/images/bg.jpg", "/images/bg1.jpg", "/images/cszsa-111.JPG"]
+  images = ["//cszsa.com/images/bg.jpg", "//cszsa.com/images/bg1.jpg", "//cszsa.com/images/cszsa-111.JPG"]
 
 # Start SEO Stuff
 
