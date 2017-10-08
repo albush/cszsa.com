@@ -15,6 +15,19 @@ disableRSS = true
   keywords = ["Comedy", "Comedy in San Antonio", "Improv", "Improvisational theater", "family friendly", "comedy classes", "corporate training", "team building"]
   images = ["/images/bg.jpg", "/images/bg1.jpg", "/images/cszsa-111.JPG"]
 
+# Start SEO Stuff
+
+  [params.seo]
+    github      = "albush/cszsa.com"
+    facebook        = "ComedySportzSanAntonio"
+    facebook_admin  = "54292585762"  # This needs to be a page admin to get domain insights
+    twitter     = "CSzSanAntonio"
+    twitter_domain  = "cszsa.com" # This domain shows in twitter cards as "View on `twitter_domain`"
+    instagram       = "cszsa"
+
+
+# End SEO Stuff
+
 [[params.social]]
   medium = "twitter"
   icon = "twitter"

@@ -1,0 +1,34 @@
+<!-- Start SEO Stuff -->
+<!-- Required Open Graph Info -->
+<meta property="og:title" content="{{ .Title }}" />
+<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}" />
+<meta property="og:type" content="{{ if .Params.type }}{{ .Params.type }}{{ else }}website{{ end }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+{{ with .Site.Params.images }}{{ range first 6 . }}
+	<meta property="og:image" content="{{ . }}" />
+{{ end }}{{ end }}
+
+<!-- Facebook Page Admin ID for Domain Insights -->
+{{ with .Site.Params.seo.facebook_admin }}<meta property="fb:admins" content="{{ . }}" />{{ end }}
+
+<!-- Output images -->
+{{ with .Site.Params.images }}{{ range first 6 . }}
+	<meta itemprop="image" content="{{ . }}">
+{{ end }}{{ end }}
+
+
+{{ with .Site.Params.images }}
+<!-- Twitter summary card with large image must be at least 280x150px -->
+	<meta name="twitter:card" content="summary_large_image"/>
+	<meta name="twitter:image:src" content="{{ index . 0 }}"/>
+{{ else }}
+	<meta name="twitter:card" content="summary"/>
+{{ end }}
+
+<!-- Twitter Card data -->
+<meta name="twitter:title" content="{{ .Title }}"/>
+<meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}"/>
+{{ with .Site.Params.seo.twitter }}<meta name="twitter:site" content="@{{ . }}"/>{{ end }}
+{{ with .Site.Params.seo.twitter_domain }}<meta name="twitter:domain" content="{{ . }}"/>{{ end }}
+
+<!-- End SEO Stuff -->
