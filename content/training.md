@@ -4,13 +4,16 @@ weight = 30
 draft = false
 menuname = "Classes"
 +++
+New classes starting Soon!
+
+Contact us for more information about our classes  
+<a href="/#contact" class="button special">Contact Us</a>
+
+---
+
 ## Improv 101
 
 #### Introduction to Fun
-
-New classes starting in November!
-
-<a href="//cszsanantonio.vbotickets.com/event/Improv_101/20063" class="button special">Register Now</a>
 
 We focus on the basics of improvisation: team-building, trust, speed, status, active listening, and agreement. You will learn to be fearless and have fun on stage!
 
@@ -32,11 +35,11 @@ Prerequiste: Completed 101 or equivalent.
 
 ## Other Classes
 
-Contact us for more information about our other classes
-<a href="/#contact" class="button special">Contact Us</a>
-
 * Improv 301
 * Teen Improv
+
+Contact us for more information about our other classes  
+<a href="/#contact" class="button special">Contact Us</a>
 
 ---
 
