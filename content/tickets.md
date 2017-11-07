@@ -3,6 +3,13 @@ title = "Tickets"
 weight = 10
 draft = false
 +++
+# ComedySportz San Antonio Presents the Texas Turkey Tourney
+
+The Texas Turkey Tourney is an annual improv comedy tournament presented by ComedySportz San Antonio. Teams from all over Texas come to compete for laughter, glory, and fabulous points. Full weekend pass is only $25; individual show $10 each. Taxes and fees not included.
+
+<a href="https://cszsanantonio.vbotickets.com/events" class="button special">Get Turkey Tourney Tickets Now</a>
+
+---
 
 Come see our family friendly matches at 7:30 PM every Friday and Saturday night at Studio 185 | 11950 Starcrest Dr #210, San Antonio, TX 78247.
 

@@ -7,6 +7,7 @@ menuname = "Classes"
 New classes starting Soon!
 
 Contact us for more information about our classes  
+
 <a href="/#contact" class="button special">Contact Us</a>
 
 ---
@@ -39,6 +40,7 @@ Prerequiste: Completed 101 or equivalent.
 * Teen Improv
 
 Contact us for more information about our other classes  
+
 <a href="/#contact" class="button special">Contact Us</a>
 
 ---

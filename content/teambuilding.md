@@ -1,7 +1,7 @@
 +++
 title = "Corporate Training and Team Building"
 weight = 50
-draft = false
+draft = true
 menuname = "Team Building"
 +++
 
