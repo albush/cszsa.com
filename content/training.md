@@ -8,7 +8,7 @@ New classes starting Soon!
 
 Contact us for more information about our classes  
 
-<a href="/#contact" class="button special">Contact Us</a>
+<a target="_blank" href="https://cszsanantonio.vbotickets.com/events?eid=24174" class="button special">Register Now!</a>
 
 ---
 
