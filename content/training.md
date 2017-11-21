@@ -4,9 +4,7 @@ weight = 30
 draft = false
 menuname = "Classes"
 +++
-New classes starting Soon!
-
-Contact us for more information about our classes  
+Next Improv 101 class forming for Saturdays in January. Starts on January 6th, 2018. Reserve your spot now!
 
 <a target="_blank" href="https://cszsanantonio.vbotickets.com/events?eid=24174" class="button special">Register Now!</a>
 
