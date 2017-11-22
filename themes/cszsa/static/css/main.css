@@ -150,8 +150,12 @@ h6 {
 @media screen and (max-width: 736px) {
   h1 {
     font-size: 1.75rem;
-    line-height: 1.4;
-    white-space: nowrap;}
+    line-height: 1.4;}
+
+  .nowrap_title {
+    white-space: nowrap;
+    font-size: 1.75rem;
+    line-height: 1.4;}
 
   h2 {
     font-size: 1.25em;
