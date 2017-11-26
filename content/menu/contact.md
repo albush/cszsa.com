@@ -2,6 +2,7 @@
 title = "Contact"
 weight = 60
 draft = false
+menu = true
 +++
 
 <form action="//formspree.io/info@cszsa.com"

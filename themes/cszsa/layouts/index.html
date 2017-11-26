@@ -13,6 +13,7 @@
               <span class="icon {{ . }}"></span>
             {{ end }}
             </div>
+
             <div class="content">
               <div class="inner">
                 <h1 class="nowrap_title">
@@ -22,20 +23,20 @@
                 <p>{{ .Site.Params.description | safeHTML }}</p>
               </div>
             </div>
+            <!-- Featured Content -->
+            <div class="content">
+              <div class="inner">
+                {{ partial "featured.html" . }}
+</div>
+</div>
+<!-- End Featured Content -->
             <nav>
               <ul>
-                {{ range .Data.Pages.ByWeight }}
+{{ range (where .Data.Pages "Section" "menu").ByWeight }}
                   <li>{{ if isset .Params "link" }}<a href="{{ index .Params "link" }}"{{else}}<a href="#{{ .File.TranslationBaseName }}"{{end}}>{{ if .GetParam "menuname" }}{{ .GetParam "menuname" }}{{ else }}{{ .Title }}{{ end }}</a></li>
                 {{ end }}
               </ul>
             </nav>
-
-            <div class="content">
-              <div class="inner">
-                <p><strong>Texas Turkey Tourney:</strong> Teams from San Antonio, Austin, Dallas, and Houston<br>Friday and Saturday after Thanksgiving!</p>
-              <a target="_blank" href="https://cszsanantonio.vbotickets.com/events" class="button special">Get Turkey Tourney Tickets Now</a>
-              </div>
-            </div>
 
           </header>
 

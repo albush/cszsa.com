@@ -2,6 +2,7 @@
 title = "About"
 weight = 40
 draft = false
+menu = true
 +++
 
 ## What is ComedySportz?
