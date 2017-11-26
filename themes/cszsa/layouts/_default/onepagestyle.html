@@ -1,4 +1,6 @@
 <article id="{{ .File.TranslationBaseName }}">
   <h1>{{ .Title }}</h1>
+  {{ if .Params.featured_show }}
+  {{ partial "featured.html" . }}{{ end }}
   {{ .Content }}
 </article>
