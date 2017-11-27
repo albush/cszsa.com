@@ -104,7 +104,7 @@ em, i {
   font-style: italic; }
 
 p {
-  margin: 0 0 2rem 0; }
+  margin: 0 0 .25rem 0; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
@@ -910,7 +910,7 @@ button {
       -webkit-transition-delay: 0.25s;
       -ms-transition-delay: 0.25s;
       transition-delay: 0.25s;
-      padding: 3rem 2rem;
+      padding: 1.2rem 2rem;
       max-height: 40rem;
       overflow: hidden; }
       #header .content .inner > :last-child {
@@ -998,14 +998,14 @@ button {
       #header .logo .icon:before {
         font-size: 1.75rem; }
     #header .content .inner {
-      padding: 2.5rem 1rem; }
+      padding: .75rem 1rem; }
     #header .content p {
       line-height: 1.875; } }
   @media screen and (max-width: 480px) {
     #header {
       padding: 1.5rem 0; }
       #header .content .inner {
-        padding: 2.5rem 0; }
+        padding: .75rem 0; }
       #header nav ul {
         -moz-flex-direction: column;
         -webkit-flex-direction: column;
