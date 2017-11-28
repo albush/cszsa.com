@@ -3,6 +3,7 @@ title = "Learn to be an Improviser"
 weight = 30
 draft = false
 menuname = "Classes"
+featured_class = "improv101"
 +++
 Next Improv 101 class forming for Saturdays in January. Starts on January 6th, 2018. Reserve your spot now!
 
@@ -20,6 +21,7 @@ This workshop emphasizes basic verbal and physical communication skills by explo
 
 No prerequisites or previous experience required. Class includes 2 passes to a regularly scheduled ComedySportz match.
 
+---
 
 ## Improv 201
 
@@ -31,6 +33,8 @@ Sign up for our Newsletter to get updated when our next 201 class is scheduled t
 We build on the basic skills of Improv 101 to further creativity, fun, and technical skills. This workshop focuses on status, space-object work, narrative storytelling, gibberish, and thinking faster. Learn to apply your play in ways to build spontaneous stories and fantastic scenes. For the non-actor, this class provides you with great skills for public speaking, teaching, faster thinking, and impressive leadership. Once you know the art of improv, you'll never worry about forgetting the lines to a speech because you will have the tools to make it work.Class includes 2 passes to a regularly scheduled CSz show.
 
 Prerequiste: Completed 101 or equivalent.
+
+---
 
 ## Other Classes
 
