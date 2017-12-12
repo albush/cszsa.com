@@ -13,6 +13,7 @@ disableRSS = true
   meta_description = "ComedySportz San Antonio is the only family friendly comedy in San Antonio. Bring your kids, bring Grandma. We won't offend anyone. We promise."
   logoimage = "/images/cszshield.png"
   copyright = "CSz San Antonio"
+  seo_description = "ComedySportz San Antonio is the only family friendly comedy in San Antonio. Bring your kids, bring Grandma. We won't offend anyone we promise."
   keywords = ["Comedy", "Comedy in San Antonio", "Improv", "Improvisational theater", "family friendly", "comedy classes", "corporate training", "team building"]
   images = ["//cszsa.com/images/bg.jpg", "//cszsa.com/images/bg1.jpg", "//cszsa.com/images/cszsa-111.JPG"]
 

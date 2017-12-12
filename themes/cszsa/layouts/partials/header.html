@@ -23,9 +23,11 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="/css/ie9.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="/css/noscript.css" /></noscript>
 		<!-- Start SEO Stuff -->
+		<meta name="description" content="{{ .Site.Params.seo_description }}">
+		<meta name="keywords" content="{{ .Site.Params.keywords }}">
 		<!-- Required Open Graph Info -->
 		<meta property="og:title" content="{{ .Title }}" />
-		<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}" />
+		<meta property="og:description" content="{{ .Site.Params.description | safeHTML }}" />
 		<meta property="og:type" content="{{ if .Params.type }}{{ .Params.type }}{{ else }}website{{ end }}" />
 		<meta property="og:url" content="{{ .Permalink }}" />
 		{{ with .Site.Params.images }}{{ range first 6 . }}
@@ -51,7 +53,7 @@
 
 		<!-- Twitter Card data -->
 		<meta name="twitter:title" content="{{ .Title }}"/>
-		<meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}"/>
+		<meta name="twitter:description" content="{{ .Site.Params.description | safeHTML }}"/>
 		{{ with .Site.Params.seo.twitter }}<meta name="twitter:site" content="@{{ . }}"/>{{ end }}
 		{{ with .Site.Params.seo.twitter_domain }}<meta name="twitter:domain" content="{{ . }}"/>{{ end }}
 
