@@ -2,7 +2,6 @@
 title = "Tickets"
 weight = 10
 draft = false
-featured_show = "improvathon"
 +++
 ---
 ## Weekly Shows  
