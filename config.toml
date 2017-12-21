@@ -7,15 +7,15 @@ enableRobotsTXT = true
 disableRSS = true
 
 [params]
-  featured_show = "ticketsdown"
+  featured_show = "improv101"
   title = "ComedySportz San Antonio"
   description = '<!--[-->Fast-paced improvisational comedy, played as a sport. Comedy for everyone!<!--]-->'
-  meta_description = "ComedySportz San Antonio is the only family friendly comedy in San Antonio. Bring your kids, bring Grandma. We won't offend anyone. We promise."
+  meta_description = "San Antonio Improv from ComedySportz San Antonio is the only family friendly comedy in San Antonio. Bring your kids, bring Grandma. We won't offend anyone. We promise."
   logoimage = "/images/cszshield.png"
   copyright = "CSz San Antonio"
   seo_description = "ComedySportz San Antonio is the only family friendly comedy in San Antonio. Bring your kids, bring Grandma. We won't offend anyone we promise."
-  keywords = ["Comedy", "Comedy in San Antonio", "Improv", "Improvisational theater", "family friendly", "comedy classes", "corporate training", "team building"]
-  images = ["//cszsa.com/images/bg.jpg", "//cszsa.com/images/bg1.jpg", "//cszsa.com/images/cszsa-111.JPG"]
+  keywords = ["San Antonio Improv", "improv san antonio", "Comedy", "Comedy in San Antonio", "Improv", "Improvisational theater", "family friendly", "comedy classes", "corporate training", "team building"]
+  images = ["//cszsa.com/images/sanantonioimprovcomedysportz.jpg", "//cszsa.com/images/sanantonioimprovcomedy.jpg", "//cszsa.com/images/sanantoniocomedyimprov-show.JPG"]
 
 # Start SEO Stuff
 
