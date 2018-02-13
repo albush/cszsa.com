@@ -7,7 +7,7 @@ enableRobotsTXT = true
 disableRSS = true
 
 [params]
-  featured_show = "tickets"
+  featured_show = "blcf"
   title = "ComedySportz San Antonio"
   description = '<!--[-->Fast-paced improvisational comedy, played as a sport. Comedy for everyone!<!--]-->'
   meta_description = "ComedySportz San Antonio is the only family friendly comedy in San Antonio. Bring your kids, bring Grandma. We won't offend anyone. We promise."
