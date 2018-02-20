@@ -8,7 +8,7 @@ draft = false
 
 Come see our family friendly matches at 7:30 PM every Friday and Saturday night at Studio 185 | 11950 Starcrest Dr #210, San Antonio, TX 78247.
 
-<a target="_blank" href="https://cszsanantonio.vbotickets.com/events" class="button special">Buy Tickets</a>
+<a target="_blank" href="https://cszsanantonio.vbotickets.com/events?eid=10273s" class="button special">Buy Tickets</a>
 
 And don't miss our Nights at the Asylum late night shows every Saturday at 10:00 PM. **This show may not follow our family friendly format.**
 
