@@ -22,4 +22,4 @@ deployment:
     branch: master
     commands:
       - aws s3 sync $HOME/$CIRCLE_PROJECT_REPONAME/public --region us-west-1 s3://cszsa.com/ --delete
-      aws cloudfront create-invalidation --distribution-id $DISTRIBUTION_ID --paths /index.html
+      - aws cloudfront create-invalidation --distribution-id $DISTRIBUTION_ID --paths /index.html
