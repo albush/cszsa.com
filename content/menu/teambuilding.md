@@ -1,7 +1,7 @@
 +++
 title = "Corporate Training and Team Building"
-weight = 50
-draft = true
+weight = 30
+draft = false
 menuname = "Team Building"
 +++
 
@@ -9,11 +9,7 @@ menuname = "Team Building"
 
 > Customer Service. Leadership. Communications Skills. Soft Skills. Agility. Employee Engagement.
 
-
 As CSz performers, we use our improvisation skills onstage to get people laughing. Conveniently, offstage, we use them to run a successful business. We specialize in teaching people HOW to use improvisation techniques in their work lives. We teach the essential, yet often overlooked or discarded, communication and listening skills that will consistently improve the quality of your work, home and social relationships. We call this **Applied Improvisation**.
-
-Contact us for more information about creating your own personalized corporate training program.
-<a href="/#contact" class="button special">Contact Us</a>
 
 ### Customer Service
 
@@ -36,7 +32,29 @@ And while we help your people become more effective, we're bonding them together
 
 Workshops range from two hours to multiple days to a series over several weeks.  Let us know what you need.  We'd love to help you get your service to the next level.
 
-Please contact us at (210) 338-0279 or email us at <a href="mailto:info@cszsa.com">info@cszsa.com</a> for more details.
+---
+
+Please contact us at (210) 338-0279 or email us at <a href="mailto:info@cszsa.com">info@cszsa.com</a> for more details
+
+<form action="//formspree.io/info@cszsa.com"
+      method="POST">
+	<div class="field half first">
+		<label for="name">Name</label>
+		<input type="text" name="name" id="name" />
+	</div>
+	<div class="field half">
+		<label for="email">Email</label>
+		<input type="text" name="email" id="email" />
+	</div>
+	<div class="field">
+		<label for="message">Message</label>
+		<textarea name="message" id="message" rows="4"></textarea>
+	</div>
+	<ul class="actions">
+		<li><input type="submit" value="Send Message" class="special" /></li>
+		<li><input type="reset" value="Reset" /></li>
+	</ul>
+</form>
 
 ---
 

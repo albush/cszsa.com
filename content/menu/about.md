@@ -1,6 +1,6 @@
 +++
 title = "About"
-weight = 40
+weight = 20
 draft = false
 menu = true
 +++

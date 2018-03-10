@@ -1,13 +1,15 @@
 +++
 title = "Learn to be an Improviser"
-weight = 30
+weight = 50
 draft = false
 menuname = "Classes"
 featured_class = "improv101"
 +++
-Next Improv 101 class forming for Saturdays in January. Starts on January 6th, 2018. Reserve your spot now!
+Our next round of Improv 101 classes are forming now for Sundays, starting April 8th; 201 classes will be on Saturdays, starting April 7th. Learn more about each class below.
 
-<a target="_blank" href="https://cszsanantonio.vbotickets.com/events?eid=24174" class="button special">Register Now!</a>
+<a target="_blank" href="https://cszsanantonio.vbotickets.com/event/Improv_101_Sundays/26401" class="button special">Enroll in Improv 101</a>
+
+<a target="_blank" href="https://cszsanantonio.vbotickets.com/event/Improv_201_Saturdays/26402" class="button special">Enroll in Improv 201</a>
 
 ---
 

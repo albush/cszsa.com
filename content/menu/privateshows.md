@@ -2,7 +2,7 @@
 title = "Book us for your next event"
 weight = 20
 draft = false
-menuname = "Hire Us"
+menuname = "Private Shows"
 +++
 
 You want your event to be special. You want comedy that's fresh, appeals to everyone, and offends no one. You want entertainment that's customized to you? You want ComedySportz®.
@@ -22,40 +22,6 @@ We've entertained at an amazing array of companies, large and small. ComedySport
 
 It's about meeting your needs for fast, fun, clean entertainment.
 We offer ComedySportz Match, ComedySportz Half-Court and ComedySportz Exhibition formats, something for almost every budget. Need something out of the ordinary? Just ask! Need a location? We've got one, and we know about some great spaces around the metro area, too.
-
----
-
-## CSz Business Training. Because work is more than numbers.
-
-> Customer Service. Leadership. Communications Skills. Soft Skills. Agility. Employee Engagement.
-
-
-As CSz performers, we use our improvisation skills onstage to get people laughing. Conveniently, offstage, we use them to run a successful business. We specialize in teaching people HOW to use improvisation techniques in their work lives. We teach the essential, yet often overlooked or discarded, communication and listening skills that will consistently improve the quality of your work, home and social relationships. We call this **Applied Improvisation**.
-
-Contact us for more information about creating your own personalized corporate training program.  
-
-<a href="/#contact" class="button special">Contact Us</a>
-
-### Customer Service
-
-> What if your employees were empowered to make customer service an opportunity instead of a cost?
-
-The top of your game is not your rulebook, nor your script, nor what you did with the last customer. It's improvisation - a highly refined system of observing, connecting and responding.
-We apply improv to these areas:
-
-- Listening with focus
-- Accepting circumstances
-- Empathy with Customers
-- Supporting the Team - making others look good
-- Letting Go of preconceived roles and roadblocks
-- Sharing mistakes - and shaking them off
-- Saying YES, AND...
-- Finding where we're needed without direction
-- Awareness of the Big Picture
-
-And while we help your people become more effective, we're bonding them together, engaging them and helping you retain them.
-
-Workshops range from two hours to multiple days to a series over several weeks.  Let us know what you need.  We'd love to help you get your service to the next level.
 
 ---
 
