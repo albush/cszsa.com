@@ -1,25 +1,39 @@
-machine:
-  environment:
-    CIRCLE_BUILD_DIR: $HOME/$CIRCLE_PROJECT_REPONAME
-    PATH: $PATH:$CIRCLE_BUILD_DIR/bin
-  post:
-    - mkdir -p $CIRCLE_BUILD_DIR/bin
+version: 2
+jobs:
+  build:
+    docker:
+      - image: cibuilds/hugo:0.27
+    working_directory: ~/project
+    steps:
+      - checkout
+      - run:
+          name: "Run Hugo"
+          command: hugo -v -s ~/project
+      - persist_to_workspace:
+          root: ~/project
+          paths:
+            - public
+  deploy:
+    docker:
+      - image: cibuilds/aws
+    steps:
+      - attach_workspace:
+          at: ~/project
+      - run:
+          name: "Upload to S3"
+          command: aws s3 sync ~/project/public --region us-west-1 s3://albush.com/ --delete
+      - run:
+          name: "Invalidate CloudFront"
+          command: aws cloudfront create-invalidation --distribution-id $DISTRIBUTION_ID --paths /index.html
 
-dependencies:
-  pre:
-    - bash ./ci-install-hugo.sh
-  cache_directories:
-    - bin
-
-test:
-  pre:
-    - pygmentize -V
-  override:
-    - hugo -v
-
-deployment:
-  prod:
-    branch: master
-    commands:
-      - aws s3 sync $HOME/$CIRCLE_PROJECT_REPONAME/public --region us-west-1 s3://cszsa.com/ --delete
-      - aws cloudfront create-invalidation --distribution-id $DISTRIBUTION_ID --paths /index.html
+workflows:
+  version: 2
+  build_and_deploy:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
