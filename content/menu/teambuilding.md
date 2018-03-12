@@ -36,25 +36,7 @@ Workshops range from two hours to multiple days to a series over several weeks. 
 
 Please contact us at (210) 338-0279 or email us at <a href="mailto:info@cszsa.com">info@cszsa.com</a> for more details
 
-<form action="//formspree.io/info@cszsa.com"
-      method="POST">
-	<div class="field half first">
-		<label for="name">Name</label>
-		<input type="text" name="name" id="name" />
-	</div>
-	<div class="field half">
-		<label for="email">Email</label>
-		<input type="text" name="email" id="email" />
-	</div>
-	<div class="field">
-		<label for="message">Message</label>
-		<textarea name="message" id="message" rows="4"></textarea>
-	</div>
-	<ul class="actions">
-		<li><input type="submit" value="Send Message" class="special" /></li>
-		<li><input type="reset" value="Reset" /></li>
-	</ul>
-</form>
+{{< contact-form >}}
 
 ---
 

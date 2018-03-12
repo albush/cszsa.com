@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: //cszsa.com/sitemap.xml
