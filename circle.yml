@@ -9,6 +9,9 @@ jobs:
       - run:
           name: "Run Hugo"
           command: hugo -v -s ~/project
+      - run:
+          name: "Test Website"
+          command: htmlproofer ~/project/public --allow-hash-href --check-html --empty-alt-ignore
       - persist_to_workspace:
           root: ~/project
           paths:
