@@ -21,7 +21,7 @@ jobs:
           at: ~/project
       - run:
           name: "Upload to S3"
-          command: aws s3 sync ~/project/public --region us-west-1 s3://cszsa.com/ --delete
+          command: aws s3 sync ~/project/public --region us-west-1 s3://${BUCKET}/ --delete
       - run:
           name: "Invalidate CloudFront"
           command: aws cloudfront create-invalidation --distribution-id $DISTRIBUTION_ID --paths /index.html

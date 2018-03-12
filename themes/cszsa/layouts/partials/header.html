@@ -33,16 +33,12 @@
 		{{ with .Site.Params.images }}{{ range first 6 . }}
 			<meta property="og:image" content="{{ . }}" />
 		{{ end }}{{ end }}
-
 		<!-- Facebook Page Admin ID for Domain Insights -->
 		{{ with .Site.Params.seo.facebook_admin }}<meta property="fb:admins" content="{{ . }}" />{{ end }}
-
 		<!-- Output images -->
 		{{ with .Site.Params.images }}{{ range first 6 . }}
 			<meta itemprop="image" content="{{ . }}">
 		{{ end }}{{ end }}
-
-
 		{{ with .Site.Params.images }}
 		<!-- Twitter summary card with large image must be at least 280x150px -->
 			<meta name="twitter:card" content="summary_large_image"/>
@@ -50,15 +46,13 @@
 		{{ else }}
 			<meta name="twitter:card" content="summary"/>
 		{{ end }}
-
 		<!-- Twitter Card data -->
 		<meta name="twitter:title" content="{{ .Title }}"/>
 		<meta name="twitter:description" content="{{ .Site.Params.description | safeHTML }}"/>
 		{{ with .Site.Params.seo.twitter }}<meta name="twitter:site" content="@{{ . }}"/>{{ end }}
 		{{ with .Site.Params.seo.twitter_domain }}<meta name="twitter:domain" content="{{ . }}"/>{{ end }}
-
 		<!-- End SEO Stuff -->
-
+{{ "<!-- Last Updated: " | safeHTML }} {{ now.Format "2006-01-02T15:04:05-07:00" }}{{ " -->" | safeHTML }} 
 	</head>
 	<!-- Scripts -->
 			<script src="/js/jquery.min.js"></script>
