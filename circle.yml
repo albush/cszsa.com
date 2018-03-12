@@ -11,7 +11,7 @@ jobs:
           command: hugo -v -s ~/project
       - run:
           name: "Test Website"
-          command: htmlproofer ~/project/public --allow-hash-href --check-html --empty-alt-ignore
+          command: htmlproofer ~/project/public --allow-hash-href --empty-alt-ignore
       - persist_to_workspace:
           root: ~/project
           paths:
