@@ -1,0 +1,13 @@
+---
+hide_body: false
+fields:
+- name: draft
+  label: Draft
+  type: boolean
+  hidden: false
+  default: false
+- name: weight
+  label: Weight
+  type: text
+  hidden: false
+  default: 0
