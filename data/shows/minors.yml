@@ -1,6 +1,7 @@
-Name: "default"
-"ShowTitle": "ComedySportz San Antonio"
-"Description": "ComedySportz San Antonio is the only family friendly comedy in San Antonio. Bring your kids, bring Grandma. We won't offend anyone. We promise."
-"TicketLink": "https://cszsanantonio.vbotickets.com/events?eid=10273"
-"CTAText": Get Tickets Now!
-"ShowDate": "Every Friday and Saturday at 7:30"
+Name: "minors"
+"ShowTitle": "ComedySportz Minor League"
+"Description": "Check out the next generation of ComedySportz San Antonio All Stars with our Minor League matches every Sunday at 6:00 PM!"
+"TicketLink": "https://cszsanantonio.vbotickets.com/event/ComedySportz_Minor_League/26699"
+"CTAText": "Minor Leagues Sunday"
+"ShowDate": "Sundays at 6:00 PM"
+"ShowDay": "Sundays"

@@ -1,10 +1,16 @@
 {{ "<!-- ENTERING layouts/partials/featured.html -->" | safeHTML }}
 <div>
- <h2>{{ (index .Site.Data.shows .Site.Params.featured_show).ShowTitle }}: {{ (index .Site.Data.shows .Site.Params.featured_show).ShowDate }}</h2>
- <p>{{ (index .Site.Data.shows .Site.Params.featured_show).Description }}</p>
+ <h2>3 Chances to See ComedySportz Every Weekend</h2>
+<p>ComedySportz San Antonio is the only family friendly comedy in San Antonio. Bring your kids, bring Grandma. We won&#39;t offend anyone. We promise.</p>
+<p>ComedySportz Matches on Friday and Saturday at 7:30; Minor Leagues on Sunday at 6:00. All shows are BYOB.</p>
 </br>
-<a target="_blank" href={{ (index .Site.Data.shows .Site.Params.featured_show).TicketLink }} class="button special">{{ (index .Site.Data.shows .Site.Params.featured_show).CTAText }}</a>
-</br></br>
+
+<p>{{ range $show := .Site.Params.featured_show }}
+{{ if isset $.Site.Data.shows $show }}
+{{ $p :=  (index $.Site.Data.shows $show) }}
+<a target="_blank" href="{{ $p.TicketLink }}" class="button special">{{ $p.CTAText }}</a>
+{{ end }}
+{{ end }}</p>
 </div>
 
 {{ "<!-- LEAVING layouts/partials/featured.html -->" | safeHTML }}

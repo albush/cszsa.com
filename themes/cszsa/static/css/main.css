@@ -716,14 +716,15 @@ button,
     display: block;
     margin: 0 0 1rem 0;
     width: 100%; }
-  input[type="submit"].special,
+  input[type="submit"],
   input[type="reset"].special,
   input[type="button"].special,
   button.special,
   .button.special {
     background-color: #ffffff;
     color: #1b1f22 !important;
-    font-weight: 600; }
+    font-weight: 600;
+    margin: 4px;}
   input[type="submit"].disabled, input[type="submit"]:disabled,
   input[type="reset"].disabled,
   input[type="reset"]:disabled,
