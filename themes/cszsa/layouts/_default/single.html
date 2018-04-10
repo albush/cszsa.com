@@ -1,0 +1,45 @@
+{{ partial "header.html" . }}
+
+    <!-- Wrapper -->
+      <div id="wrapper">
+
+        <!-- Header -->
+          <header id="header">
+            <div class="logo">
+              {{ with .Site.Params.logoimage }}
+              <a href="/#"><img src="{{ . }}" width="100%" style="padding: 10px 10px 10px 10px;"></a>
+            {{ end }}
+            {{ with .Site.Params.logo }}
+              <span class="icon {{ . }}"></span>
+            {{ end }}
+            </div>
+
+            <div class="content">
+              <div class="inner">
+                <h1 class="nowrap_title">
+                  ComedySportz
+                  <wbr>San Antonio
+                </h1>
+                {{ .Content }}
+              </div>
+            </div>
+          </header>
+
+        <!-- Main -->
+          <div id="main">
+            {{ range .Data.Pages }}
+              {{ .Render "onepagestyle" }}
+            {{ end }}
+          </div>
+
+
+
+        <!-- Multilanguage -->
+          <div id="languages">
+            {{ if .IsTranslated }}
+              {{ range $i, $e := .Translations }}
+                {{ if $i }}, {{ end }}<a href="{{ .Permalink }}">{{ $e.Language.LanguageName }}</a>
+              {{ end}}
+            {{ end }}
+          </div>
+{{ partial "footer.html" . }}

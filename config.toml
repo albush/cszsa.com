@@ -4,7 +4,7 @@ theme = "cszsa"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
-disableRSS = true
+disableKinds=["RSS"]
 googleAnalytics = "UA-117320918-1"
 
 [params]
