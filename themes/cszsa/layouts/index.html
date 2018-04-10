@@ -21,17 +21,18 @@
                   <wbr>San Antonio
                 </h1>
                 <p>{{ .Site.Params.description | safeHTML }}</p>
+                {{ partial "featured.html" . }}
               </div>
             </div>
             <!-- Featured Content -->
-
+<!--
             <div class="content">
               <div class="inner">
 
-                {{ partial "featured.html" . }}
-              
+
+
 </div>
-</div>
+</div> -->
 
 <!-- End Featured Content -->
 

@@ -5,11 +5,12 @@ languageCode = "en-us"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
 disableRSS = true
+googleAnalytics = "UA-117320918-1"
 
 [params]
-  featured_show = ["cszfri", "cszsat", "minors"]
+  featured_show = ["cszboth", "asylum", "minors"]
   title = "ComedySportz San Antonio"
-  description = '<!--[-->Fast-paced improvisational comedy, played as a sport. Comedy for everyone!<!--]-->'
+  description = '<!--[-->ComedySportz San Antonio is the only family friendly comedy in San Antonio. Bring your kids, bring Grandma. We won&#39;t offend anyone. We promise.<!--]-->'
   meta_description = "ComedySportz San Antonio is the only family friendly comedy in San Antonio. Bring your kids, bring Grandma. We won't offend anyone. We promise."
   logoimage = "/images/cszshield.png"
   copyright = "CSz San Antonio"
