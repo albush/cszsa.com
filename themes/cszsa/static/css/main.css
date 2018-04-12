@@ -894,6 +894,9 @@ button {
     line-height: 5.5rem;
     border: solid 1px #ffffff;
     border-radius: 100%; }
+  #header .logo a {
+      border-bottom-color: transparent;}
+
     #header .logo .icon:before {
       font-size: 2rem; }
   #header .content {
@@ -1122,6 +1125,16 @@ button {
   @media screen and (max-width: 480px) {
     #main article {
       padding: 3rem 1.5rem 0.5rem 1.5rem ; } }
+
+/* Page - specific to landing pages */
+
+#page {
+  padding: 3.5rem 2.5rem 1.5rem 2.5rem ;
+  position: relative;
+  width: 40rem;
+  max-width: 100%;
+  background-color: rgba(27, 31, 34, 0.85);
+  border-radius: 4px;}
 
 /* Footer */
 #footer {

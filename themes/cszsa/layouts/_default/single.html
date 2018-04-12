@@ -14,32 +14,19 @@
             {{ end }}
             </div>
 
-            <div class="content">
-              <div class="inner">
-                <h1 class="nowrap_title">
-                  ComedySportz
-                  <wbr>San Antonio
-                </h1>
-                {{ .Content }}
-              </div>
-            </div>
+
           </header>
-
-        <!-- Main -->
-          <div id="main">
-            {{ range .Data.Pages }}
-              {{ .Render "onepagestyle" }}
-            {{ end }}
-          </div>
+          <div id="page" style="margin-top: 1.5rem;">
+          <div class="inner">
+          <div class="content">
 
 
-
-        <!-- Multilanguage -->
-          <div id="languages">
-            {{ if .IsTranslated }}
-              {{ range $i, $e := .Translations }}
-                {{ if $i }}, {{ end }}<a href="{{ .Permalink }}">{{ $e.Language.LanguageName }}</a>
-              {{ end}}
-            {{ end }}
-          </div>
+              <h1 class="nowrap_title">
+                ComedySportz
+                <wbr>San Antonio
+              </h1>
+              {{ .Content }}
+            </div>
+        </div>
+      </div>
 {{ partial "footer.html" . }}

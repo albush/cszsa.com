@@ -7,7 +7,7 @@
           <header id="header">
             <div class="logo">
               {{ with .Site.Params.logoimage }}
-              <img src="{{ . }}" width="100%" style="padding: 10px 10px 10px 10px;">
+              <a href="/#"><img src="{{ . }}" width="100%" style="padding: 10px 10px 10px 10px;"></a>
             {{ end }}
             {{ with .Site.Params.logo }}
               <span class="icon {{ . }}"></span>
@@ -24,17 +24,6 @@
                 {{ partial "featured.html" . }}
               </div>
             </div>
-            <!-- Featured Content -->
-<!--
-            <div class="content">
-              <div class="inner">
-
-
-
-</div>
-</div> -->
-
-<!-- End Featured Content -->
 
             <nav>
               <ul>

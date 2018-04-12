@@ -1,7 +1,6 @@
 +++
 title = "thanks"
 draft = false
-url = "thanks"
 +++
 
 ## Thank You!
