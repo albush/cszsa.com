@@ -1,4 +1,4 @@
-baseurl = "//cszsa.com"
+baseurl = "https://cszsa.com"
 title = "ComedySportz San Antonio"
 theme = "cszsa"
 languageCode = "en-us"
@@ -16,7 +16,7 @@ googleAnalytics = "UA-117320918-1"
   copyright = "CSz San Antonio"
   seo_description = "ComedySportz San Antonio Improv is the only family friendly comedy in San Antonio. Bring your kids, bring Grandma. We won't offend anyone we promise."
   keywords = ["San Antonio Improv", "improv san antonio", "Comedy", "Comedy in San Antonio", "Improv", "Improvisational theater", "family friendly", "comedy classes", "corporate training", "team building"]
-  images = ["//cszsa.com/images/sanantonioimprovcomedysportz.jpg", "//cszsa.com/images/sanantonioimprovcomedy.jpg", "//cszsa.com/images/sanantoniocomedyimprov-show.JPG"]
+  images = ["https://cszsa.com/images/sanantonioimprovcomedysportz.jpg", "https://cszsa.com/images/sanantonioimprovcomedy.jpg", "https://cszsa.com/images/sanantoniocomedyimprov-show.JPG"]
 
 # Start SEO Stuff
 
@@ -34,17 +34,17 @@ googleAnalytics = "UA-117320918-1"
 [[params.social]]
   medium = "twitter"
   icon = "twitter"
-  link = "//twitter.com/CSzSanAntonio"
+  link = "https://twitter.com/CSzSanAntonio"
 
 [[params.social]]
   medium = "facebook"
   icon = "facebook"
-  link = "//facebook.com/ComedySportzSanAntonio/"
+  link = "https://facebook.com/ComedySportzSanAntonio/"
 
 [[params.social]]
   medium = "instagram"
   icon = "instagram"
-  link = "//www.instagram.com/cszsa/"
+  link = "https://www.instagram.com/cszsa/"
 
 [languages]
 [languages.en]
