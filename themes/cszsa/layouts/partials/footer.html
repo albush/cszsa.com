@@ -13,7 +13,10 @@
 			<script src="/js/skel.min.js"></script>
 			<script src="/js/util.js"></script>
 			<script src="/js/main.js"></script>
-			{{ template "_internal/google_analytics_async.html" . }}
+			{{ if eq (getenv "HUGO_ENV") "production" }}
+				{{ template "_internal/google_analytics_async.html" . }}
+			{{ end }}
+
 
 	</body>
 </html>

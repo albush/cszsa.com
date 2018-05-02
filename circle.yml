@@ -8,7 +8,7 @@ jobs:
       - checkout
       - run:
           name: "Run Hugo"
-          command: hugo -v -s ~/project
+          command: HUGO_ENV=production hugo -v -s ~/project
       - persist_to_workspace:
           root: ~/project
           paths:
