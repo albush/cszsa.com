@@ -1,0 +1,10 @@
+{{ "<!-- ENTERING layouts/partials/featured.html -->" | safeHTML }}
+<HR>
+{{ $show := index $.Site.Data.shows "royale-sa" }}
+<div>
+ <h2>Special Event: {{ $show.ShowTitle }} </br>{{ $show.ShowDate }}</h2>
+ <p>{{ $show.Description | markdownify }}</p>
+</br>
+<a target="_blank" href={{ (index .Site.Data.shows .Site.Params.special_event).TicketLink }} class="button special">{{ $show.CTAText }}</a></br></br>
+</div>
+{{ "<!-- LEAVING layouts/partials/featured.html -->" | safeHTML }}

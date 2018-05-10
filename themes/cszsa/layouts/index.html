@@ -21,7 +21,11 @@
                   <wbr>San Antonio
                 </h1>
                 <p>{{ .Site.Params.description | safeHTML }}</p>
-                {{ partial "featured.html" . }}
+                  {{ if .Site.Params.special_event }}
+                    {{ partial "special.html" . }}
+                  {{ else }}
+                    {{ partial "featured.html" . }}
+                  {{ end }}
               </div>
             </div>
 
