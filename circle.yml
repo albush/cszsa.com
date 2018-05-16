@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  build:
+  production_build:
     docker:
       - image: cibuilds/hugo:0.27
     working_directory: ~/project
@@ -13,14 +13,36 @@ jobs:
           root: ~/project
           paths:
             - public
-  deploy:
+  staging_build:
+    docker:
+      - image: cibuilds/hugo:0.27
+    working_directory: ~/project
+    steps:
+      - checkout
+      - run:
+          name: "Run Hugo"
+          command: HUGO_ENV=staging hugo -v -s ~/project
+      - persist_to_workspace:
+          root: ~/project
+          paths:
+            - public
+  staging_deploy:
     docker:
       - image: cibuilds/aws
     steps:
       - attach_workspace:
           at: ~/project
       - run:
-          name: "Upload to S3"
+          name: "Upload to Staging"
+          command: aws s3 sync ~/project/public --region $REGION s3://${STAGING_BUCKET}/ --delete
+  prod_deploy:
+    docker:
+      - image: cibuilds/aws
+    steps:
+      - attach_workspace:
+          at: ~/project
+      - run:
+          name: "Upload to Production"
           command: aws s3 sync ~/project/public --region $REGION s3://${BUCKET}/ --delete
       - run:
           name: "Invalidate CloudFront"
@@ -30,10 +52,23 @@ workflows:
   version: 2
   build_and_deploy:
     jobs:
-      - build
-      - deploy:
-          requires:
-            - build
+      - staging_build:
           filters:
             branches:
-              only: master
+              only: staging
+      - production_build:
+          filters:
+            branches:
+              only: production
+      - staging_deploy:
+          requires:
+            - staging_build
+          filters:
+            branches:
+              only: staging
+      - prod_deploy:
+          requires:
+            - production_build
+          filters:
+            branches:
+              only: production
