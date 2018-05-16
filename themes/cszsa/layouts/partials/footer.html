@@ -16,9 +16,6 @@
 			{{ if eq (getenv "HUGO_ENV") "production" }}
 				{{ template "_internal/google_analytics_async.html" . }}
 			{{ end }}
-			{{ if eq (getenv "HUGO_ENV") "staging" }}
-				{{ "<!-- staging site -->" | safeHTML }}
-			{{ end }}
 
 	</body>
 </html>

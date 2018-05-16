@@ -2,7 +2,10 @@
 
     <!-- Wrapper -->
       <div id="wrapper">
-
+        {{ if eq (getenv "HUGO_ENV") "staging" }}
+          {{ "<!-- staging site -->" | safeHTML }}
+          <p style="background-color: red;">This is the Staging Version of the Site. Not Live!</p>
+        {{ end }}
         <!-- Header -->
           <header id="header">
             <div class="logo">
