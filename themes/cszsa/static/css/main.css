@@ -915,8 +915,8 @@ button {
       -ms-transition-delay: 0.25s;
       transition-delay: 0.25s;
       padding: 1.2rem 2rem;
-      max-height: 40rem;
-      overflow: hidden; }
+      max-height: 50rem;
+      overflow: auto; }
       #header .content .inner > :last-child {
         margin-bottom: 0; }
     #header .content p {

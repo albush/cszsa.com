@@ -1,4 +1,11 @@
 {{ "<!-- ENTERING layouts/partials/featured.html -->" | safeHTML }}
+<h3>Purchase Tickets:</h3>
+<p>{{ range $show := .Site.Params.featured_show }}
+{{ if isset $.Site.Data.shows $show }}
+{{ $p :=  (index $.Site.Data.shows $show) }}
+<a target="_blank" href="{{ $p.TicketLink }}" class="button special">{{ $p.CTAText }}</a>
+{{ end }}
+{{ end }}</p>
 <HR>
 {{ $show := index $.Site.Data.shows "royale-sa" }}
 <div>
