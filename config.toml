@@ -9,7 +9,7 @@ googleAnalytics = "UA-117320918-1"
 
 [params]
   # special_event = "royale-sa"
-  featured_show = ["cszboth", "asylum", "minors"]
+  featured_show = ["cszboth", "adreturn", "minors"]
   title = "ComedySportz San Antonio"
   description = '<!--[-->ComedySportz San Antonio is the only family friendly comedy in San Antonio. Bring your kids, bring Grandma. We won&#39;t offend anyone. We promise.<!--]-->'
   meta_description = "ComedySportz San Antonio is the only family friendly comedy in San Antonio. Bring your kids, bring Grandma. We won't offend anyone. We promise."
