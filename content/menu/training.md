@@ -4,7 +4,7 @@ weight = 50
 draft = false
 menuname = "Classes"
 classes = ["improv101", "improv201"]
-intro = "Our next round of Improv 101 classes are forming now for Sundays, starting May 6th; 201 classes will be on Saturdays, starting May 5th. Learn more about each class below."
+intro = "Our next round of Improv 101 classes are forming now for Saturdays, starting July 14th; 201 classes will be on Sundays, starting July 15th. Learn more about each class below."
 +++
 
 ---
