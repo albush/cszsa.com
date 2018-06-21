@@ -8,7 +8,7 @@ disableKinds=["RSS"]
 googleAnalytics = "UA-117320918-1"
 
 [params]
-  special_event = "fathersday"
+  # special_event = ""
   featured_show = ["cszboth", "adreturn", "minors"]
   title = "ComedySportz San Antonio"
   description = '<!--[-->ComedySportz San Antonio is the only family friendly comedy in San Antonio. Bring your kids, bring Grandma. We won&#39;t offend anyone. We promise.<!--]-->'
