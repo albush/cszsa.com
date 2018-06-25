@@ -1,5 +1,13 @@
 {{ "<!-- ENTERING layouts/partials/featured.html -->" | safeHTML }}
-<p><a target="_blank" href="https://cszsanantonio.vbotickets.com/event/ComedySportz_Main_Event/10273" class="button special">Buy Tickets</a></p>
+<div>
+<p>Get your tickets now: {{ range $show := .Site.Params.featured_show }}
+{{ if isset $.Site.Data.shows $show }}
+{{ $p :=  (index $.Site.Data.shows $show) }}
+<a target="_blank" href="{{ $p.TicketLink }}" class="button special">{{ $p.CTAText }}</a>
+{{ end }}
+{{ end }}</p>
+</div>
+<div>
 <h3>Improv Classes Starting Soon:</h3>
 <p>{{ .Site.Params.class_description }} Reserve your spot today!</p>
 <p>{{ range $class := .Site.Params.special_class }}
@@ -8,4 +16,5 @@
 <a target="_blank" href="{{ $p.Link }}" class="button special">{{ $p.Class_Name }}</a>
 {{ end }}
 {{ end }}</p>
+</div>
 {{ "<!-- LEAVING layouts/partials/featured.html -->" | safeHTML }}
