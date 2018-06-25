@@ -26,6 +26,8 @@
                 <p>{{ .Site.Params.description | safeHTML }}</p>
                   {{ if .Site.Params.special_event }}
                     {{ partial "special.html" . }}
+                  {{ else if .Site.Params.special_class}}
+                    {{ partial "special_class.html" . }}
                   {{ else }}
                     {{ partial "featured.html" . }}
                   {{ end }}
