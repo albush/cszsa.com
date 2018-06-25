@@ -1,0 +1,11 @@
+{{ "<!-- ENTERING layouts/partials/featured.html -->" | safeHTML }}
+<p><a target="_blank" href="https://cszsanantonio.vbotickets.com/event/ComedySportz_Main_Event/10273" class="button special">Buy Tickets</a></p>
+<h3>Improv Classes Starting Soon:</h3>
+<p>{{ .Site.Params.class_description }} Reserve your spot today!</p>
+<p>{{ range $class := .Site.Params.special_class }}
+{{ if isset $.Site.Data.classes $class }}
+{{ $p :=  (index $.Site.Data.classes $class) }}
+<a target="_blank" href="{{ $p.Link }}" class="button special">{{ $p.Class_Name }}</a>
+{{ end }}
+{{ end }}</p>
+{{ "<!-- LEAVING layouts/partials/featured.html -->" | safeHTML }}
