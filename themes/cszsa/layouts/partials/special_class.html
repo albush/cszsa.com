@@ -1,22 +1,14 @@
 {{ "<!-- ENTERING layouts/partials/special_class.html -->" | safeHTML }}
 <div>
-<p>Get your tickets now:</p>
-<p>{{ range $show := .Site.Params.featured_show }}
-{{ if isset $.Site.Data.shows $show }}
-{{ $p :=  (index $.Site.Data.shows $show) }}
-<a target="_blank" href="{{ $p.TicketLink }}" class="button special"><i class="icon fa-ticket"></i> {{ $p.CTAText }}</a>
-{{ end }}
-{{ end }}</p>
-<p>Or check out the calendar for tickets to all our upcoming events:</p>
-<a target="_blank" href="https://squareup.com/store/CSzSA/" class="button special">Calendar</a>
-</div>
-<div>
+<p>Get your tickets now for one of our upcoming events:</p></br>
+<a target="_blank" href="https://squareup.com/store/CSzSA/" class="button">Upcoming Shows</a>
+  <hr>
 <h3>Improv Classes Starting Soon:</h3>
 <p>{{ .Site.Params.class_description }} Reserve your spot today!</p>
 <p>{{ range $class := .Site.Params.special_class }}
 {{ if isset $.Site.Data.classes $class }}
 {{ $p :=  (index $.Site.Data.classes $class) }}
-<a target="_blank" href="{{ $p.Link }}" class="button special">{{ $p.Class_Name }}</a>
+<a target="_blank" href="{{ $p.Link }}" class="button">{{ $p.Class_Name }}</a>
 {{ end }}
 {{ end }}</p>
 </div>
