@@ -1,4 +1,4 @@
-{{ "<!-- ENTERING layouts/partials/featured.html -->" | safeHTML }}
+{{ "<!-- ENTERING layouts/partials/special_class.html -->" | safeHTML }}
 <div>
 <p>Get your tickets now:</p>
 <p>{{ range $show := .Site.Params.featured_show }}
@@ -7,6 +7,8 @@
 <a target="_blank" href="{{ $p.TicketLink }}" class="button special"><i class="icon fa-ticket"></i> {{ $p.CTAText }}</a>
 {{ end }}
 {{ end }}</p>
+<p>Or check out the calendar for tickets to all our upcoming events:</p>
+<a target="_blank" href="https://squareup.com/store/CSzSA/" class="button special">Calendar</a>
 </div>
 <div>
 <h3>Improv Classes Starting Soon:</h3>
@@ -18,4 +20,4 @@
 {{ end }}
 {{ end }}</p>
 </div>
-{{ "<!-- LEAVING layouts/partials/featured.html -->" | safeHTML }}
+{{ "<!-- LEAVING layouts/partials/special_class.html -->" | safeHTML }}
