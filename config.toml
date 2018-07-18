@@ -10,8 +10,8 @@ googleAnalytics = "UA-117320918-1"
 [params]
   # special_event = ""
   special_class = ["improv101", "improv201"]
-  class_description = "Our next round of Improv 101 classes are forming now for Saturdays, starting July 21st; 201 classes will be on Sundays, starting July 22nd."
-  featured_show = ["cszboth", "adreturn", "minors"]
+  class_description = "Our next round of Improv 101 classes are forming now for Saturdays, starting July 21st; 201 classes will be on Sundays, starting July 15th."
+  featured_show = ["cszfri", "cszsat", "adreturn"]
   title = "ComedySportz San Antonio"
   description = '<!--[-->ComedySportz San Antonio is the only family friendly comedy in San Antonio. Bring your kids, bring Grandma. We won&#39;t offend anyone. We promise.<!--]-->'
   meta_description = "ComedySportz San Antonio is the only family friendly comedy in San Antonio. Bring your kids, bring Grandma. We won't offend anyone. We promise."
