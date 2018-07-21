@@ -7,7 +7,7 @@ menu = true
 
 ## What is ComedySportz?
 
-It’s not comedy about sports; it’s comedy PLAYED as a sport! Two teams of our professional improvisers compete for laughs and points in this hilarious comedy competition. It’s complete with a referee, uniforms, artificial turf, pennants, an organist and even the National Anthem!
+It’s not comedy about sports; it’s comedy PLAYED as a sport! Two teams of our professional improvisers compete for laughs and points in this hilarious comedy competition. It’s complete with a referee, uniforms, fouls, flags, coaches, and team captains.
 
 Check out our [Facebook](//facebook.com/ComedySportzSanAntonio/) page to find out who's playing this weekend, and click the link to buy some tickets.
 
