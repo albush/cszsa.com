@@ -2,7 +2,7 @@
 title = "School Assemblies"
 draft = false
 cta_text = "Book Your Assembly"
-contact_id = "bookyourassembly"
+contact_id = "book-your-school-assembly"
 +++
 
 ## ComedySportz At Your School
@@ -62,5 +62,7 @@ This is a shorter but no less fun and interactive version of our long-running co
 Three of our Players will entertain and engage the students by playing some of our most popular improv games. We’ve removed the competition so only the laughter remains. This is a fun and fast way to change up your assembly. (for audiences of 75 or less)
 
 ## Book Your School Assembly
-<div id=bookyourassembly>
-{{< contact-form >}}</div>
+
+Please contact us at (210) 338-0279 or email us at info@cszsa.com for more details
+
+{{< contact-form >}}
