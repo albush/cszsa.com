@@ -34,7 +34,7 @@ jobs:
           at: ~/project
       - run:
           name: "Upload to Staging - skip static files"
-          command: aws s3 sync --acl --storage-class REDUCED_REDUNDANCY "public-read" ~/project/public/ s3://${STAGING_BUCKET}/ --exclude 'images/*' --exclude 'sass/*' --exclude 'fonts/*' --exclude 'js/*'
+          command: aws s3 sync --acl "public-read" --storage-class "REDUCED_REDUNDANCY" ~/project/public/ s3://${STAGING_BUCKET}/ --exclude 'images/*' --exclude 'sass/*' --exclude 'fonts/*' --exclude 'js/*'
       - run:
           name: "Copy and cache static files"
           command: |
