@@ -37,7 +37,7 @@ jobs:
           command: go get -v github.com/bep/s3deploy
       - run:
           name: "Upload to Staging"
-          command: s3deploy -source=~/project/public -region=$STAGING_REGION -bucket=${STAGING_BUCKET}/
+          command: s3deploy -source=public/ -region=$STAGING_REGION -bucket=${STAGING_BUCKET}/
   prod_deploy:
     docker:
       - image: cibuilds/aws
