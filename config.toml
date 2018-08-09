@@ -18,7 +18,7 @@ googleAnalytics = "UA-117320918-1"
   logoimage = "/images/cszshield.png"
   copyright = "CSz San Antonio"
   seo_description = "ComedySportz San Antonio Improv is the only family friendly comedy in San Antonio. Bring your kids, bring Grandma. We won't offend anyone we promise."
-  keywords = ["San Antonio Improv", "improv san antonio", "Comedy", "Comedy in San Antonio", "Improv", "Improvisational theater", "family friendly", "comedy classes", "corporate training", "team building", "entertainment" "San Antonio Entertainment", "San Antonio Date Night", "School Assembly", "School Assembly Entertainment", "Corporate Event Entertainment"]
+  keywords = ["San Antonio Improv", "improv san antonio", "Comedy", "Comedy in San Antonio", "Improv", "Improvisational theater", "family friendly", "comedy classes", "corporate training", "team building", "entertainment", "San Antonio Entertainment", "San Antonio Date Night", "School Assembly", "School Assembly Entertainment", "Corporate Event Entertainment"]
   images = ["https://cszsa.com/images/sanantonioimprovcomedysportz.jpg", "https://cszsa.com/images/sanantonioimprovcomedy.jpg", "https://cszsa.com/images/sanantoniocomedyimprov-show.JPG"]
 
 # Start SEO Stuff
