@@ -33,8 +33,16 @@ jobs:
       - attach_workspace:
           at: ~/project
       - run:
-          name: "Upload to Staging"
-          command: aws s3 sync ~/project/public --region $REGION s3://${STAGING_BUCKET}/ --delete
+          name: "Upload to Staging - skip static files"
+          command: aws s3 sync --acl "public-read" ~/project/public/ s3://${STAGING_BUCKET}/ --exclude 'images' --exclude 'sass' --exclude 'fonts' --exclude 'js'
+      - run:
+          name: "Copy and cache static files"
+          command:
+            aws s3 sync --cache-control "max-age=2592000" --acl "public-read" ~/project/public/images/ s3://${STAGING_BUCKET}/images/
+            aws s3 sync --cache-control "max-age=2592000" --acl "public-read" ~/project/public/css/ s3://${STAGING_BUCKET}/css/
+            aws s3 sync --cache-control "max-age=2592000" --acl "public-read" ~/project/public/js/ s3://${STAGING_BUCKET}/js/
+            aws s3 sync --cache-control "max-age=2592000" --acl "public-read" ~/project/public/sass/ s3://${STAGING_BUCKET}/sass/
+            aws s3 sync --cache-control "max-age=2592000" --acl "public-read" ~/project/public/fonts/ s3://${STAGING_BUCKET}/fonts/
   prod_deploy:
     docker:
       - image: cibuilds/aws
