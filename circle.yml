@@ -2,7 +2,7 @@ version: 2
 jobs:
   production_build:
     docker:
-      - image: cibuilds/hugo:0.27
+      - image: cibuilds/hugo
     working_directory: ~/project
     steps:
       - checkout
@@ -15,7 +15,7 @@ jobs:
             - public
   staging_build:
     docker:
-      - image: cibuilds/hugo:0.27
+      - image: cibuilds/hugo
     working_directory: ~/project
     steps:
       - checkout
