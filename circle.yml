@@ -37,7 +37,7 @@ jobs:
           command: go get -v github.com/bep/s3deploy
       - run:
           name: "Upload to Staging"
-          command: s3deploy -source=~/project/public -region=$REGION -bucket=${STAGING_BUCKET}/
+          command: s3deploy -source=~/project/public -region=$STAGING_REGION -bucket=${STAGING_BUCKET}/
   prod_deploy:
     docker:
       - image: cibuilds/aws
@@ -46,7 +46,7 @@ jobs:
           at: ~/project
       - run:
           name: "Upload to Production"
-          command: aws s3 sync ~/project/public --region $STAGING_REGION s3://${BUCKET}/ --delete
+          command: aws s3 sync ~/project/public --region $REGION s3://${BUCKET}/ --delete
       - run:
           name: "Invalidate CloudFront"
           command: aws cloudfront create-invalidation --distribution-id $DISTRIBUTION_ID --paths /index.html
