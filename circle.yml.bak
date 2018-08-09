@@ -28,15 +28,13 @@ jobs:
             - public
   staging_deploy:
     docker:
-      - image: golang
+      - image: cibuilds/aws
     steps:
       - attach_workspace:
           at: ~/project
       - run:
-          name: "install s3deploy"
-          command: go get -v github.com/bep/s3deploy
           name: "Upload to Staging"
-          command: s3deploy -source=~/project/public -region=$REGION -bucket=${STAGING_BUCKET}/
+          command: aws s3 sync ~/project/public --region $REGION s3://${STAGING_BUCKET}/ --delete
   prod_deploy:
     docker:
       - image: cibuilds/aws
