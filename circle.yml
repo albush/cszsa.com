@@ -37,7 +37,7 @@ jobs:
           command: aws s3 sync --acl "public-read" ~/project/public/ s3://${STAGING_BUCKET}/ --exclude 'images' --exclude 'sass' --exclude 'fonts' --exclude 'js'
       - run:
           name: "Copy and cache static files"
-          command:
+          command: |
             aws s3 sync --cache-control "max-age=2592000" --acl "public-read" ~/project/public/images/ s3://${STAGING_BUCKET}/images/
             aws s3 sync --cache-control "max-age=2592000" --acl "public-read" ~/project/public/css/ s3://${STAGING_BUCKET}/css/
             aws s3 sync --cache-control "max-age=2592000" --acl "public-read" ~/project/public/js/ s3://${STAGING_BUCKET}/js/
