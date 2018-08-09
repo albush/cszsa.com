@@ -48,8 +48,8 @@ jobs:
           name: "install s3deploy"
           command: go get -v github.com/bep/s3deploy
       - run:
-          name: "Upload to Staging"
-          command: s3deploy -v -force -config=.s3deploy.yml -source=public/ -region=$REGION -bucket=$BUCKET/
+          name: "Upload to production"
+          command: s3deploy -v -force -config=.s3deploy.yml -source=public/ -region=$PROD_REGION -bucket=$BUCKET/
 
 workflows:
   version: 2
