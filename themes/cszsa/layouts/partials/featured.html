@@ -2,15 +2,8 @@
 
 <div>
  <h2>Buy Tickets Now</h2>
-<p>ComedySportz Matches on Friday and Saturday at 7:30; Minor League every other Sunday at 6:00. Adults-only After Dark at 10:00 on Saturday night. All shows are BYOB.</p>
-</br>
-
-<p>{{ range $show := .Site.Params.featured_show }}
-{{ if isset $.Site.Data.shows $show }}
-{{ $p :=  (index $.Site.Data.shows $show) }}
-<a target="_blank" href="{{ $p.TicketLink }}" class="button special"><i class="icon fa-ticket"></i> {{ $p.CTAText }}</a>
-{{ end }}
-{{ end }}</p>
+ <p>Get your tickets now for one of our upcoming events:</p></br>
+ <a target="_blank" href="https://squareup.com/store/CSzSA/" class="button">Upcoming Shows</a></p>
 </div>
 
 {{ "<!-- LEAVING layouts/partials/featured.html -->" | safeHTML }}

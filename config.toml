@@ -9,16 +9,16 @@ googleAnalytics = "UA-117320918-1"
 
 [params]
   # special_event = ""
-  special_class = ["improv101", "improv201"]
-  class_description = "Our next round of Improv 101 classes are forming now for Saturdays, starting July 21st; 201 classes will be on Sundays, starting July 15th."
+  # special_class = ["improv101", "improv201"]
+  # class_description = "Our next round of Improv 101 classes are forming now for Saturdays, starting July 21st; 201 classes will be on Sundays, starting July 15th."
   featured_show = ["cszfri", "cszsat", "adreturn"]
   title = "ComedySportz San Antonio"
-  description = '<!--[-->ComedySportz San Antonio is the only family friendly comedy in San Antonio. Bring your kids, bring Grandma. We won&#39;t offend anyone. We promise.<!--]-->'
+  description = '<!--[-->Family friendly improv comedy in San Antonio<!--]-->'
   meta_description = "ComedySportz San Antonio is the only family friendly comedy in San Antonio. Bring your kids, bring Grandma. We won't offend anyone. We promise."
   logoimage = "/images/cszshield.png"
   copyright = "CSz San Antonio"
   seo_description = "ComedySportz San Antonio Improv is the only family friendly comedy in San Antonio. Bring your kids, bring Grandma. We won't offend anyone we promise."
-  keywords = ["San Antonio Improv", "improv san antonio", "Comedy", "Comedy in San Antonio", "Improv", "Improvisational theater", "family friendly", "comedy classes", "corporate training", "team building"]
+  keywords = ["San Antonio Improv", "improv san antonio", "Comedy", "Comedy in San Antonio", "Improv", "Improvisational theater", "family friendly", "comedy classes", "corporate training", "team building", "entertainment", "San Antonio Entertainment", "San Antonio Date Night", "School Assembly", "School Assembly Entertainment", "Corporate Event Entertainment"]
   images = ["https://cszsa.com/images/sanantonioimprovcomedysportz.jpg", "https://cszsa.com/images/sanantonioimprovcomedy.jpg", "https://cszsa.com/images/sanantoniocomedyimprov-show.JPG"]
 
 # Start SEO Stuff
