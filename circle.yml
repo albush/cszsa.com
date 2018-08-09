@@ -35,6 +35,7 @@ jobs:
       - run:
           name: "install s3deploy"
           command: go get -v github.com/bep/s3deploy
+      - run:
           name: "Upload to Staging"
           command: s3deploy -source=~/project/public -region=$REGION -bucket=${STAGING_BUCKET}/
   prod_deploy:
