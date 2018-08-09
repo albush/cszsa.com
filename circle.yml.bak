@@ -28,28 +28,25 @@ jobs:
             - public
   staging_deploy:
     docker:
-      - image: golang
+      - image: cibuilds/aws
     steps:
       - attach_workspace:
           at: ~/project
       - run:
-          name: "install s3deploy"
-          command: go get -v github.com/bep/s3deploy
-      - run:
           name: "Upload to Staging"
-          command: s3deploy -v -force -config=.s3deploy.yml -source=public/ -region=$STAGING_REGION -bucket=${STAGING_BUCKET}/
+          command: aws s3 sync ~/project/public --region $REGION s3://${STAGING_BUCKET}/ --delete
   prod_deploy:
     docker:
-      - image: golang
+      - image: cibuilds/aws
     steps:
       - attach_workspace:
           at: ~/project
       - run:
-          name: "install s3deploy"
-          command: go get -v github.com/bep/s3deploy
+          name: "Upload to Production"
+          command: aws s3 sync ~/project/public --region $REGION s3://${BUCKET}/ --delete
       - run:
-          name: "Upload to Staging"
-          command: s3deploy -v -force -config=.s3deploy.yml -source=public/ -region=$REGION -bucket=$BUCKET/
+          name: "Invalidate CloudFront"
+          command: aws cloudfront create-invalidation --distribution-id $DISTRIBUTION_ID --paths /index.html
 
 workflows:
   version: 2
