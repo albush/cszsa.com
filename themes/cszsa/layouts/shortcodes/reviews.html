@@ -1,0 +1,5 @@
+{{ range sort .Site.Data.reviews "Review_Date" "desc" | first 5 }}
+<ul>
+  <li>{{ partial "review.html" . }}</li>
+</ul>
+{{ end }}

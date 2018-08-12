@@ -5,7 +5,7 @@ draft = false
 menu = true
 +++
 
-{{< google-reviews >}}
+{{< reviews >}}
 
 ---
 
