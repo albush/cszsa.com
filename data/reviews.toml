@@ -1,0 +1,29 @@
+[[ review ]]
+person = "Erin R."
+text = "ComedySportz (Club 185) is my favorite destination for a girls night out, date night, or a family night. Consistently funny, always clean, great value, and so much fun! My face gets sore from smiling so much. Shows are every Friday and Saturday at 7:30 pm. You can bring in food and drink or buy chips/soda/candy at the concession stand. We have been going for years! We like it so much that my husband took several of their improv classes and is now one of the players."
+rating = 5
+review_date = 2018-07-17
+
+[[ review ]]
+person = "Morgan W."
+text = "This is my favorite thing to do on a Friday or Saturday night! This is very similar to “Whose Line Is It Anyway, ” but it’s live right here in SA! The talent is top notch and it’s always different each time we go. They are never vulgar or lewd, but they are still hilarious. The price is right and I love that they are a BYOB establishment."
+rating = 5
+review_date = 2018-03-01
+
+[[ review ]]
+person = "Ryan W."
+text = "Very cool place to see some fun improv. Always have a good time here. Place is BYOB which is nice."
+rating = 5
+review_date = 2018-07-22
+
+[[ review ]]
+person = "Tina J."
+text = "Big fan of ComedySportz! Love the entertainment value at a reasonable price. Love that it's BYOB and family-friendly, so it's the best of all worlds. Would highly recommend"
+rating = 5
+review_date = 2018-04-01
+
+# [[ review ]]
+# person = "name"
+# text = "text"
+# rating = 5
+# review_date = 2018-07-17

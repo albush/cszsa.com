@@ -686,6 +686,7 @@ button,
   line-height: 2.75rem;
   outline: 0;
   padding: 0 1.25rem 0 1.35rem;
+  margin: 2.5px;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
