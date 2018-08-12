@@ -3,17 +3,17 @@
 <p>{{ range $show := .Site.Params.featured_show }}
 {{ if isset $.Site.Data.shows $show }}
 {{ $p :=  (index $.Site.Data.shows $show) }}
-<a target="_blank" href="{{ $p.TicketLink }}" class="button special">{{ $p.CTAText }}</a>
+<a target="_blank" rel="noopener" href="{{ $p.TicketLink }}" class="button special">{{ $p.CTAText }}</a>
 {{ end }}
 {{ end }}</p>
 <p>Or check out the calendar for tickets to all our upcoming events:</p>
-<a target="_blank" href="https://squareup.com/store/CSzSA/" class="button special">Calendar</a>
+<a target="_blank" rel="noopener" href="https://squareup.com/store/CSzSA/" class="button special">Calendar</a>
 <HR>
 {{ $show := index $.Site.Data.shows "fathersday" }}
 <div>
  <h2>Special Event: {{ $show.ShowTitle }} </br>{{ $show.ShowDate }}</h2>
  <p>{{ $show.Description | markdownify }}</p>
 </br>
-<a target="_blank" href={{ (index .Site.Data.shows .Site.Params.special_event).TicketLink }} class="button special">{{ $show.CTAText }}</a></br></br>
+<a target="_blank" rel="noopener" href={{ (index .Site.Data.shows .Site.Params.special_event).TicketLink }} class="button special">{{ $show.CTAText }}</a></br></br>
 </div>
 {{ "<!-- LEAVING layouts/partials/special.html -->" | safeHTML }}

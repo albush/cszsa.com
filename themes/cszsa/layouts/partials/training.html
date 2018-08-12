@@ -3,7 +3,7 @@
     {{ range $class := .Params.classes }}
     {{ if isset $.Site.Data.classes $class }}
     {{ $p :=  (index $.Site.Data.classes $class) }}
-  <p><a target="_blank" href="{{ $p.Link }}" class="button special">Enroll in {{ $p.Class_Name }}</a></p>
+  <p><a target="_blank" rel="noopener" href="{{ $p.Link }}" class="button special">Enroll in {{ $p.Class_Name }}</a></p>
     {{ end }}
     {{ end }}
 

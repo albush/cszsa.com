@@ -11,7 +11,7 @@ It’s not comedy about sports; it’s comedy PLAYED as a sport! Two teams of ou
 
 Check out our [Facebook](//facebook.com/ComedySportzSanAntonio/) page to find out who's playing this weekend, and click the link to buy some tickets.
 
-<a target="_blank" href="https://squareup.com/store/CSzSA/" class="button special">Buy Tickets</a>
+<a target="_blank" rel="noopener" href="https://squareup.com/store/CSzSA/" class="button special">Buy Tickets</a>
 
 ---
 Just like all sports, there are fouls in ComedySportz to keep the show from being boring or in poor taste; there’s even one to make a player apologize for telling a lame joke! When was the last time you saw that? The show is always completely interactive, and suitable for everyone.  If you think “clean” is boring, you owe it to yourself to check us out. It’s anything but boring.
