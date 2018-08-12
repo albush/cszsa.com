@@ -9,12 +9,12 @@
         <!-- Header -->
           <header id="header">
             <div class="logo">
-              {{ with .Site.Params.logoimage }}
-              <a href="/#"><img src="{{ . }}" width="100%" style="padding: 10px 10px 10px 10px;"></a>
+
+              <a href="{{.Site.BaseURL}}">{{ with .Site.Params.logoimage }} <img src="{{ . }}" width="100%" style="padding: 10px 10px 10px 10px;" alt="ComedySportz Shield Logo"></a>
             {{ end }}
-            {{ with .Site.Params.logo }}
+            <!-- {{ with .Site.Params.logo }}
               <span class="icon {{ . }}"></span>
-            {{ end }}
+            {{ end }} -->
             </div>
 
             <div class="content">

@@ -16,6 +16,7 @@
 			{{ if eq (getenv "HUGO_ENV") "production" }}
 				{{ template "_internal/google_analytics_async.html" . }}
 			{{ end }}
-
+			<link rel="stylesheet" href="/css/main.css" />
+			<link rel="stylesheet" href="/css/project.css" />
 	</body>
 </html>
