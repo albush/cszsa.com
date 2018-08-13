@@ -1,0 +1,42 @@
+{{ "<!-- Footer -->" | safeHTML}}
+  <footer id="footer">
+    <ul class="icons">
+      {{ range .Site.Params.links }}
+      {{ $pack := or .icon_pack "fa" }}
+        <li>
+          <a href="{{ .link | safeURL }}" target="_blank" rel="noopener" ><i class="icon {{ $pack }} {{ .icon }}"><span class="label">{{ .service }}</span></i></a>
+        </li>
+      {{ end }} {{/* range */}}
+    </ul>
+    <ul class="copyright">
+      {{- range .Site.Params.Footer.copyright -}}
+      <li>{{ . | markdownify }}</li>
+      {{- end -}}
+    </ul>
+  </footer>
+
+</div>
+
+{{ $js := .Site.Data.libs.js }}
+
+{{ "<!-- Remote Scripts -->" | safeHTML }}
+{{ printf "<script src=\"//cdnjs.cloudflare.com/ajax/libs/jquery/%s/jquery.min.js\" integrity=\"%s\" crossorigin=\"anonymous\"></script>" $js.jQuery.version $js.jQuery.integrity | safeHTML }}
+{{ printf "<script src=\"//cdnjs.cloudflare.com/ajax/libs/jquery.dropotron/%s/jquery.dropotron.min.js\" integrity=\"%s\" crossorigin=\"anonymous\"></script>" $js.dropotron.version $js.dropotron.integrity | safeHTML }}
+{{ printf "<script src=\"//cdnjs.cloudflare.com/ajax/libs/skel/%s/skel.min.js\" integrity=\"%s\" crossorigin=\"anonymous\"></script>" $js.skel.version $js.skel.integrity | safeHTML }}
+{{ printf "<script src=\"//unpkg.com/leaflet@%s/dist/leaflet.js\" integrity=\"%s\" crossorigin=\"anonymous\"></script>" $js.leaflet.version $js.leaflet.integrity | safeHTML }}
+{{ if .Site.GoogleAnalytics }}{{ template "_internal/google_analytics_async.html" . }}{{ end }}
+{{ "<!-- Local Scripts -->" | safeHTML }}
+{{ $util := resources.Get "js/util.js" | minify | fingerprint }}
+{{ $scrollgress := resources.Get "js/jquery.scrollgress.min.js" | minify | fingerprint }}
+{{ $ie := resources.Get "js/ie/respond.min.js" | minify | fingerprint }}
+{{ $main := resources.Get "js/main.js" | minify | fingerprint }}
+
+
+<script src="{{ $util.Permalink }}" integrity="{{ $util.Data.Integrity }}"></script>
+<script src="{{ $scrollgress.Permalink }}" integrity="{{ $scrollgress.Data.Integrity }}"></script>
+{{ `<!--[if lte IE 8]><script src=" {{ $ie.Permalink }} "></script><![endif]-->` | safeHTML}}
+<script src="{{ $main.Permalink }}" integrity="{{ $main.Data.Integrity }}"></script>
+
+
+</body>
+</html>
