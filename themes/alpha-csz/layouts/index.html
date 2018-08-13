@@ -13,6 +13,7 @@
 
 					{{ if .Site.Params.Landing.Services.title }}
 					<section class="box special">
+
 						<header class="major">
 							<h2>{{ .Site.Params.Landing.Services.title }}</h2><a name="services"></a>
 							<p>{{ .Site.Params.Landing.Services.text | markdownify }}</p>
@@ -28,7 +29,7 @@
 							{{ $tiles := .Site.Params.Landing.Feature_icons.tile }}
 							{{ $len := (len $tiles) }}
 							<a name="feature-icons"></a>
-
+<h2>ComedySportz is for Everyone. Here's some of what we do</h2>
 								<div class="features-row">
 									{{ range $index, $key := $tiles}}
 										<section>
