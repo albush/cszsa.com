@@ -39,7 +39,7 @@ jobs:
           root: ~/project
           paths:
             - public
-    staging_deploy:
+  staging_deploy:
     docker:
       - image: cibuilds/aws
     steps:
