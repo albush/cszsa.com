@@ -26,20 +26,20 @@ jobs:
           root: ~/project
           paths:
             - public
-newtheme_build:
-  docker:
-    - image: cibuilds/hugo
-  working_directory: ~/project
-  steps:
-    - checkout
-    - run:
-        name: "Run Hugo"
-        command: HUGO_ENV=staging hugo -v -s ~/project
-    - persist_to_workspace:
-        root: ~/project
-        paths:
-          - public
-  staging_deploy:
+  newtheme_build:
+    docker:
+      - image: cibuilds/hugo
+    working_directory: ~/project
+    steps:
+      - checkout
+      - run:
+          name: "Run Hugo"
+          command: HUGO_ENV=staging hugo -v -s ~/project
+      - persist_to_workspace:
+          root: ~/project
+          paths:
+            - public
+    staging_deploy:
     docker:
       - image: cibuilds/aws
     steps:
@@ -121,7 +121,7 @@ workflows:
             - newtheme_build
           filters:
             branches:
-              only: newtheme          
+              only: newtheme
       - prod_deploy:
           requires:
             - production_build
