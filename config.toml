@@ -90,19 +90,6 @@ googleAnalytics = ""
   subtitle = "Family Friendly Improv Comedy"
   author = "Alan Bush"
 
-  # bible_popups = true
-
-  # [params.podcast]
-  #   title = "Listen to Alpha Church"
-  #   subtitle = ""
-  #   summary = "Alpha-Church sermons, talks, messages—podcasted."
-  #   email = "test@example.com"
-  #   copyright = "Podcast: [CC0 (public domain)](//creativecommons.org/publicdomain/zero/1.0/)"
-  #   image = "img/podcast-cover.jpg"
-  #   category = "Religion & Spirituality"
-  #   sub_category = "Christianity"
-  #   num_episodes = "10"
-
   [params.map]
     # For Open Street Map widgets
     latitude = "29.549099"
