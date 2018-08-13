@@ -26,6 +26,19 @@ jobs:
           root: ~/project
           paths:
             - public
+newtheme_build:
+  docker:
+    - image: cibuilds/hugo
+  working_directory: ~/project
+  steps:
+    - checkout
+    - run:
+        name: "Run Hugo"
+        command: HUGO_ENV=staging hugo -v -s ~/project
+    - persist_to_workspace:
+        root: ~/project
+        paths:
+          - public
   staging_deploy:
     docker:
       - image: cibuilds/aws
@@ -43,6 +56,23 @@ jobs:
             aws s3 sync --cache-control "max-age=2592000" --acl "public-read" ~/project/public/js/ s3://${STAGING_BUCKET}/js/
             aws s3 sync --cache-control "max-age=2592000" --acl "public-read" ~/project/public/sass/ s3://${STAGING_BUCKET}/sass/
             aws s3 sync --cache-control "max-age=2592000" --acl "public-read" ~/project/public/fonts/ s3://${STAGING_BUCKET}/fonts/
+  newtheme_deploy:
+    docker:
+      - image: cibuilds/aws
+    steps:
+      - attach_workspace:
+          at: ~/project
+      - run:
+          name: "Upload to Staging - skip static files"
+          command: aws s3 sync --acl "public-read" --storage-class "REDUCED_REDUNDANCY" ~/project/public/ s3://${NEWTHEME_BUCKET}/ --exclude 'images/*' --exclude 'sass/*' --exclude 'fonts/*' --exclude 'js/*' --exclude 'css/*'
+      - run:
+          name: "Copy and cache static files"
+          command: |
+            aws s3 sync --cache-control "max-age=2592000" --acl "public-read" ~/project/public/images/ s3://${NEWTHEME_BUCKET}/images/
+            aws s3 sync --cache-control "max-age=2592000" --acl "public-read" ~/project/public/css/ s3://${NEWTHEME_BUCKET}/css/
+            aws s3 sync --cache-control "max-age=2592000" --acl "public-read" ~/project/public/js/ s3://${NEWTHEME_BUCKET}/js/
+            aws s3 sync --cache-control "max-age=2592000" --acl "public-read" ~/project/public/sass/ s3://${NEWTHEME_BUCKET}/sass/
+            aws s3 sync --cache-control "max-age=2592000" --acl "public-read" ~/project/public/fonts/ s3://${NEWTHEME_BUCKET}/fonts/
   prod_deploy:
     docker:
       - image: cibuilds/aws
@@ -76,12 +106,22 @@ workflows:
           filters:
             branches:
               only: production
+      - newtheme_build:
+          filters:
+            branches:
+              only: newtheme
       - staging_deploy:
           requires:
             - staging_build
           filters:
             branches:
               only: staging
+      - newtheme_deploy:
+          requires:
+            - newtheme_build
+          filters:
+            branches:
+              only: newtheme          
       - prod_deploy:
           requires:
             - production_build

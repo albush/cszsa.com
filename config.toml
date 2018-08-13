@@ -132,7 +132,7 @@ googleAnalytics = ""
 
     [params.landing.feature_icons]
       #These feature icons look best if there's an even number of them.
-      enable = false
+      enable = true
 
       #Accent is a colour defined in the CSS file. Choose between 1 and 5
       [[params.landing.feature_icons.tile]]
@@ -157,11 +157,11 @@ googleAnalytics = ""
         text = "We've got the perfect comedy show for all ages."
 
       [[params.landing.feature_icons.tile]]
-        icon = "fa-heartbeat"
+        icon = "fa-users"
         icon_pack = "fas"
         accent = "3"
-        title = "Loved"
-        text = "Knowing Love. Being Loved."
+        title = "Group Events"
+        text = "We'll take our show to your event. Perfect for company parties, school assemblies, birthday parties, etc."
 
     [params.landing.feature_images]
       #These feature images look best if there's an even number of them.

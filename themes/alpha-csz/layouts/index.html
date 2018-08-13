@@ -23,6 +23,28 @@
 					</section>
 					{{ end }}
 					<section class="box special features">
+
+						{{ if .Site.Params.Landing.Feature_icons.enable }}
+							{{ $tiles := .Site.Params.Landing.Feature_icons.tile }}
+							{{ $len := (len $tiles) }}
+							<a name="feature-icons"></a>
+
+								<div class="features-row">
+									{{ range $index, $key := $tiles}}
+										<section>
+											<span class="icon major {{ $key.icon_pack }} {{ $key.icon }} accent{{- $key.accent -}}"></span>
+											<h3>{{ $key.title }}</h3>
+											<p>{{ $key.text | markdownify }}</p>
+										</section>
+										{{ if and (mod $index 2) (lt (add $index 1) $len) }}
+												</div>
+												<div class="features-row">
+										{{ end }}
+									{{ end }}
+								</div>
+							</section>
+						{{ end }}
+
 					<h2>Featured Events and Classes</h2>
 
 					{{ if .Site.Params.Landing.Feature_images.enable }}
@@ -53,26 +75,7 @@
 
 				</section>
 
-					{{ if .Site.Params.Landing.Feature_icons.enable }}
-						{{ $tiles := .Site.Params.Landing.Feature_icons.tile }}
-						{{ $len := (len $tiles) }}
-						<a name="feature-icons"></a>
 
-							<div class="features-row">
-								{{ range $index, $key := $tiles}}
-									<section>
-										<span class="icon major {{ $key.icon_pack }} {{ $key.icon }} accent{{- $key.accent -}}"></span>
-										<h3>{{ $key.title }}</h3>
-										<p>{{ $key.text | markdownify }}</p>
-									</section>
-									{{ if and (mod $index 2) (lt (add $index 1) $len) }}
-											</div>
-											<div class="features-row">
-									{{ end }}
-								{{ end }}
-							</div>
-						</section>
-					{{ end }}
 
 
 
