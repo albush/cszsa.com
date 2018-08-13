@@ -109,6 +109,8 @@ googleAnalytics = ""
     longitude = "-98.462961"
     zoom = "14"
 
+    # https://maps.googleapis.com/maps/api/staticmap?size=640x320&scale=2&center=29.552744,-98.467822&zoom={{ .Site.Params.Map.zoom }}&markers=icon:https://cszsa.com/images/favicon-32x32.png%7C{{.Site.Params.Map.latitude}},{{ .Site.Params.Map.longitude }}&format=jpg&style=style=feature:road.highway%7Celement:geometry%7Ccolor:0x0b4e84%7Cvisibility:simplified&style=feature:landscape.man_made%7Celement:geometry.fill%7Ccolor:0xbebec0&style=feature:transit.station.airport%7Cvisibility:off&style=feature:poi%7Cvisibility:off&style=element:labels%7Cinvert_lightness:true&style=feature:administrative.neighborhood%7Cvisibility:off&style=feature:road.highway%7Celement:labels%7Cinvert_lightness:true&style=feature:road.arterial%7Celement:labels%7Cinvert_lightness:true&style=feature:road.local%7Cvisibility:off&style=feature:water%7Cvisibility:off&key=[APIkey]
+
   [params.contact]
     #Use this section to automate contact form.
     #Set service to either "netlify" or "formspree"

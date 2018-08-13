@@ -1,10 +1,6 @@
 {{ if .Site.Params.Map.latitude }}
   {{ if .Site.Params.Map.longitude }}
     {{ "<!-- Google Static Map -->" | safeHTML }}
-      <img src="https://maps.googleapis.com/maps/api/staticmap?size=640x320&scale=2&center=29.552744,-98.467822&zoom={{ .Site.Params.Map.zoom }}&markers=icon:https://cszsa.com/images/favicon-32x32.png%7C{{.Site.Params.Map.latitude}},{{ .Site.Params.Map.longitude }}&format=jpg&style=style=feature:road.highway%7Celement:geometry%7Ccolor:0x0b4e84%7Cvisibility:simplified&style=feature:landscape.man_made%7Celement:geometry.fill%7Ccolor:0xbebec0&style=feature:transit.station.airport%7Cvisibility:off&style=feature:poi%7Cvisibility:off&style=element:labels%7Cinvert_lightness:true&style=feature:administrative.neighborhood%7Cvisibility:off&style=feature:road.highway%7Celement:labels%7Cinvert_lightness:true&style=feature:road.arterial%7Celement:labels%7Cinvert_lightness:true&style=feature:road.local%7Cvisibility:off&style=feature:water%7Cvisibility:off&key=AIzaSyCnILTIJ01nJhRREs0YYQM7-j6SJXTWiQ4">
+      <a target="_blank" rel="noopener" href="https://goo.gl/maps/KKWiA927iAT2"><img src="images/staticmap.jpeg"></a>
   {{ end }}
 {{ end }}
-<!--
-
-
-https://maps.googleapis.com/maps/api/staticmap?size=512x512&zoom=15&center=Brooklyn&style=feature:road.local%7Celement:geometry%7Ccolor:0x00ff00&style=feature:landscape%7Celement:geometry.fill%7Ccolor:0x000000&style=element:labels%7Cinvert_lightness:true&style=feature:road.arterial%7Celement:labels%7Cinvert_lightness:false&key=YOUR_API_KEY -->
