@@ -114,7 +114,7 @@ googleAnalytics = ""
   [params.landing]
 
     [params.landing.banner]
-      image = "images/banner.png"
+      image = "images/header-bg.jpg"
 
       [[params.landing.banner.button]]
         url = "https://squareup.com/store/CSzSA/"

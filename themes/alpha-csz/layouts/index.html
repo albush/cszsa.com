@@ -46,12 +46,13 @@
 							</section>
 						{{ end }}
 
-					<h2>Featured Events and Classes</h2>
+
 
 					{{ if .Site.Params.Landing.Feature_images.enable }}
 						{{ $tiles := .Site.Params.Landing.Feature_images.tile }}
 						{{ $len := (len $tiles) }}
 						<a name="feature-images"></a>
+						<center><h2>Featured Events and Classes</h2></center>
 						<div class="row">
 							{{ range $index, $key := $tiles }}
 								<div class="6u 12u(narrower)">
