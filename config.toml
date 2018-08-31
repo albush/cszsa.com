@@ -10,7 +10,7 @@ googleAnalytics = "UA-117320918-1"
 [params]
   # special_event = ""
   special_class = ["improv101", "improv301"]
-  class_description = "Our next round of Improv 101 classes are forming now for Saturdays, starting September 29th; 301 classes will be on Sundays, starting September 16th."
+  class_description = "Our next round of Improv 101 classes are forming now for Saturdays 1-4pm, starting September 29th; 301 classes will be on Sundays 1-4pm, starting September 16th."
   featured_show = ["cszfri", "cszsat", "adreturn"]
   title = "ComedySportz San Antonio"
   description = '<!--[-->Family friendly improv comedy in San Antonio<!--]-->'
