@@ -21,3 +21,5 @@ fields:
     shares
   config:
     maxSize: '5'
+pages:
+- content/blog/another-test.md
