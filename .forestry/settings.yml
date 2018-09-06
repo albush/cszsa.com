@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: data/reviews.toml
+  label: Reviews
+  match: "**/*"
 - type: directory
   path: content/blog
   label: Blog Posts
