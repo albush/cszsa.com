@@ -5,8 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: data/reviews.toml
-  label: Reviews
+  path: README-FORESTRY.md
+  label: Help
+  match: "**/*"
+  read_only: true
 - type: directory
   path: content/blog
   label: Blog Posts
