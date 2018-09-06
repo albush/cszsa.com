@@ -1,217 +1,156 @@
 baseURL = "/"
-languageCode = "en-us"
-title = "ComedySportz San Antonio"
-theme = "alpha-csz"
-
-enableEmoji = true
 customCSS = ["", ""]
-
-# Enter your tracking code to enable Google Analytics
+enableEmoji = true
 googleAnalytics = ""
-
-#This theme can generate a multi-level theme.
-#Use the weight= to specify the order of menu items, and the parent= to create a submenu item.
-[menu]
-  [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-
-  [[menu.main]]
-    name = "Buy Tickets"
-    url = "/buytickets"
-    weight = 2
-
-  [[menu.main]]
-    name = "About"
-    url = "/"
-    weight = 3
-
-  [[menu.main]]
-    name = "About ComedySportz"
-    parent = "About"
-    url = "/about"
-    weight = 1
-
-  [[menu.main]]
-    name = "Reviews"
-    parent = "About"
-    url = "/reviews"
-    weight = 2
-
-  [[menu.main]]
-    name = "Shows"
-    url = "#"
-    weight = 4
-
-  [[menu.main]]
-    name = "ComedySportz"
-    url = "/comedysportz"
-    parent = "Shows"
-    weight = 1
-
-  [[menu.main]]
-    name = "After Dark"
-    url = "/afterdark"
-    parent = "Shows"
-    weight = 2
-
-  [[ menu.main ]]
-    name = "Groups and Events"
-    url = "/"
-    weight = 5
-
-  [[ menu.main ]]
-    name = "Private Shows"
-    parent = "Groups and Events"
-    url = "/privateshows"
-    weight = 1
-
-  [[ menu.main ]]
-    name = "Team Building"
-    parent = "Groups and Events"
-    url = "/teambuilding"
-    weight = 2
-
-  [[ menu.main ]]
-    name = "School Assemblies"
-    parent = "Groups and Events"
-    url = "/school-assemblies"
-    weight = 2
-
-  [[menu.main]]
-    name = "Contact"
-    url = "/contact"
-    weight = 6
-
-# Paramaters for the whole site
+languageCode = "en-us"
+theme = "alpha-csz"
+title = "ComedySportz San Antonio"
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+[[menu.main]]
+name = "Buy Tickets"
+url = "/buytickets"
+weight = 2
+[[menu.main]]
+name = "About"
+url = "/"
+weight = 3
+[[menu.main]]
+name = "About ComedySportz"
+parent = "About"
+url = "/about"
+weight = 1
+[[menu.main]]
+name = "Reviews"
+parent = "About"
+url = "/reviews"
+weight = 2
+[[menu.main]]
+name = "Shows"
+url = "#"
+weight = 4
+[[menu.main]]
+name = "ComedySportz"
+parent = "Shows"
+url = "/comedysportz"
+weight = 1
+[[menu.main]]
+name = "After Dark"
+parent = "Shows"
+url = "/afterdark"
+weight = 2
+[[menu.main]]
+name = "Groups and Events"
+url = "/"
+weight = 5
+[[menu.main]]
+name = "Private Shows"
+parent = "Groups and Events"
+url = "/privateshows"
+weight = 1
+[[menu.main]]
+name = "Team Building"
+parent = "Groups and Events"
+url = "/teambuilding"
+weight = 2
+[[menu.main]]
+name = "School Assemblies"
+parent = "Groups and Events"
+url = "/school-assemblies"
+weight = 2
+[[menu.main]]
+name = "Contact"
+url = "/contact"
+weight = 6
 [params]
-  title = "ComedySportz San Antonio"
-  subtitle = "Family Friendly Improv Comedy"
-  author = "Alan Bush"
-
-  [params.map]
-    # For Open Street Map widgets
-    latitude = "29.549099"
-    longitude = "-98.462961"
-    zoom = "14"
-
-    # https://maps.googleapis.com/maps/api/staticmap?size=640x320&scale=2&center=29.552744,-98.467822&zoom={{ .Site.Params.Map.zoom }}&markers=icon:https://cszsa.com/images/favicon-32x32.png%7C{{.Site.Params.Map.latitude}},{{ .Site.Params.Map.longitude }}&format=jpg&style=style=feature:road.highway%7Celement:geometry%7Ccolor:0x0b4e84%7Cvisibility:simplified&style=feature:landscape.man_made%7Celement:geometry.fill%7Ccolor:0xbebec0&style=feature:transit.station.airport%7Cvisibility:off&style=feature:poi%7Cvisibility:off&style=element:labels%7Cinvert_lightness:true&style=feature:administrative.neighborhood%7Cvisibility:off&style=feature:road.highway%7Celement:labels%7Cinvert_lightness:true&style=feature:road.arterial%7Celement:labels%7Cinvert_lightness:true&style=feature:road.local%7Cvisibility:off&style=feature:water%7Cvisibility:off&key=[APIkey]
-
-  [params.contact]
-    #Use this section to automate contact form.
-    #Set service to either "netlify" or "formspree"
-    #For formspree, please setup an account at https://formspree.io/
-    #For netlify, please read https://www.netlify.com/docs/form-handling/
-    #
-    #If you use netlify, you'll need to set the confirm_page value (or elase users will see a generic netlify response)
-    #If you use formspree, you'll need to set your formspree email address.
-    service = "formspree"
-    confirm_page = "/contact_thanks"
-    formspree_email="info@cszsa.com"
-
-  #Paramaters for the home/landing page
-  [params.landing]
-
-    [params.landing.banner]
-      image = "images/header-bg.jpg"
-
-      [[params.landing.banner.button]]
-        url = "https://squareup.com/store/CSzSA/"
-        text = "Buy Tickets"
-        type = "special"
-
-        [[params.landing.banner.button]]
-        url = "#feature-images"
-        text = "Special Events and Classes"
-
-    #Details for the box below the banner
-    [params.landing.services]
-      title = "Weekly Improv Shows"
-      text = "Family friendly improv comedy every Friday and Saturday at 7:30pm. Adults only show at 10pm Saturday. [11950 STARCREST DR #210, SAN ANTONIO, TX 78247](https://goo.gl/maps/KKWiA927iAT2)"
-
-    [params.landing.feature_icons]
-      #These feature icons look best if there's an even number of them.
-      enable = true
-
-      #Accent is a colour defined in the CSS file. Choose between 1 and 5
-      [[params.landing.feature_icons.tile]]
-        icon = "fa-ticket-alt"
-        icon_pack = "fas"
-        accent = "1"
-        title = "Improv Comedy"
-        text = "Family-friendly shows every weekend."
-
-      [[params.landing.feature_icons.tile]]
-        icon = "fa-theater-masks"
-        icon_pack = "fas"
-        accent = "2"
-        title = "Classes"
-        text = "Learn about improv from our ComedySportz Players."
-
-      [[params.landing.feature_icons.tile]]
-        icon = "fa-school"
-        icon_pack = "fas"
-        accent = "5"
-        title = "School Assemblies"
-        text = "We've got the perfect comedy show for all ages."
-
-      [[params.landing.feature_icons.tile]]
-        icon = "fa-users"
-        icon_pack = "fas"
-        accent = "3"
-        title = "Group Events"
-        text = "We'll take our show to your event. Perfect for company parties, school assemblies, birthday parties, etc."
-
-    [params.landing.feature_images]
-      #These feature images look best if there's an even number of them.
-      enable = true
-
-      [[params.landing.feature_images.tile]]
-        image = "images/comedysportzprivateshows.jpg"
-        title = "Private Shows"
-        text = "It's a ComedySportz show, just for you. Your place or ours, you bring the suggestions, we'll bring the comedy."
-        url = "/privateshows"
-        button_text = "Learn More"
-
-      [[params.landing.feature_images.tile]]
-        image = "images/comedysportzcorporatetraining.jpg"
-        title = "Corporate Training & Team Building"
-        text = "CSz Business Training. Because work is more than numbers."
-        url = "/teambuilding"
-        button_text="Learn More"
-
-      [[params.landing.feature_images.tile]]
-        image = "images/comedysportzcorporatetraining.jpg"
-        title = "Corporate Training & Team Building"
-        text = "CSz Business Training. Because work is more than numbers."
-        url = "/teambuilding"
-        button_text="Learn More"
-
-    [params.landing.CTA]
-      heading = "Get in touch!"
-      message = "We'd love to hear from you."
-
-    [params.footer]
-      copyright = ["[CC0 (public domain)](//creativecommons.org/publicdomain/zero/1.0/)",
-                   "Design: [HTML5 UP](//html5up.net/alpha)",
-                   "[Hugo Port](//gohugo.io) by [Daniel Saunders](//github.com/funkydan2)"
-                  ]
-
-    [[params.links]]
-      service = "Twitter"
-      icon = "fa-twitter"
-      icon_pack = "fab"
-      link = "//twitter.com/CSzSanAntonio"
-
-    [[params.links]]
-      service = "Facebook"
-      icon = "fa-facebook"
-      icon_pack = "fab"
-      link = "//facebook.com/ComedySportzSanAntonio/"
-
-    [[params.links]]
-      service = "Instagram"
-      icon = "fa-instagram"
-      icon_pack = "fab"
-      link = "//www.instagram.com/cszsa/"
+author = "Alan Bush"
+subtitle = "Family Friendly Improv Comedy"
+title = "ComedySportz San Antonio"
+[params.contact]
+confirm_page = "/contact_thanks"
+formspree_email = "info@cszsa.com"
+service = "formspree"
+[params.footer]
+copyright = ["[CC0 (public domain)](//creativecommons.org/publicdomain/zero/1.0/)", "Design: [HTML5 UP](//html5up.net/alpha)", "[Hugo Port](//gohugo.io) by [Daniel Saunders](//github.com/funkydan2)"]
+[params.landing.CTA]
+heading = "Get in touch!"
+message = "We'd love to hear from you."
+[params.landing.banner]
+image = "images/header-bg.jpg"
+[[params.landing.banner.button]]
+text = "Buy Tickets"
+type = "special"
+url = "https://squareup.com/store/CSzSA/"
+[[params.landing.banner.button]]
+text = "Special Events and Classes"
+url = "#feature-images"
+[params.landing.feature_icons]
+enable = false
+[[params.landing.feature_icons.tile]]
+accent = "1"
+icon = "fa-ticket-alt"
+icon_pack = "fas"
+text = "Family-friendly shows every weekend."
+title = "Improv Comedy"
+[[params.landing.feature_icons.tile]]
+accent = "2"
+icon = "fa-theater-masks"
+icon_pack = "fas"
+text = "Learn about improv from our ComedySportz Players."
+title = "Classes"
+[[params.landing.feature_icons.tile]]
+accent = "5"
+icon = "fa-school"
+icon_pack = "fas"
+text = "We've got the perfect comedy show for all ages."
+title = "School Assemblies"
+[[params.landing.feature_icons.tile]]
+accent = "3"
+icon = "fa-users"
+icon_pack = "fas"
+text = "We'll take our show to your event. Perfect for company parties, school assemblies, birthday parties, etc."
+title = "Group Events"
+[params.landing.feature_images]
+enable = true
+[[params.landing.feature_images.tile]]
+button_text = "Learn More"
+image = "images/comedysportzprivateshows.jpg"
+text = "It's a ComedySportz show, just for you. Your place or ours, you bring the suggestions, we'll bring the comedy."
+title = "Private Shows"
+url = "/privateshows"
+[[params.landing.feature_images.tile]]
+button_text = "Learn More"
+image = "images/comedysportzcorporatetraining.jpg"
+text = "CSz Business Training. Because work is more than numbers."
+title = "Corporate Training & Team Building"
+url = "/teambuilding"
+[[params.landing.feature_images.tile]]
+button_text = "Learn More"
+image = "images/comedysportzcorporatetraining.jpg"
+text = "CSz Business Training. Because work is more than numbers."
+title = "Corporate Training & Team Building"
+url = "/teambuilding"
+[params.landing.services]
+text = "Family friendly improv comedy every Friday and Saturday at 7:30pm. Adults only show at 10pm Saturday. [11950 STARCREST DR #210, SAN ANTONIO, TX 78247](https://goo.gl/maps/KKWiA927iAT2)"
+title = "Weekly Improv Shows"
+[params.map]
+latitude = "29.549099"
+longitude = "-98.462961"
+zoom = "14"
+[[params.links]]
+icon = "fa-twitter"
+icon_pack = "fab"
+link = "//twitter.com/CSzSanAntonio"
+service = "Twitter"
+[[params.links]]
+icon = "fa-facebook"
+icon_pack = "fab"
+link = "//facebook.com/ComedySportzSanAntonio/"
+service = "Facebook"
+[[params.links]]
+icon = "fa-instagram"
+icon_pack = "fab"
+link = "//www.instagram.com/cszsa/"
+service = "Instagram"
