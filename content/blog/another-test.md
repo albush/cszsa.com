@@ -1,6 +1,5 @@
 +++
 date = "2018-09-06T17:37:23+00:00"
-draft = true
 featured_image = "/images/18033812_10155216463165763_6707688782328880085_n.jpg"
 title = "Another Test"
 undefined = []
