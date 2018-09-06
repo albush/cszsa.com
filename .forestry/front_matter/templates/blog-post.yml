@@ -6,3 +6,18 @@ fields:
 - type: text
   config:
     required: true
+- type: datetime
+  name: date
+  label: Date
+- type: boolean
+  name: draft
+  label: Draft
+  description: Switch this on if you don't want to publish this immediately
+- type: image_gallery
+- type: file
+  name: featured_image
+  label: Featured Image
+  description: Add a featured image to the blog post and to be used in social media
+    shares
+  config:
+    maxSize: '5'
