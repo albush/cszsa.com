@@ -16,7 +16,7 @@ url = "/buytickets"
 weight = 2
 [[menu.main]]
 name = "About"
-url = "/"
+url = "/cszsanantonio"
 weight = 3
 [[menu.main]]
 name = "About ComedySportz"
@@ -52,6 +52,10 @@ parent = "Groups and Events"
 url = "/privateshows"
 weight = 1
 [[menu.main]]
+name = "Education"
+url = "/training"
+weight = 2
+[[menu.main]]
 name = "Team Building"
 parent = "Groups and Events"
 url = "/teambuilding"
@@ -63,8 +67,9 @@ url = "/school-assemblies"
 weight = 2
 [[menu.main]]
 name = "Contact"
+parent = "About"
 url = "/contact"
-weight = 6
+weight = 1
 [params]
 author = "Alan Bush"
 subtitle = "Funny Shows for Everyone"
@@ -81,11 +86,11 @@ message = "We'd love to hear from you."
 [params.landing.banner]
 image = "images/audienceheader.jpg"
 [[params.landing.banner.button]]
-text = "Buy Tickets"
+text = "Get Your Tickets"
 type = "special"
 url = "https://squareup.com/store/CSzSA/"
 [[params.landing.banner.button]]
-text = "Special Events and Classes"
+text = "What's it all about?"
 type = "special"
 url = "#feature-images"
 [params.landing.feature_icons]
