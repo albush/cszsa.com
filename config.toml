@@ -5,6 +5,7 @@ googleAnalytics = ""
 languageCode = "en-us"
 theme = "alpha-csz"
 title = "ComedySportz San Antonio"
+subtitle = "Funny Shows for Everyone"
 [[menu.main]]
 name = "Home"
 url = "/"
@@ -66,25 +67,26 @@ url = "/contact"
 weight = 6
 [params]
 author = "Alan Bush"
-subtitle = "Family Friendly Improv Comedy"
+subtitle = "Funny Shows for Everyone"
 title = "ComedySportz San Antonio"
 [params.contact]
 confirm_page = "/contact_thanks"
 formspree_email = "info@cszsa.com"
 service = "formspree"
 [params.footer]
-copyright = ["[CC0 (public domain)](//creativecommons.org/publicdomain/zero/1.0/)", "Design: [HTML5 UP](//html5up.net/alpha)", "[Hugo Port](//gohugo.io) by [Daniel Saunders](//github.com/funkydan2)"]
+copyright = ["[CC0 (public domain)](//creativecommons.org/publicdomain/zero/1.0/)", "Design: [HTML5 UP](//html5up.net/alpha)", "[Hugo Port](//gohugo.io) by [Daniel Saunders](//github.com/funkydan2)", "[Privacy Policy](/privacy)"]
 [params.landing.CTA]
 heading = "Get in touch!"
 message = "We'd love to hear from you."
 [params.landing.banner]
-image = "images/header-bg.jpg"
+image = "images/audienceheader.jpg"
 [[params.landing.banner.button]]
 text = "Buy Tickets"
 type = "special"
 url = "https://squareup.com/store/CSzSA/"
 [[params.landing.banner.button]]
 text = "Special Events and Classes"
+type = "special"
 url = "#feature-images"
 [params.landing.feature_icons]
 enable = false
@@ -115,26 +117,36 @@ title = "Group Events"
 [params.landing.feature_images]
 enable = true
 [[params.landing.feature_images.tile]]
-button_text = "Learn More"
+button_text = "See Our Current Shows"
+image = "images/sanantonioimprovcomedy.jpg"
+logo = "images/CSz_Entertainment_long_COLOR.png"
+text = "CSz's entertainment began with ComedySportz®, our flagship show, and we're proud to bring it to San Antonio. Read more about what a ComedySportz match is like at our FAQ."
+title = "Corporate Training & Team Building"
+url = "/buytickets"
+[[params.landing.feature_images.tile]]
+button_text = "Book Something Awesome"
+logo = "images/CSz_Groups_long_COLOR.png"
 image = "images/comedysportzprivateshows.jpg"
-text = "It's a ComedySportz show, just for you. Your place or ours, you bring the suggestions, we'll bring the comedy."
+text = "We're here to make your job easier. Whether it's a block of seats at a ComedySportz® Match, a Private Event just for your group or a customized improv workshop, CSz San Antonio has your needs in mind. We know what it takes on your end, and we're willing to work with you to make your tour, event or outing successful. Visit our Groups & Events page to learn more. Get a price quote emailed to you within 24 hours!"
 title = "Private Shows"
 url = "/privateshows"
 [[params.landing.feature_images.tile]]
-button_text = "Learn More"
+button_text = "Browse List of Possibilities"
 image = "images/comedysportzcorporatetraining.jpg"
-text = "CSz Business Training. Because work is more than numbers."
+logo = "images/CSz_Business_long_COLOR.png"
+text = "From valuable and customizable training using Applied Improvisation, to the entertaining and hilarious ComedySportz® at your event, to projects where you need the talent and funny, CSz Boston can help make you look like a genius. Visit our CSz Business page to learn how to take your team to the next level."
 title = "Corporate Training & Team Building"
 url = "/teambuilding"
 [[params.landing.feature_images.tile]]
-button_text = "Learn More"
-image = "images/comedysportzcorporatetraining.jpg"
-text = "CSz Business Training. Because work is more than numbers."
+button_text = "Start Learning"
+image = "images/improv301.jpg"
+logo = "images/CSz_Education_long_COLOR.png"
+text = "CSz improv and applied improv classes are a fun, supportive way to learn improvisational thinking and gain self-confidence. Don't be fooled into thinking improv is just for performers - many of our students use improv to develop business soft-skills, and communicate better - and they meet other cool people! We're constantly adding more training series and drop-in workshops for adults as well as high school students and younger. Visit our CSz Education page to see the latest classes being offered."
 title = "Corporate Training & Team Building"
-url = "/teambuilding"
+url = "/training"
 [params.landing.services]
 text = "Family friendly improv comedy every Friday and Saturday at 7:30pm. Adults only show at 10pm Saturday. [11950 STARCREST DR #210, SAN ANTONIO, TX 78247](https://goo.gl/maps/KKWiA927iAT2)"
-title = "Weekly Improv Shows"
+title = "Live Local Comedy Shows Every Week"
 [params.map]
 latitude = "29.549099"
 longitude = "-98.462961"
