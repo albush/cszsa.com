@@ -1,0 +1,40 @@
+---
+label: adreturn.yml
+hide_body: 
+is_partial: 
+fields:
+- name: Name
+  label: Name
+  type: text
+  hidden: false
+  default: ''
+- name: Description
+  label: Description
+  type: textarea
+  hidden: false
+  default: ''
+- name: ShowTitle
+  label: Showtitle
+  type: text
+  hidden: false
+  default: ''
+- name: TicketLink
+  label: Ticketlink
+  type: textarea
+  hidden: false
+  default: ''
+- name: CTAText
+  label: Ctatext
+  type: text
+  hidden: false
+  default: ''
+- name: ShowDate
+  label: Showdate
+  type: datetime
+  hidden: false
+  default: ''
+- name: ShowDay
+  label: Showday
+  type: text
+  hidden: false
+  default: ''
