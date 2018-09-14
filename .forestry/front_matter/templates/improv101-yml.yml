@@ -1,0 +1,40 @@
+---
+label: improv101.yml
+hide_body: 
+is_partial: 
+fields:
+- name: Name
+  label: Name
+  type: text
+  hidden: false
+  default: ''
+- name: Class_Name
+  label: Class name
+  type: text
+  hidden: false
+  default: ''
+- name: Class_Subtitle
+  label: Class subtitle
+  type: text
+  hidden: false
+  default: ''
+- name: Day
+  label: Day
+  type: text
+  hidden: false
+  default: ''
+- name: Date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: Link
+  label: Link
+  type: textarea
+  hidden: false
+  default: ''
+- name: Description
+  label: Description
+  type: textarea
+  hidden: false
+  default: ''
