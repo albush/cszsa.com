@@ -5,6 +5,20 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
+  label: Content
+- type: directory
+  path: content
+  label: Pages
+  create: all
+  match: "*"
+- type: directory
+  path: content/blog
+  label: Blog Posts
+  create: all
+  match: "**/*"
+  templates:
+  - blog-post
+- type: heading
   label: Temporary Events
 - type: directory
   path: data/classes
@@ -18,18 +32,6 @@ sections:
   path: README-FORESTRY.md
   label: Help
   read_only: true
-- type: directory
-  path: content/blog
-  label: Blog Posts
-  create: all
-  match: "**/*"
-  templates:
-  - blog-post
-- type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
