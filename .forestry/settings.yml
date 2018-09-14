@@ -9,7 +9,7 @@ sections:
   label: Shows
   create: all
   match: "**/*"
-  new_doc_ext: ".yml"
+  new_doc_ext: yml
 - type: heading
   label: Content
 - type: directory
