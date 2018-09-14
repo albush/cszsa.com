@@ -44,5 +44,3 @@ fields:
   hidden: false
   default: ''
   description: Full description of the class
-pages:
-- data/classes/improv-301.yml
