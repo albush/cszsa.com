@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Temporary Events
 - type: directory
   path: data/classes
   label: Classes
