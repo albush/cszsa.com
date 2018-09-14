@@ -1,7 +1,7 @@
 ---
-label: adreturn.yml
-hide_body: 
-is_partial: 
+label: Shows Template
+hide_body: false
+is_partial: false
 fields:
 - name: Name
   label: Name
