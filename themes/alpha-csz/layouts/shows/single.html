@@ -13,9 +13,17 @@
   <H1>{{ .Title }} - {{ dateFormat "3:04 PM" .Params.show_date }} {{ dateFormat "Monday, Jan 2, 2006" .Params.show_date }}</h1>
 
   {{ .Content }}
+<ul class="actions">
+<center>
+  <li><a target="_blank" rel="noopener" href="{{ .Params.ticket_link }}" class="button special">Buy Tickets</a></li>
+  <!-- <li><a target="_blank" rel="noopener" href="{{ .Params.ticket_link }}" class="button special">Another Button</a></li> -->
+</center>
+</ul>
 
-
+<section>
   <center><h2>Who's playing tonight?</h2></center>
+</section>
+
     <div class="row" style="vertical-align: middle">
 
         <div class="5u 12u(narrower)">
