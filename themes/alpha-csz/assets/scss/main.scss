@@ -1471,6 +1471,76 @@ body.landing {
   }
 }
 
+/* CTA */
+
+#cta-alt {
+  background: _palette(accent3, bg);
+  color: _palette(accent3, fg);
+  padding: 3.5em 0 4em 0;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+ }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: inherit;
+  }
+
+  form {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 25em;
+  }
+
+  input[type="submit"],
+  input[type="reset"],
+  input[type="button"],
+  .button {
+    box-shadow: none;
+    background: #fff;
+    color: _palette(accent3, bg);
+  }
+
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  select,
+  textarea {
+    color: _palette(accent3, fg-bold);
+    background: rgba(255, 255, 255, 0.15);
+    border: 0;
+
+    &:focus {
+      box-shadow: inset 0 0 0 2px #fff;
+    }
+  }
+
+  ::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.75) !important;
+  }
+
+  :-moz-placeholder {
+    color: rgba(255, 255, 255, 0.75) !important;
+  }
+
+  ::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.75) !important;
+  }
+
+  :-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.75) !important;
+  }
+
+  .formerize-placeholder {
+    color: rgba(255, 255, 255, 0.75) !important;
+  }
+}
+
 /* Wide */
 
 @include breakpoint(wide) {
