@@ -34,7 +34,7 @@ url = "/reviews"
 weight = 2
 [[menu.main]]
 name = "Shows"
-url = "#"
+url = "/shows"
 weight = 4
 [[menu.main]]
 name = "ComedySportz"
