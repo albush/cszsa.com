@@ -1,0 +1,17 @@
+<!-- Begin Player Directory -->
+<div class="row">
+{{ range $i, $player := .Site.Data.players }}
+  <div class="4u 12u(narrower)">
+    <section class="box special">
+    <h2>{{ $player.FullName }}</h2>
+    <img alt = "{{ $player.FullName }}" src = "/images/players/{{$i}}.jpg" class="img-responsive" width = "120px">
+      {{ if isset $player "Bio" }}
+        <p>{{ $player.Bio | markdownify }}</p>
+      {{ end }}
+    </section>
+  </div>
+
+
+{{ end }}
+</div>
+<!-- End Player Directory -->
