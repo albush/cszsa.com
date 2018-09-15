@@ -73,6 +73,11 @@ weight = 2
 name = "Contact"
 parent = "About"
 url = "/contact"
+weight = 2
+[[menu.main]]
+name = "Players"
+parent = "About"
+url = "/players"
 weight = 1
 [params]
 author = "Alan Bush"

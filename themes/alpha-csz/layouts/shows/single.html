@@ -1,0 +1,140 @@
+<!--
+	Alpha by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+
+{{ partial "header" . }}
+{{ partial "nav" . }}
+
+<section id="main" class="container" >
+  {{ "<!-- ENTERING layouts/shows/comedysportz/single.html -->" | safeHTML }}
+
+  <H1>{{ .Title }} - {{ dateFormat "3:04 PM" .Params.show_date }} {{ dateFormat "Monday, Jan 2, 2006" .Params.show_date }}</h1>
+
+  {{ .Content }}
+
+
+  <center><h2>Who's playing tonight?</h2></center>
+    <div class="row" style="vertical-align: middle">
+
+        <div class="5u 12u(narrower)">
+          <section class="box special">
+            <h2>Punslingers in Red</h2>
+            <!-- Red players -->
+                {{ range $person :=.Params.red }}
+                  {{ if isset $.Site.Data.players $person }}
+                  {{ $p :=  (index $.Site.Data.players $person) }}
+                  <div class="row">
+                    <div class="4u">
+                      <img alt = "{{ $p.FullName }}" src = "/images/players/{{$person}}.jpg" class="img-responsive" width = "120px">
+
+                    </div>
+                    <div class="8u" style="text-align:left">
+                      <h4>{{ $p.FullName }}</h4>
+                        {{ if isset $p "Bio" }}
+                        <div class="row">
+                          <p>{{ $p.Bio | markdownify }}</p>
+                        </div>
+
+                        {{ end }}
+                    </div>
+
+                    {{ end }}
+                  </div>
+                {{ end }}
+            </section>
+          </div>
+<div class="2u 12u(narrower)" style="vertical-align: middle">
+  <h1><center style="vertical-align: middle">VS</center></h1>
+</div>
+<div class="5u 12u(narrower)">
+              <section class="box special">
+<h2>Bexars in Blue</h2>
+                <!-- Blue players -->
+                    {{ range $person :=.Params.blue }}
+                      {{ if isset $.Site.Data.players $person }}
+                      {{ $p :=  (index $.Site.Data.players $person) }}
+                      <div class="row">
+                        <div class="4u">
+                          <img alt = "{{ $p.FullName }}" src = "/images/players/{{$person}}.jpg" class="img-responsive" width = "120px">
+
+                        </div>
+                        <div class="8u" style="text-align:left">
+                          <h4>{{ $p.FullName }}</h4>
+                            {{ if isset $p "Bio" }}
+                            <div class="row">
+                              <p>{{ $p.Bio | markdownify }}</p>
+                            </div>
+
+                            {{ end }}
+                        </div>
+
+                        {{ end }}
+                      </div>
+                    {{ end }}
+
+
+                </section>
+</div>
+
+  </div>
+  <!-- Ref/Voice/Janis -->
+  <div class="row" style="vertical-align: middle">
+  <div class="4u 12u(narrower)">
+                <section class="box special">
+  <h2>Referee</h2>
+  <!-- Ref -->
+      {{ $referee :=.Params.ref }}
+        {{ if isset $.Site.Data.players $referee }}
+        {{ $p :=  (index $.Site.Data.players $referee) }}
+
+  <h4>{{ $p.FullName }}</h4>
+            <img alt = "{{ $p.FullName }}" src = "/images/players/{{$referee}}.jpg" class="img-responsive" width = "120px">
+              {{ if isset $p "Bio" }}
+                <p>{{ $p.Bio | markdownify }}</p>
+              {{ end }}
+          {{ end }}
+
+  </section>
+  </div>
+
+  <!-- Voice -->
+  <div class="4u 12u(narrower)">
+              <section class="box special">
+  <h2>Announcer</h2>
+  <!-- Voice -->
+      {{ $voice :=.Params.voice }}
+        {{ if isset $.Site.Data.players $voice }}
+        {{ $p :=  (index $.Site.Data.players $voice) }}
+
+  <h4>{{ $p.FullName }}</h4>
+            <img alt = "{{ $p.FullName }}" src = "/images/players/{{$voice}}.jpg" class="img-responsive" width = "120px">
+              {{ if isset $p "Bio" }}
+                <p>{{ $p.Bio | markdownify }}</p>
+              {{ end }}
+          {{ end }}
+  </section>
+  </div>
+  <!-- Janis -->
+
+  <div class="4u 12u(narrower)">
+              <section class="box special">
+  <h2>Score Keeper</h2>
+  <!-- Janis -->
+      {{ $janis :=.Params.janis }}
+        {{ if isset $.Site.Data.players $janis }}
+        {{ $p :=  (index $.Site.Data.players $janis) }}
+
+  <h4>{{ $p.FullName }}</h4>
+            <img alt = "{{ $p.FullName }}" src = "/images/players/{{$janis}}.jpg" class="img-responsive" width = "120px">
+              {{ if isset $p "Bio" }}
+                <p>{{ $p.Bio | markdownify }}</p>
+              {{ end }}
+          {{ end }}
+  </section>
+  </div>
+  </div>
+
+  </section>
+  {{ partial "footer" . }}
