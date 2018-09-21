@@ -36,17 +36,12 @@
                   {{ $p :=  (index $.Site.Data.players $person) }}
                   <div class="row">
                     <div class="4u">
-                      <img alt = "{{ $p.FullName }}" src = "/images/players/{{$person}}.jpg" class="img-responsive" width = "120px">
+                      <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><img alt = "{{ $p.FullName }}" src = "/images/players/{{$person}}.jpg" class="img-responsive" width = "120px"></a>
 
                     </div>
                     <div class="8u" style="text-align:left">
-                      <h4>{{ $p.FullName }}</h4>
-                        {{ if isset $p "Bio" }}
-                        <div class="row">
-                          <p>{{ $p.Bio | markdownify }}</p>
-                        </div>
+                      <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}}{{ end }} {{ $p.FirstName }} {{ with $p.Nickname }}"{{ . }}"{{ end }} {{ $p.LastName }}</h4></a>
 
-                        {{ end }}
                     </div>
 
                     {{ end }}
@@ -66,17 +61,12 @@
                       {{ $p :=  (index $.Site.Data.players $person) }}
                       <div class="row">
                         <div class="4u">
-                          <img alt = "{{ $p.FullName }}" src = "/images/players/{{$person}}.jpg" class="img-responsive" width = "120px">
+                          <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><img alt = "{{ $p.FullName }}" src = "/images/players/{{$person}}.jpg" class="img-responsive" width = "120px"></a>
 
                         </div>
                         <div class="8u" style="text-align:left">
-                          <h4>{{ $p.FullName }}</h4>
-                            {{ if isset $p "Bio" }}
-                            <div class="row">
-                              <p>{{ $p.Bio | markdownify }}</p>
-                            </div>
+                          <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}}{{ end }} {{ $p.FirstName }} {{ with $p.Nickname }}"{{ . }}"{{ end }} {{ $p.LastName }}</h4></a>
 
-                            {{ end }}
                         </div>
 
                         {{ end }}
@@ -98,11 +88,9 @@
         {{ if isset $.Site.Data.players $referee }}
         {{ $p :=  (index $.Site.Data.players $referee) }}
 
-  <h4>{{ $p.FullName }}</h4>
-            <img alt = "{{ $p.FullName }}" src = "/images/players/{{$referee}}.jpg" class="img-responsive" width = "120px">
-              {{ if isset $p "Bio" }}
-                <p>{{ $p.Bio | markdownify }}</p>
-              {{ end }}
+  <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}}{{ end }} {{ $p.FirstName }} {{ with $p.Nickname }}"{{ . }}"{{ end }} {{ $p.LastName }}</h4></a>
+          <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><img alt = "{{ $p.FullName }}" src = "/images/players/{{$referee}}.jpg" class="img-responsive" width = "120px"></a>
+
           {{ end }}
 
   </section>
@@ -117,11 +105,8 @@
         {{ if isset $.Site.Data.players $voice }}
         {{ $p :=  (index $.Site.Data.players $voice) }}
 
-  <h4>{{ $p.FullName }}</h4>
-            <img alt = "{{ $p.FullName }}" src = "/images/players/{{$voice}}.jpg" class="img-responsive" width = "120px">
-              {{ if isset $p "Bio" }}
-                <p>{{ $p.Bio | markdownify }}</p>
-              {{ end }}
+  <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}}{{ end }} {{ $p.FirstName }} {{ with $p.Nickname }}"{{ . }}"{{ end }} {{ $p.LastName }}</h4></a>
+            <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><img alt = "{{ $p.FullName }}" src = "/images/players/{{$voice}}.jpg" class="img-responsive" width = "120px"></a>
           {{ end }}
   </section>
   </div>
@@ -135,11 +120,8 @@
         {{ if isset $.Site.Data.players $janis }}
         {{ $p :=  (index $.Site.Data.players $janis) }}
 
-  <h4>{{ $p.FullName }}</h4>
-            <img alt = "{{ $p.FullName }}" src = "/images/players/{{$janis}}.jpg" class="img-responsive" width = "120px">
-              {{ if isset $p "Bio" }}
-                <p>{{ $p.Bio | markdownify }}</p>
-              {{ end }}
+  <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}}{{ end }} {{ $p.FirstName }} {{ with $p.Nickname }}"{{ . }}"{{ end }} {{ $p.LastName }}</h4></a>
+            <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><img alt = "{{ $p.FullName }}" src = "/images/players/{{$janis}}.jpg" class="img-responsive" width = "120px"></a>
           {{ end }}
   </section>
   </div>

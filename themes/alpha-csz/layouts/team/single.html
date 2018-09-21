@@ -1,0 +1,47 @@
+<!--
+	Alpha by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+
+{{ partial "header" . }}
+{{ partial "nav" . }}
+
+<section id="main" class="container"  style="padding: 1em">
+  <!-- ENTERING layouts/team/single.html -->
+  <!-- Player Card -->
+  <div class="row" style="vertical-align: middle">
+
+      <div class="12u">
+        <section class="box special">
+
+              {{ $person :=.Params.player }}
+                {{ if isset $.Site.Data.players $person }}
+                {{ $p :=  (index $.Site.Data.players $person) }}
+                <div class="row"><h1>{{ $p.FirstName }} {{ $p.LastName }}</h1></div>
+                <div class="row">
+                  <div class="4u 12u(narrower)">
+                    <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><img alt = "{{ $p.FullName }}" src = "/images/players/{{$person}}.jpg" class="img-responsive" width = "200px"></a>
+
+                  </div>
+                  <div class="4u 12u(narrower)" style="text-align:left;margin-bottom:0px;">
+
+                    <p style="margin-bottom:.25em">{{ with $p.Number }}<b>Jersey Number:</b> {{ . | safeHTML}}{{ end }}</p>
+                    <p style="margin-bottom:.25em">{{ with $p.Nickname }}<b>Nickname:</b> "{{ . }}"{{ end }}</p>
+                    <p style="margin-bottom:.25em">{{ with $p.CSZ_Year }}<b>Rookie Year:</b> {{ . }}{{ end }}</p>
+                    <p style="margin-bottom:.25em">{{ with $p.Bio }}<b>Bio:</b> {{ . | markdownify }}{{ end }}</p>
+                  </div>
+
+                  {{ end }}
+{{ partial "player_shows.html" . }}
+                </div>
+
+
+
+
+          </section>
+        </div>
+      </div>
+</section>
+
+{{ partial "footer" . }}
