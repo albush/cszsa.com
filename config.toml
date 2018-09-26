@@ -20,13 +20,8 @@ url = "/blog"
 weight = 3
 [[menu.main]]
 name = "About"
-url = "/cszsanantonio"
-weight = 3
-[[menu.main]]
-name = "What is ComedySportz"
-parent = "About"
 url = "/about"
-weight = 1
+weight = 3
 [[menu.main]]
 name = "Reviews"
 parent = "About"
