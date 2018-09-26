@@ -1,9 +1,7 @@
 +++
-title = "Balan Bush"
-weight = 60
+title = "Sara Brookes"
 draft = false
-menu = true
-player = "bbush"
+player = "sbrookes"
 shows = ["csz-2018-09-28"]
 +++
 
