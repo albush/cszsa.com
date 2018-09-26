@@ -4,5 +4,5 @@ weight = 60
 draft = false
 menu = true
 player = "abush"
-shows = ["Saturday September 22nd", "Friday September 28th", "Saturday September 29th"]
+shows = ["csz-2018-09-28", "csz-2018-09-29"]
 +++

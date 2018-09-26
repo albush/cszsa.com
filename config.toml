@@ -12,7 +12,7 @@ url = "/"
 weight = 1
 [[menu.main]]
 name = "Buy Tickets"
-url = "/buytickets"
+url = "/shows"
 weight = 2
 [[menu.main]]
 name = "Blog"
@@ -34,7 +34,7 @@ url = "/reviews"
 weight = 2
 [[menu.main]]
 name = "Shows"
-url = "/shows"
+url = "/"
 weight = 4
 [[menu.main]]
 name = "ComedySportz"

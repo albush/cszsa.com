@@ -26,29 +26,32 @@
 </section>
 
     <div class="row" style="vertical-align: middle">
+<!-- Red team goes here  -->
+<div class="5u 12u(narrower)">
+  <section class="box special">
+    <h2>Punslingers in Red</h2>
+    <!-- Red players -->
+  
+            {{ range $person := .Params.red }}
+              {{ if isset $.Site.Data.players $person }}
+              {{ $p :=  (index $.Site.Data.players $person) }}
+              <div class="row">
+                <div class="4u">
+                  <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><img alt = "{{ $p.FullName }}" src = "/images/players/{{$person}}.jpg" class="img-responsive" width = "120px"></a>
 
-        <div class="5u 12u(narrower)">
-          <section class="box special">
-            <h2>Punslingers in Red</h2>
-            <!-- Red players -->
-                {{ range $person :=.Params.red }}
-                  {{ if isset $.Site.Data.players $person }}
-                  {{ $p :=  (index $.Site.Data.players $person) }}
-                  <div class="row">
-                    <div class="4u">
-                      <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><img alt = "{{ $p.FullName }}" src = "/images/players/{{$person}}.jpg" class="img-responsive" width = "120px"></a>
+                </div>
+                <div class="8u" style="text-align:left">
+                  <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}}{{ end }} {{ $p.FirstName }} {{ with $p.Nickname }}"{{ . }}"{{ end }} {{ $p.LastName }}</h4></a>
 
-                    </div>
-                    <div class="8u" style="text-align:left">
-                      <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}}{{ end }} {{ $p.FirstName }} {{ with $p.Nickname }}"{{ . }}"{{ end }} {{ $p.LastName }}</h4></a>
+                </div>
 
-                    </div>
-
-                    {{ end }}
-                  </div>
                 {{ end }}
-            </section>
-          </div>
+              </div>
+            {{ end }}
+        </section>
+      </div>
+
+<!-- end Red Team -->
 <div class="2u 12u(narrower)" style="vertical-align: middle">
   <h1><center style="vertical-align: middle">VS</center></h1>
 </div>
