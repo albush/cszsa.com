@@ -78,7 +78,7 @@ weight = 2
 name = "Players"
 parent = "Shows"
 url = "/players"
-weight = 1
+weight = 3
 [params]
 author = "Alan Bush"
 subtitle = "Funny Shows for Everyone"
