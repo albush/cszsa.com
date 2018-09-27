@@ -10,7 +10,7 @@
 <section id="main" class="container"  style="padding: 1em">
   <!-- ENTERING layouts/shows/comedysportz/single.html -->
 <div class="row" style="vertical-align: middle">
-{{ range .Pages }}
+{{ range sort .Pages ".Params.show_date" }}
 
   <div class="6u 12u(narrower)">
     <section class="box special">

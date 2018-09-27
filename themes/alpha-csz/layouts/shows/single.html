@@ -86,6 +86,7 @@
   </div>
   <!-- Ref/Voice/Janis -->
   <div class="row" style="vertical-align: middle">
+    {{ if .Params.janis}}
   <div class="4u 12u(narrower)">
                 <section class="box special">
   <h2>Referee</h2>
@@ -134,6 +135,42 @@
           {{ end }}
   </section>
   </div>
+  {{ else }}
+
+  <div class="6u 12u(narrower)">
+                <section class="box special">
+  <h2>Referee</h2>
+  <!-- Ref -->
+      {{ $referee :=.Params.ref }}
+        {{ if isset $.Site.Data.players $referee }}
+        {{ $p :=  (index $.Site.Data.players $referee) }}
+
+  <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}}{{ end }} {{ $p.FirstName }} {{ with $p.Nickname }}<i>"{{ . }}"</i> {{ end }} {{ $p.LastName }}</h4></a>
+
+
+            <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><img alt = "{{ $p.FullName }}" src = "/images/players/{{ $p.Photo }}.jpg" class="img-responsive" width = "120px"></a>
+
+
+          {{ end }}
+
+  </section>
+  </div>
+
+  <!-- Voice -->
+  <div class="6u 12u(narrower)">
+              <section class="box special">
+  <h2>Announcer</h2>
+  <!-- Voice -->
+      {{ $voice :=.Params.voice }}
+        {{ if isset $.Site.Data.players $voice }}
+        {{ $p :=  (index $.Site.Data.players $voice) }}
+
+  <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}}{{ end }} {{ $p.FirstName }} {{ with $p.Nickname }}<i>"{{ . }}"</i> {{ end }} {{ $p.LastName }}</h4></a>
+            <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><img alt = "{{ $p.FullName }}" src = "/images/players/{{$p.Photo}}.jpg" class="img-responsive" width = "120px"></a>
+          {{ end }}
+  </section>
+  </div>
+  {{ end }}
   </div>
 
   </section>
