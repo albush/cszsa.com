@@ -10,15 +10,21 @@
 <section id="main" class="container"  style="padding: 1em">
   <!-- ENTERING layouts/team/single.html -->
   <!-- Player Card -->
-  <div class="row" style="vertical-align: middle">
+  <div class="row" >
 
       <div class="12u">
+        <center><h1>ComedySportz Players</h1></center>
+        <center><a href="/team">View All Players</a></center>
         <section class="box special">
 
               {{ $person :=.Params.player }}
                 {{ if isset $.Site.Data.players $person }}
                 {{ $p :=  (index $.Site.Data.players $person) }}
-                <div class="row"><h1>{{ $p.FirstName }} {{ $p.LastName }}</h1></div>
+                <div class="row">
+                  <div class="12u">
+                    <h1>{{ $p.FirstName }} {{ $p.LastName }}</h1>
+                  </div>
+                </div>
                 <div class="row">
                   <div class="4u 12u(narrower)">
                     <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><img alt = "{{ $p.FullName }}" src = "/images/players/{{$p.Photo}}.jpg" class="img-responsive" width = "200px"></a>
@@ -33,7 +39,21 @@
                   </div>
 
                   {{ end }}
-{{ partial "player_shows.html" . }}
+                  <!-- Begin Player Shows -->
+                  <div class="4u 12u(narrower)" style="text-align:left;margin-bottom:0px;">
+                  <b>Upcoming Shows:</b>
+                  {{ if .Params.shows }}
+                  {{ range $show := .Params.shows }}
+                      {{ if isset $.Site.Data.shows $show }}
+                      {{ $s :=  (index $.Site.Data.shows $show) }}
+                      <p style="margin-bottom:.25em"><a href="/shows/csz-{{$s.ShowDate}}">{{dateFormat "Monday January 2nd" $s.ShowDate}}</a></p>
+                      {{ end }}
+                      {{ end }}
+                  {{ else }}
+                  <p style="margin-bottom:.25em"><a href="/shows">No shows on the calendar. Check out who else is playing this week</a></p>
+                  {{ end }}
+                  </div>
+                  <!-- End Player shows -->
                 </div>
 
 

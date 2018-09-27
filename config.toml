@@ -29,7 +29,7 @@ url = "/reviews"
 weight = 2
 [[menu.main]]
 name = "Shows"
-url = "/"
+url = "#"
 weight = 4
 [[menu.main]]
 name = "ComedySportz"
@@ -72,7 +72,7 @@ weight = 2
 [[menu.main]]
 name = "Players"
 parent = "Shows"
-url = "/players"
+url = "/team"
 weight = 3
 [params]
 author = "Alan Bush"
