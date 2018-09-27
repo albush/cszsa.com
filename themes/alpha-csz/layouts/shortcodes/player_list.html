@@ -3,11 +3,8 @@
 {{ range $i, $player := .Site.Data.players }}
   <div class="4u 12u(narrower)">
     <section class="box special">
-    <h2>{{ $player.FullName }}</h2>
-    <img alt = "{{ $player.FullName }}" src = "/images/players/{{$i}}.jpg" class="img-responsive" width = "120px">
-      {{ if isset $player "Bio" }}
-        <p>{{ $player.Bio | markdownify }}</p>
-      {{ end }}
+    <h4><a style="border-bottom:none" href="/team/{{ $player.PlayerPage}}"># {{ $player.Number | safeHTML }} {{ $player.FirstName }} <i>"{{ $player.Nickname }}"</i> {{ $player.LastName }}</a></h4>
+    <a style="border-bottom:none" href="/team/{{ $player.PlayerPage}}"><img alt = "{{ $player.FullName }}" src = "/images/players/{{$player.Photo}}.jpg" class="img-responsive" width = "120px"></a> 
     </section>
   </div>
 
