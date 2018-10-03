@@ -46,7 +46,7 @@
                   {{ range $show := .Params.shows }}
                       {{ if isset $.Site.Data.shows $show }}
                       {{ $s :=  (index $.Site.Data.shows $show) }}
-                      <p style="margin-bottom:.25em"><a href="/shows/csz-{{$s.ShowDate}}">{{dateFormat "Monday January 2nd" $s.ShowDate}}</a></p>
+                      <p style="margin-bottom:.25em"><a href="/shows/csz-{{$s.ShowDate}}">{{dateFormat "Monday January 2" $s.ShowDate}}</a></p>
                       {{ end }}
                       {{ end }}
                   {{ else }}
