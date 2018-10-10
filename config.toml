@@ -74,6 +74,11 @@ name = "Players"
 parent = "Shows"
 url = "/team"
 weight = 3
+[[menu.main]]
+name = "Match Recaps"
+parent = "Shows"
+url = "/matches"
+weight = 4
 [params]
 author = "Alan Bush"
 subtitle = "Funny Shows for Everyone"
