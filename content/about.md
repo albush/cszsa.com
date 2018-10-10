@@ -11,8 +11,10 @@ ComedySportz San Antonio is your home for family-friendly comedy shows, longform
 
 ComedySportz San Antonio also offers [training classes for improvisors of all skill levels](/training). Join one of our improv classes to learn about improv, feel more comfortable in front of crowds, and make new friends. Many of our current ComedySportz players started in our improv classes. Classes are forming frequently, so reserve your spot now.
 
-## Private Events at ComedySportz San Antonio 
+## Private Events at ComedySportz San Antonio
 
-Add something about Studio 185 here, including that we can rent the space out for private shows and events.
+Add something about Studio 185 here, including that we can rent the space out for private shows and events. Link to "book a private show"
 
 ## Road Shows
+
+Add something about Road Shows here. Link to "book a road show"
