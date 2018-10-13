@@ -20,8 +20,13 @@ url = "/blog"
 weight = 3
 [[menu.main]]
 name = "About"
-url = "/about"
+url = "/#"
 weight = 3
+[[menu.main]]
+name = "About CSz San Antonio"
+parent = "About"
+url = "/about"
+weight = 1
 [[menu.main]]
 name = "Reviews"
 parent = "About"

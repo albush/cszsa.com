@@ -5,7 +5,11 @@ date = 2018-08-12T13:38:48-05:00
 draft = false
 +++
 
-ComedySportz San Antonio is your home for family-friendly comedy shows, longform late night improv shows, improv training, corporate training, school assembly entertainment, and much, much more. With two family-friendly [ComedySportz matches](/comedysportz) every weekend, along with a [Saturday night late show for adults](/afterdark), there's something for everyone.
+![](/images/sanantonioimprov-background.jpg)
+
+ComedySportz San Antonio has something funny for everyone. From our flagship family-friendly [ComedySportz matches](/comedysportz) every Friday and Saturday, to our [Saturday night longform late show for adults](/afterdark), along with [improv training](/training), [corporate training and applied improv](/teambuilding), [school assembly entertainment](/school-assemblies), and much, much more. See our show schedule and get your tickets now!
+
+{{<csz-buttons>}}
 
 ## Classes at ComedySportz San Antonio
 

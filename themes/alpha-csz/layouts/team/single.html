@@ -41,13 +41,18 @@
                   {{ end }}
                   <!-- Begin Player Shows -->
                   <div class="4u 12u(narrower)" style="text-align:left;margin-bottom:0px;">
-                  <b>Upcoming Shows:</b>
+                  <b>Shows This Month:</b>
                   {{ if .Params.shows }}
                   {{ range $show := .Params.shows }}
                       {{ if isset $.Site.Data.shows $show }}
                       {{ $s :=  (index $.Site.Data.shows $show) }}
-                      <p style="margin-bottom:.25em"><a href="/shows/csz-{{$s.ShowDate}}">{{dateFormat "Monday January 2" $s.ShowDate}}</a></p>
-                      {{ end }}
+                        {{ $today := now.Format "20060102" }}
+                        {{ if ge ($s.ShowDate | dateFormat "20060102")  $today }}
+                        <p style="margin-bottom:.25em"><a href="/shows/csz-{{$s.ShowDate}}">{{dateFormat "Monday January 2" $s.ShowDate}}</a></p>
+                        {{ else }}
+                        <p style="margin-bottom:.25em"><a href="/matches/csz-{{$s.ShowDate}}">{{dateFormat "Monday January 2" $s.ShowDate}}</a></p>
+                        {{ end }}
+                        {{ end }}
                       {{ end }}
                   {{ else }}
                   <p style="margin-bottom:.25em"><a href="/shows">No shows on the calendar. Check out who else is playing this week</a></p>
