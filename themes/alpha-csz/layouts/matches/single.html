@@ -21,6 +21,92 @@
 </section>
 
     <div class="row" style="vertical-align: middle">
+
+      <!-- if DJ -->
+      {{ if .Params.dj }}
+
+
+      <!-- Red team goes here  -->
+      <div class="4u 12u(narrower)">
+        <section class="box special">
+          <h2>Punslingers in Red: {{.Params.final_red}}</h2>
+          <!-- Red players -->
+
+                  {{ range $person := .Params.red }}
+                    {{ if isset $.Site.Data.players $person }}
+                    {{ $p :=  (index $.Site.Data.players $person) }}
+                    <div class="row">
+                      <div class="4u">
+
+                        <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><img alt = "{{ $p.FullName }}" src = "/images/players/{{$p.Photo}}.jpg" class="img-responsive" width = "120px"></a>
+
+                      </div>
+                      <div class="8u" style="text-align:left">
+                        <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}}{{ end }} {{ $p.FirstName }} {{ with $p.Nickname }}<i>"{{ . }}"</i> {{ end }} {{ $p.LastName }}</h4></a>
+
+                      </div>
+
+                      {{ end }}
+                    </div>
+                  {{ end }}
+              </section>
+            </div>
+
+      <!-- end Red Team -->
+      <!-- DJ -->
+      {{ $dj :=.Params.dj }}
+        {{ if isset $.Site.Data.players $dj }}
+        {{ $p :=  (index $.Site.Data.players $dj) }}
+      <div class="4u 12u(narrower)" style="vertical-align: middle">
+        <section class="box special">
+        <h1><center style="vertical-align: middle">Designated Joker</center></h1>
+        <center><p>Playing with both teams</p></center>
+        <div class="row">
+          <div class="4u">
+
+            <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><img alt = "{{ $p.FullName }}" src = "/images/players/{{$p.Photo}}.jpg" class="img-responsive" width = "120px"></a>
+
+
+          </div>
+          <div class="8u" style="text-align:left">
+            <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}}{{ end }} {{ $p.FirstName }} {{ with $p.Nickname }}<i>"{{ . }}"</i>{{ end }} {{ $p.LastName }}</h4></a>
+      {{ end }}
+          </div>
+      </div>
+      </section>
+      </div>
+      <div class="4u 12u(narrower)">
+                    <section class="box special">
+    <h2>Bexars in Blue: {{.Params.final_blue}}</h2>
+                      <!-- Blue players -->
+                          {{ range $person :=.Params.blue }}
+                            {{ if isset $.Site.Data.players $person }}
+                            {{ $p :=  (index $.Site.Data.players $person) }}
+                            <div class="row">
+                              <div class="4u">
+
+                                <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><img alt = "{{ $p.FullName }}" src = "/images/players/{{$p.Photo}}.jpg" class="img-responsive" width = "120px"></a>
+
+
+                              </div>
+                              <div class="8u" style="text-align:left">
+                                <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}}{{ end }} {{ $p.FirstName }} {{ with $p.Nickname }}<i>"{{ . }}"</i>{{ end }} {{ $p.LastName }}</h4></a>
+
+                              </div>
+
+                              {{ end }}
+                            </div>
+                          {{ end }}
+
+
+                      </section>
+      </div>
+
+        </div>
+
+
+      {{ else }}
+      <!-- Regular Teams -->
 <!-- Red team goes here  -->
 <div class="5u 12u(narrower)">
   <section class="box special">
@@ -79,6 +165,8 @@
 </div>
 
   </div>
+  {{ end }}
+
   <!-- Ref/Voice/Janis -->
   <div class="row" style="vertical-align: middle">
     {{ if .Params.janis}}
