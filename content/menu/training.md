@@ -3,11 +3,13 @@ title = "Learn to be an Improviser"
 weight = 50
 draft = false
 menuname = "Classes"
-# classes = ["improv101"]
-# intro = "Our next round of Improv 101 classes are forming now for Saturdays 1-4pm, starting September 29th."
+classes = ["improv101"]
+intro = "Our next round of Improv 101 classes are forming now for Mondays 7-9pm, starting January 7th."
 +++
 
 ---
+
+
 
 ## Other Classes
 
