@@ -98,7 +98,7 @@ copyright = ["[CC0 (public domain)](//creativecommons.org/publicdomain/zero/1.0/
 heading = "Get in touch!"
 message = "We'd love to hear from you."
 [params.landing.banner]
-image = "images/banner.jpg"
+image = "images/bg1.jpg"
 [[params.landing.banner.button]]
 text = "Get Your Tickets"
 type = "special"
