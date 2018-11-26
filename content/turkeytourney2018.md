@@ -7,7 +7,8 @@ description = "Come out to see All of the ComedySportz Texas teams showcase thei
 box_title = "Buy Tickets Now"
 cta = "Turkey Tourney Tickets"
 cta_link = "https://squareup.com/store/CSz-SanAntonio/"
-special = true
+featured = "false"
+featured_image = "/images/turkeytourney2018.jpg"
 +++
 
 

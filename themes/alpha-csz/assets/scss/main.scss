@@ -543,6 +543,12 @@ $box-padding: 3em;
     text-align: center;
   }
 
+  &.special-event {
+    text-align: center;
+    background: #0b4e8499;
+    box-shadow: none !important;
+
+  }
   .image {
     &.featured {
       border-radius: 0;

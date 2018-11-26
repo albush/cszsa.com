@@ -94,11 +94,8 @@ formspree_email = "info@cszsa.com"
 service = "formspree"
 [params.special_event]
 # comment out special event section if no events are scheduled
-name = "Texas Turkey Tourney"
-date = 2018-11-24T19:30:40-06:00
-description = "Come out to see All of the ComedySportz Texas teams showcase their hilarious talents on November 23rd and 24th."
-cta = "Turkey Tourney Tickets"
-cta_link = "https://squareup.com/store/CSz-SanAntonio/"
+events = ["freeimprovworkshop"]
+description = "Check out these great events!"
 [params.footer]
 copyright = ["[CC0 (public domain)](//creativecommons.org/publicdomain/zero/1.0/)", "Design: [HTML5 UP](//html5up.net/alpha)", "[Hugo Port](//gohugo.io) by [Daniel Saunders](//github.com/funkydan2)", "[Privacy Policy](/privacy)"]
 [params.landing.CTA]

@@ -3,7 +3,6 @@
   <p>{{ .Site.Params.subtitle }}</p>
   {{ if .Site.Params.special_event }}
   {{ partial "specialevent.html" . }}
-  {{ else }}
-  {{ partial "nextshows.html" . }}
   {{ end }}
+  {{ partial "nextshows.html" . }}
 </section>

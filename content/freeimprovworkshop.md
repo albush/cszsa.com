@@ -7,7 +7,8 @@ description = "Come check out what this Improv thing is!! It's a free workshop t
 box_title = "Get Registered"
 cta = "Register Now For Free"
 cta_link = "https://www.eventbrite.com/e/free-improv-comedy-workshop-intro-to-improv-tickets-52894497867"
-special = true
+featured = "true"
+featured_image = "/images/freeimprovclass.jpg"
 +++
 
 
