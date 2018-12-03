@@ -33,7 +33,7 @@
                   <div class="4u 12u(narrower)" style="text-align:left;margin-bottom:0px;">
 
                     <p style="margin-bottom:.25em">{{ with $p.Number }}<b>Jersey Number:</b> {{ . | safeHTML}}{{ end }}</p>
-                    <p style="margin-bottom:.25em">{{ with $p.Nickname }}<b>Nickname:</b> "{{ . }}"{{ end }}</p>
+                    <p style="margin-bottom:.25em">{{ with $p.Full_Nickname }}<b>Nickname:</b> "{{ . | markdownify }}"{{ end }}</p>
                     <p style="margin-bottom:.25em">{{ with $p.CSZ_Year }}<b>Rookie Year:</b> {{ . }}{{ end }}</p>
                     <p style="margin-bottom:.25em">{{ with $p.Bio }}<b>Bio:</b> {{ . | markdownify }}{{ end }}</p>
                   </div>

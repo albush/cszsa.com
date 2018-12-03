@@ -47,7 +47,7 @@
 
                 </div>
                 <div class="8u" style="text-align:left">
-                  <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}}{{ end }} {{ $p.FirstName }} {{ with $p.Nickname }}<i>"{{ . }}"</i> {{ end }} {{ $p.LastName }}</h4></a>
+                  <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}} {{ end }} {{ with $p.Full_Nickname }} {{ . | markdownify }} {{ end }}</h4></a>
 
                 </div>
 
@@ -74,7 +74,7 @@
 
     </div>
     <div class="8u" style="text-align:left">
-      <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}}{{ end }} {{ $p.FirstName }} {{ with $p.Nickname }}<i>"{{ . }}"</i>{{ end }} {{ $p.LastName }}</h4></a>
+      <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}} {{ end }} {{ with $p.Full_Nickname }} {{ . | markdownify }} {{ end }}</h4></a>
 {{ end }}
     </div>
 </div>
@@ -95,7 +95,7 @@
 
                         </div>
                         <div class="8u" style="text-align:left">
-                          <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}}{{ end }} {{ $p.FirstName }} {{ with $p.Nickname }}<i>"{{ . }}"</i>{{ end }} {{ $p.LastName }}</h4></a>
+                          <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}} {{ end }} {{ with $p.Full_Nickname }} {{ . | markdownify }} {{ end }}</h4></a>
 
                         </div>
 
@@ -128,7 +128,7 @@
 
                 </div>
                 <div class="8u" style="text-align:left">
-                  <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}}{{ end }} {{ $p.FirstName }} {{ with $p.Nickname }}<i>"{{ . }}"</i> {{ end }} {{ $p.LastName }}</h4></a>
+                  <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}} {{ end }} {{ with $p.Full_Nickname }} {{ . | markdownify }} {{ end }}</h4></a>
 
                 </div>
 
@@ -157,7 +157,7 @@
 
                         </div>
                         <div class="8u" style="text-align:left">
-                          <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}}{{ end }} {{ $p.FirstName }} {{ with $p.Nickname }}<i>"{{ . }}"</i>{{ end }} {{ $p.LastName }}</h4></a>
+                          <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}} {{ end }} {{ with $p.Full_Nickname }} {{ . | markdownify }} {{ end }}</h4></a>
 
                         </div>
 
@@ -182,7 +182,7 @@
         {{ if isset $.Site.Data.players $referee }}
         {{ $p :=  (index $.Site.Data.players $referee) }}
 
-  <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}}{{ end }} {{ $p.FirstName }} {{ with $p.Nickname }}<i>"{{ . }}"</i> {{ end }} {{ $p.LastName }}</h4></a>
+  <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}} {{ end }} {{ with $p.Full_Nickname }} {{ . | markdownify }} {{ end }}</h4></a>
 
 
             <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><img alt = "{{ $p.FullName }}" src = "/images/players/{{ $p.Photo }}.jpg" class="img-responsive" width = "120px"></a>
@@ -202,7 +202,7 @@
         {{ if isset $.Site.Data.players $voice }}
         {{ $p :=  (index $.Site.Data.players $voice) }}
 
-  <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}}{{ end }} {{ $p.FirstName }} {{ with $p.Nickname }}<i>"{{ . }}"</i> {{ end }} {{ $p.LastName }}</h4></a>
+  <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}} {{ end }} {{ with $p.Full_Nickname }} {{ . | markdownify }} {{ end }}</h4></a>
             <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><img alt = "{{ $p.FullName }}" src = "/images/players/{{$p.Photo}}.jpg" class="img-responsive" width = "120px"></a>
           {{ end }}
   </section>
@@ -217,7 +217,7 @@
         {{ if isset $.Site.Data.players $janis }}
         {{ $p :=  (index $.Site.Data.players $janis) }}
 
-  <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}}{{ end }} {{ $p.FirstName }} {{ with $p.Nickname }}<i>"{{ . }}"</i> {{ end }} {{ $p.LastName }}</h4></a>
+  <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}} {{ end }} {{ with $p.Full_Nickname }} {{ . | markdownify }} {{ end }}</h4></a>
             <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><img alt = "{{ $p.FullName }}" src = "/images/players/{{$p.Photo}}.jpg" class="img-responsive" width = "120px"></a>
           {{ end }}
   </section>
@@ -232,7 +232,7 @@
         {{ if isset $.Site.Data.players $referee }}
         {{ $p :=  (index $.Site.Data.players $referee) }}
 
-  <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}}{{ end }} {{ $p.FirstName }} {{ with $p.Nickname }}<i>"{{ . }}"</i> {{ end }} {{ $p.LastName }}</h4></a>
+  <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}} {{ end }} {{ with $p.Full_Nickname }} {{ . | markdownify }} {{ end }}</h4></a>
 
 
             <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><img alt = "{{ $p.FullName }}" src = "/images/players/{{ $p.Photo }}.jpg" class="img-responsive" width = "120px"></a>
@@ -252,7 +252,7 @@
         {{ if isset $.Site.Data.players $voice }}
         {{ $p :=  (index $.Site.Data.players $voice) }}
 
-  <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}}{{ end }} {{ $p.FirstName }} {{ with $p.Nickname }}<i>"{{ . }}"</i> {{ end }} {{ $p.LastName }}</h4></a>
+  <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}} {{ end }} {{ with $p.Full_Nickname }} {{ . | markdownify }} {{ end }}</h4></a>
             <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><img alt = "{{ $p.FullName }}" src = "/images/players/{{$p.Photo}}.jpg" class="img-responsive" width = "120px"></a>
           {{ end }}
   </section>
