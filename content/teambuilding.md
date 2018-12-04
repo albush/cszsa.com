@@ -3,6 +3,11 @@ title = "Corporate Training and Team Building"
 weight = 30
 draft = false
 menuname = "Team Building"
+box_title = "Applied Improv with ComedySportz"
+featured_image = "/images/comedysportzcorporatetraining.jpg"
+cta = "Schedule Now"
+cta_link = "#appliedimprovcontact"
+featured = "true"
 +++
 
 ## CSz Business Training. Because work is more than numbers.
@@ -34,10 +39,8 @@ Workshops range from two hours to multiple days to a series over several weeks. 
 
 ---
 
-Please contact us at (210) 338-0279 or email us at <a href="mailto:info@cszsa.com">info@cszsa.com</a> for more details
+<a id="appliedimprovcontact"></a></br>
+## Book Your Applied Improv Class Today
+Please fill in the form below with your contact info, and we'll get right back to you, or call us directly at (210) 338-0279 or email us at <a href="mailto:info@cszsa.com">info@cszsa.com</a>.
 
 {{< contact-form >}}
-
----
-
-{{< socialLinks >}}

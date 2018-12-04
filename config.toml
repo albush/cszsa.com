@@ -41,11 +41,11 @@ name = "ComedySportz"
 parent = "Shows"
 url = "/comedysportz"
 weight = 1
-[[menu.main]]
-name = "After Dark"
-parent = "Shows"
-url = "/afterdark"
-weight = 2
+# [[menu.main]]
+# name = "After Dark"
+# parent = "Shows"
+# url = "/afterdark"
+# weight = 2
 [[menu.main]]
 name = "Groups and Events"
 url = "/"

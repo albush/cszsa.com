@@ -2,6 +2,11 @@
 title = "Book us for your next event"
 draft = false
 menuname = "Private Shows"
+box_title = "Choose ComedySportz for your next event"
+featured_image = "/images/events_1.jpg"
+cta = "Book Us For Your Event"
+cta_link = "#privateeventcontact"
+contact = "true"
 +++
 
 You want your event to be special. You want comedy that's fresh, appeals to everyone, and offends no one. You want entertainment that's customized to you? You want ComedySportz®.
@@ -24,6 +29,8 @@ We offer ComedySportz Match, ComedySportz Half-Court and ComedySportz Exhibition
 
 ---
 
-Please contact us at (210) 338-0279 or email us at <a href="mailto:info@cszsa.com">info@cszsa.com</a> for more details
+<a id="privateeventcontact"></a></br>
+## Book Your Private Event Today
+Please fill in the form below with your contact info, and we'll get right back to you, or call us directly at (210) 338-0279 or email us at <a href="mailto:info@cszsa.com">info@cszsa.com</a>.
 
 {{< contact-form >}}
