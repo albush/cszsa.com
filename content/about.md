@@ -17,8 +17,4 @@ ComedySportz San Antonio also offers [training classes for improvisors of all sk
 
 ## Private Events at ComedySportz San Antonio
 
-Add something about Studio 185 here, including that we can rent the space out for private shows and events. Link to "book a private show"
-
-## Road Shows
-
-Add something about Road Shows here. Link to "book a road show"
+We’re here to make your job easier. Whether it’s a block of seats at a ComedySportz® Match, a Private Event just for your group or a customized improv workshop, CSz San Antonio has your needs in mind. We know what it takes on your end, and we’re willing to work with you to make your tour, event or outing successful. Visit our [Groups & Events page](/privateshows) to learn more. Get a price quote emailed to you within 24 hours!
