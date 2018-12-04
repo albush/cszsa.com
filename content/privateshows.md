@@ -4,6 +4,7 @@ draft = false
 menuname = "Private Shows"
 box_title = "Choose ComedySportz for your next event"
 featured_image = "/images/events_1.jpg"
+images = ["/images/events_1.jpg"]
 cta = "Book Us For Your Event"
 cta_link = "#privateeventcontact"
 contact = "true"

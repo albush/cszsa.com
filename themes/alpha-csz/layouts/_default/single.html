@@ -15,10 +15,7 @@
 					{{ partial "contact_cta" . }}
 					{{ end }}
 					<div class="box">
-						{{ with .Params.images }}
-							<span class="image featured"><img src="{{ index . 0 | absURL }}" alt=""></span>
-						{{ end }}
-
+						
 						{{ .Content }}
 					{{ if .Params.tags }}
 							<p>Tags:

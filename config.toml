@@ -88,6 +88,7 @@ weight = 4
 author = "Alan Bush"
 subtitle = "Funny Shows for Everyone"
 title = "ComedySportz San Antonio"
+images = ["images/bg1.jpg"]
 [params.contact]
 confirm_page = "/contact_thanks"
 formspree_email = "info@cszsa.com"
