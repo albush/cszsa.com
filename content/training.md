@@ -53,7 +53,7 @@ Each workshop is eight 2.5 hour sessions.
 
 ## Coming Soon: ComedySportz High School League!
 
-The ComedySportz High School League® is the largest, most successful teen improv theatre program in the United States.
+The ComedySportz High School League® is the largest, most successful teen improv theatre program in the United States, and we're excited to bring the High School League to San Antonio next year!
 
 Contact us for more information about the ComedySportz High School League, or any of our other classes
 
