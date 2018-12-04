@@ -5,7 +5,7 @@ googleAnalytics = ""
 languageCode = "en-us"
 theme = "alpha-csz"
 title = "ComedySportz San Antonio"
-subtitle = "Funny Shows for Everyone"
+subtitle = "Comedy for Everyone"
 [[menu.main]]
 name = "Home"
 url = "/"
@@ -86,7 +86,7 @@ url = "/matches"
 weight = 4
 [params]
 author = "Alan Bush"
-subtitle = "Funny Shows for Everyone"
+subtitle = "Comedy for Everyone"
 title = "ComedySportz San Antonio"
 images = ["images/bg1.jpg"]
 [params.contact]
@@ -142,7 +142,7 @@ title = "Group Events"
 enable = true
 [[params.landing.feature_images.tile]]
 button_text = "See Our Current Shows"
-image = "images/sanantonioimprovcomedy.jpg"
+image = "images/sanantonioimprovcomedysportz.jpg"
 logo = "images/CSz_Entertainment_long_COLOR.png"
 text = "CSz's entertainment began with ComedySportz®, our flagship show, and we're proud to bring it to San Antonio. Read more about what a ComedySportz match is like at our FAQ."
 title = "Corporate Training & Team Building"
@@ -150,7 +150,7 @@ url = "/buytickets"
 [[params.landing.feature_images.tile]]
 button_text = "Book Something Awesome"
 logo = "images/CSz_Groups_long_COLOR.png"
-image = "images/comedysportzprivateshows.jpg"
+image = "images/events_1.jpg"
 text = "We're here to make your job easier. Whether it's a block of seats at a ComedySportz® Match, a Private Event just for your group or a customized improv workshop, CSz San Antonio has your needs in mind. We know what it takes on your end, and we're willing to work with you to make your tour, event or outing successful. Visit our Groups & Events page to learn more. Get a price quote emailed to you within 24 hours!"
 title = "Private Shows"
 url = "/privateshows"
