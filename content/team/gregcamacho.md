@@ -1,8 +1,7 @@
 +++
 title = "Greg Camacho"
-draft = false
 player = "gcamacho"
-shows = ["csz-2018-10-13"]
+shows = ["csz-2018-12-07", "csz-2018-12-21"]
 +++
 
 Hello World

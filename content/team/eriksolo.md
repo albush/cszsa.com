@@ -3,7 +3,7 @@ title = "Erik Solo"
 weight = 60
 draft = false
 player = "esolo"
-shows = ["csz-2018-10-05", "csz-2018-10-19", "csz-2018-10-27"]
+shows = ["csz-2018-12-15", "csz-2018-12-21"]
 +++
 
 Hello World

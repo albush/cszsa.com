@@ -1,7 +1,7 @@
 +++
 title = "John Fitzhugh"
 player = "jfitzhugh"
-shows = ["csz-2018-10-06", "csz-2018-10-26"]
+shows = ["csz-2018-12-21", "csz-2018-12-29"]
 +++
 
 Hello World

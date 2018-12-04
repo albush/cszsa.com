@@ -1,7 +1,7 @@
 +++
 title = "Brian Scribner"
 player = "bscribner"
-shows = ["csz-2018-10-06", "csz-2018-10-12", "csz-2018-10-26" ]
+shows = ["csz-2018-12-07", "csz-2018-12-22", "csz-2018-12-29"]
 
 +++
 

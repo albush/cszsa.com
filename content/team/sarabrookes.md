@@ -2,7 +2,7 @@
 title = "Sara Brookes"
 draft = false
 player = "sbrookes"
-shows = ["csz-2018-10-05", "csz-2018-10-13", "csz-2018-10-26"]
+shows = ["csz-2018-12-07", "csz-2018-12-14", "csz-2018-12-15"]
 +++
 
 Hello World
