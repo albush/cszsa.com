@@ -7,9 +7,6 @@
 		{{ with .Site.Params.subtitle }}<meta name="description" content="{{ . }}">{{ end }}
 		{{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
 		{{ .Hugo.Generator }}
-		{{ if eq (getenv "HUGO_ENV") "staging" }}
-		{{ "<!-- Staging Site -->" | safeHTML }}
-		{{ end }}
 		{{ template "_internal/opengraph.html" . }}
 		{{ template "_internal/twitter_cards.html" . }}
 		{{- $css := .Site.Data.libs.css -}}
