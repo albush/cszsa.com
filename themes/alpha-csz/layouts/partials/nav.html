@@ -5,7 +5,9 @@
 
       {{ "<!-- Nav -->" | safeHTML }}
       <nav id="nav">
+
         <ul>
+          {{ if eq (getenv "HUGO_ENV") "staging" }}<li style="background-color:red;">NOT LIVE - STAGING ENVIRONMENT - NOT LIVE</li>{{ end }}
           {{ $currentPage := . }}
           {{ range .Site.Menus.main }}
             {{ if .HasChildren }}

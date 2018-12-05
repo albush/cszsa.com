@@ -1,5 +1,8 @@
+{{ if eq (getenv "HUGO_ENV") "staging" }}<section id="banner" style="background-image:url(images/overlay.png), url(images/staging-bg.jpg)">
+{{ else }}
 <section id="banner" style="background-image:url(images/overlay.png), url({{ .Site.Params.Landing.Banner.image | absURL }})">
-  <h2>{{ .Site.Params.title }}</h2>
+  {{ end }}
+    <h2>{{ .Site.Params.title }}</h2>
   <p>{{ .Site.Params.subtitle }}</p>
   {{ if .Site.Params.special_event }}
   {{ partial "specialevent.html" . }}
