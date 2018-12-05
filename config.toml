@@ -1,7 +1,7 @@
 baseURL = "/"
 customCSS = ["", ""]
 enableEmoji = true
-googleAnalytics = ""
+googleAnalytics = "UA-117320918-1"
 languageCode = "en-us"
 theme = "alpha-csz"
 title = "ComedySportz San Antonio"
