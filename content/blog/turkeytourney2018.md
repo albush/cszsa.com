@@ -9,6 +9,7 @@ cta = "Turkey Tourney Tickets"
 cta_link = "https://squareup.com/store/CSz-SanAntonio/"
 featured = "false"
 featured_image = "/images/turkeytourney2018.jpg"
+images = ["/images/turkeytourney2018.jpg"]
 +++
 
 

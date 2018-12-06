@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://cszsa.com"
 customCSS = ["", ""]
 enableEmoji = true
 googleAnalytics = "UA-117320918-1"
@@ -87,6 +87,7 @@ weight = 4
 [params]
 author = "Alan Bush"
 subtitle = "Comedy for Everyone"
+description = "ComedySportz Improv Comedy in San Antonio. Funny for Everyone!"
 title = "ComedySportz San Antonio"
 images = ["images/bg1.jpg"]
 [params.contact]

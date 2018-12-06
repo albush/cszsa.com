@@ -9,6 +9,7 @@ cta = "Register Now For Free"
 cta_link = "https://www.eventbrite.com/e/free-improv-comedy-workshop-intro-to-improv-tickets-52894497867"
 featured = "true"
 featured_image = "/images/freeimprovclass.jpg"
+images = ["/images/freeimprovclass.jpg"]
 +++
 
 

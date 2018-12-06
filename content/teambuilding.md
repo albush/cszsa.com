@@ -5,6 +5,7 @@ draft = false
 menuname = "Team Building"
 box_title = "Applied Improv with ComedySportz"
 featured_image = "/images/comedysportzcorporatetraining.jpg"
+images = ["/images/comedysportzcorporatetraining.jpg"]
 cta = "Schedule Now"
 cta_link = "#appliedimprovcontact"
 featured = "true"

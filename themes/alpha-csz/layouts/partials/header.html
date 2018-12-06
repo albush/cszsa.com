@@ -8,7 +8,7 @@
 		{{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
 		{{ .Hugo.Generator }}
 		{{ if eq (getenv "HUGO_ENV") "staging" }}{{ "<!-- NOT LIVE - STAGING ENVIRONMENT - NOT LIVE -->" | safeHTML }}{{ end }}
-		{{ template "_internal/opengraph.html" . }}
+		{{ partial "opengraph.html" . }}
 		{{ template "_internal/twitter_cards.html" . }}
 		{{- $css := .Site.Data.libs.css -}}
 		{{ printf "<link rel=\"stylesheet\" href=\"//use.fontawesome.com/releases/v%s/css/all.css\" integrity=\"%s\" crossorigin=\"anonymous\">" $css.fontawesome.version $css.fontawesome.integrity | safeHTML }}
