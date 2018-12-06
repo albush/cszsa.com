@@ -1,4 +1,4 @@
-baseURL = "http://alt.cszsa.com.s3-website.us-east-2.amazonaws.com/"
+baseURL = "https://cszsa.com"
 customCSS = ["", ""]
 enableEmoji = true
 googleAnalytics = "UA-117320918-1"

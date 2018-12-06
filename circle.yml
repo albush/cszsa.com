@@ -21,7 +21,7 @@ jobs:
       - checkout
       - run:
           name: "Run Hugo"
-          command: HUGO_ENV=staging hugo -v -s ~/project
+          command: HUGO_ENV=staging hugo -v -b http://staging.cszsa.com.s3-website.us-east-2.amazonaws.com/ -s ~/project
       - persist_to_workspace:
           root: ~/project
           paths:
@@ -34,7 +34,7 @@ jobs:
       - checkout
       - run:
           name: "Run Hugo"
-          command: HUGO_ENV=staging hugo -v -s ~/project
+          command: HUGO_ENV=staging hugo -v -b http://alt.cszsa.com.s3-website.us-east-2.amazonaws.com/ -s ~/project
       - persist_to_workspace:
           root: ~/project
           paths:
