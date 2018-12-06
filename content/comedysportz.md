@@ -12,11 +12,7 @@ It’s not comedy about sports; it’s comedy PLAYED as a sport! Two teams of ou
 
 Check out our upcoming matches, or see recaps from recent matches below.
 
-<<<<<<< HEAD:content/comedysportz.md
 {{<csz-buttons>}}
-=======
-<a target="_blank" rel="noopener" href="https://squareup.com/store/CSz-SanAntonio/" class="button special">Buy Tickets</a>
->>>>>>> staging:content/menu/about.md
 
 ---
 
