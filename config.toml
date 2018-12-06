@@ -89,7 +89,7 @@ author = "Alan Bush"
 subtitle = "Comedy for Everyone"
 description = "ComedySportz Improv Comedy in San Antonio. Funny for Everyone!"
 title = "ComedySportz San Antonio"
-images = ["images/bg1.jpg"]
+images = ["images/comedysportzsanantonio.jpg"]
 [params.contact]
 confirm_page = "/contact_thanks"
 formspree_email = "info@cszsa.com"
