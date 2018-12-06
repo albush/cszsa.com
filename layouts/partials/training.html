@@ -1,0 +1,23 @@
+{{ "<!-- ENTERING /theme/layouts/partials/training.html -->" | safeHTML }}
+{{ .Params.intro }}</br>
+    {{ range $class := .Params.classes }}
+    {{ if isset $.Site.Data.classes $class }}
+    {{ $p :=  (index $.Site.Data.classes $class) }}
+  <p><a target="_blank" rel="noopener" href="{{ $p.Link }}" class="button special">Enroll in {{ $p.Class_Name }}</a></p>
+    {{ end }}
+    {{ end }}
+
+    {{ range $class := .Params.classes }}
+    {{ if isset $.Site.Data.classes $class }}
+    {{ $p :=  (index $.Site.Data.classes $class) }}
+    <hr />
+
+<h2>{{ $p.Class_Name }}</h2>
+
+<h4>{{ $p.Class_Subtitle }}</h4>
+
+<p>{{ $p.Description | markdownify }}</p>
+    {{ end }}
+    {{ end }}
+
+{{ "<!-- LEAVING /theme/layouts/partials/training.html -->" | safeHTML }}

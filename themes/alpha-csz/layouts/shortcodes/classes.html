@@ -1,0 +1,14 @@
+{{ if .Page.Params.Classes }}
+<h3>Register Now</h3>
+
+  <p>{{ with .Page.Params.intro }}{{ . | markdownify }}{{ end }}</p>
+  <ul class="actions">
+  {{ range $class := .Page.Params.classes }}
+  {{ if isset $.Site.Data.classes $class }}
+  {{ $c :=  (index $.Site.Data.classes $class) }}
+
+      <li><a href="{{ $c.Link }}" class="button special">{{ $c.Class_Name }}</a></li>
+{{ end }}
+{{ end }}
+</ul>
+{{ end }}

@@ -1,0 +1,19 @@
+<center>
+<div class="4u 12u(narrower)">
+<section class="box special-event">
+<h3>Upcoming Special Events</h3>
+<p>{{ .Site.Params.special_event.description }}</p>
+<div>
+<ul class="actions">
+  {{ range first 2 (sort (where .Pages ".Params.featured" "true") "Params.start_date") }}
+          <li><a href="{{ .Permalink }}" class="button special">{{ .Title }}</a></li>
+      {{ end }}
+  </ul>
+  <!-- <ul class="actions">
+      <li><a href="/shows" class="button special">Regularly Scheduled Shows</a></li>
+  </ul> -->
+</div>
+</section>
+</div>
+
+</center>

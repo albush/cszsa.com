@@ -1,0 +1,19 @@
+---
+label: Blog Post
+hide_body: false
+is_partial: false
+fields:
+- type: datetime
+  name: date
+  label: Date
+- type: file
+  name: featured_image
+  label: Featured Image
+  description: Add a featured image to the blog post and to be used in social media
+    shares
+  config:
+    maxSize: '5'
+pages:
+- content/blog/test.md
+- content/blog/testing-by-guest.md
+- content/blog/another-test.md

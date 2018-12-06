@@ -1,0 +1,14 @@
+<div class="4u 12u(narrower)">
+<section class="box special">
+  <h3>{{ $.Page.Params.title }}</h3>
+  {{ with $.Page.Params.start_date }}
+    <b>{{ dateFormat "3:04 PM Monday, January 2nd, 2006" . }}</b>
+  {{ end }}
+  <div class=>
+    <ul class="actions">
+        <li><a href="{{ $.Page.Params.cta_link }}" class="button special">{{ $.Page.Params.cta }}</a></li>
+    </ul>
+
+  </div>
+</section>
+</div>

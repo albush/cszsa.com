@@ -1,0 +1,8 @@
+{{ "<!-- ENTERING layouts/partials/featured.html -->" | safeHTML }}
+<div>
+ <h2>{{ (index .Site.Data.classes .Site.Params.featured_class).ShowTitle }}: {{ (index .Site.Data.classes .Site.Params.featured_class).ShowDate }}</h2>
+ <p>{{ (index .Site.Data.classes .Site.Params.featured_class).Description }}</p>
+</br>
+<a target="_blank" rel="noopener" href={{ (index .Site.Data.classes .Site.Params.featured_class).TicketLink }} class="button special">{{ (index .Site.Data.classes .Site.Params.featured_class).CTAText }}</a></br></br>
+</div>
+{{ "<!-- LEAVING layouts/partials/featured.html -->" | safeHTML }}
