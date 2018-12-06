@@ -75,7 +75,7 @@ jobs:
     steps:
       - attach_workspace:
           at: ~/project
-       run:
+      - run:
           name: "Upload to Production - skip static files"
           command: aws s3 sync --acl "public-read" --storage-class "REDUCED_REDUNDANCY" ~/project/public/ s3://${BUCKET}/ --exclude 'images/*' --exclude 'scss/*' --exclude 'js/*'
       - run:
