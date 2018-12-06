@@ -7,7 +7,7 @@ contact_id = "book-your-school-assembly"
 
 ## ComedySportz At Your School
 
-Looking for a fun, new and interactive way to liven up a school assembly program? Try [ComedySportz](https://www.cszsa.com/#about)!
+Looking for a fun, new and interactive way to liven up a school assembly program? Try ComedySportz!
 
 With over 20 years experience, ComedySportz has entertained thousands of students, teachers and parents at school assemblies across San Antonio and the suburbs. Our high-quality comedy competition is scalable to fit your event and budget. And since it’s improv, it is customizable to your school, your students and your assembly program.
 

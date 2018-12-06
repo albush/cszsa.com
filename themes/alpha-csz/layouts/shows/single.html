@@ -1,0 +1,265 @@
+<!--
+	Alpha by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+
+{{ partial "header" . }}
+{{ partial "nav" . }}
+
+<section id="main" class="container"  style="padding: 1em">
+  <!-- ENTERING layouts/shows/comedysportz/single.html -->
+
+  <center><H1>{{ .Title }} - {{ dateFormat "3:04 PM" .Params.show_date }} {{ dateFormat "Monday, Jan 2, 2006" .Params.show_date }}</h1></center>
+<section class="container">
+      <ul class="actions">
+    <center>
+      <li><a target="_blank" rel="noopener" href="{{ .Params.ticket_link }}" class="button special">Buy Tickets</a></li>
+      <!-- <li><a target="_blank" rel="noopener" href="{{ .Params.ticket_link }}" class="button special">Another Button</a></li> -->
+      <a href="/shows">Other Matches</a>
+    </center>
+    </ul>
+  </section>
+
+
+<section>
+  <center><h2>Who's playing tonight?</h2></center>
+</section>
+
+    <div class="row" style="vertical-align: middle">
+
+<!-- if DJ -->
+{{ if .Params.dj }}
+
+
+<!-- Red team goes here  -->
+<div class="4u 12u(narrower)">
+  <section class="box special">
+    <h2>Punslingers in Red</h2>
+    <!-- Red players -->
+
+            {{ range $person := .Params.red }}
+              {{ if isset $.Site.Data.players $person }}
+              {{ $p :=  (index $.Site.Data.players $person) }}
+              <div class="row">
+                <div class="4u">
+
+                  <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><img alt = "{{ $p.FullName }}" src = "/images/players/{{$p.Photo}}.jpg" class="img-responsive" width = "120px"></a>
+
+                </div>
+                <div class="8u" style="text-align:left">
+                  <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}} {{ end }} {{ with $p.Full_Nickname }} {{ . | markdownify }} {{ end }}</h4></a>
+
+                </div>
+
+                {{ end }}
+              </div>
+            {{ end }}
+        </section>
+      </div>
+
+<!-- end Red Team -->
+<!-- DJ -->
+{{ $dj :=.Params.dj }}
+  {{ if isset $.Site.Data.players $dj }}
+  {{ $p :=  (index $.Site.Data.players $dj) }}
+<div class="4u 12u(narrower)" style="vertical-align: middle">
+  <section class="box special">
+  <h1><center style="vertical-align: middle">Designated Joker</center></h1>
+  <center><p>Playing with both teams</p></center>
+  <div class="row">
+    <div class="4u">
+
+      <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><img alt = "{{ $p.FullName }}" src = "/images/players/{{$p.Photo}}.jpg" class="img-responsive" width = "120px"></a>
+
+
+    </div>
+    <div class="8u" style="text-align:left">
+      <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}} {{ end }} {{ with $p.Full_Nickname }} {{ . | markdownify }} {{ end }}</h4></a>
+{{ end }}
+    </div>
+</div>
+</section>
+</div>
+<div class="4u 12u(narrower)">
+              <section class="box special">
+<h2>Bexars in Blue</h2>
+                <!-- Blue players -->
+                    {{ range $person :=.Params.blue }}
+                      {{ if isset $.Site.Data.players $person }}
+                      {{ $p :=  (index $.Site.Data.players $person) }}
+                      <div class="row">
+                        <div class="4u">
+
+                          <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><img alt = "{{ $p.FullName }}" src = "/images/players/{{$p.Photo}}.jpg" class="img-responsive" width = "120px"></a>
+
+
+                        </div>
+                        <div class="8u" style="text-align:left">
+                          <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}} {{ end }} {{ with $p.Full_Nickname }} {{ . | markdownify }} {{ end }}</h4></a>
+
+                        </div>
+
+                        {{ end }}
+                      </div>
+                    {{ end }}
+
+
+                </section>
+</div>
+
+  </div>
+
+
+{{ else }}
+<!-- Regular Teams -->
+<!-- Red team goes here  -->
+<div class="5u 12u(narrower)">
+  <section class="box special">
+    <h2>Punslingers in Red</h2>
+    <!-- Red players -->
+
+            {{ range $person := .Params.red }}
+              {{ if isset $.Site.Data.players $person }}
+              {{ $p :=  (index $.Site.Data.players $person) }}
+              <div class="row">
+                <div class="4u">
+
+                  <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><img alt = "{{ $p.FullName }}" src = "/images/players/{{$p.Photo}}.jpg" class="img-responsive" width = "120px"></a>
+
+                </div>
+                <div class="8u" style="text-align:left">
+                  <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}} {{ end }} {{ with $p.Full_Nickname }} {{ . | markdownify }} {{ end }}</h4></a>
+
+                </div>
+
+                {{ end }}
+              </div>
+            {{ end }}
+        </section>
+      </div>
+
+<!-- end Red Team -->
+<div class="2u 12u(narrower)" style="vertical-align: middle">
+  <h1><center style="vertical-align: middle">VS</center></h1>
+</div>
+<div class="5u 12u(narrower)">
+              <section class="box special">
+<h2>Bexars in Blue</h2>
+                <!-- Blue players -->
+                    {{ range $person :=.Params.blue }}
+                      {{ if isset $.Site.Data.players $person }}
+                      {{ $p :=  (index $.Site.Data.players $person) }}
+                      <div class="row">
+                        <div class="4u">
+
+                          <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><img alt = "{{ $p.FullName }}" src = "/images/players/{{$p.Photo}}.jpg" class="img-responsive" width = "120px"></a>
+
+
+                        </div>
+                        <div class="8u" style="text-align:left">
+                          <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}} {{ end }} {{ with $p.Full_Nickname }} {{ . | markdownify }} {{ end }}</h4></a>
+
+                        </div>
+
+                        {{ end }}
+                      </div>
+                    {{ end }}
+
+
+                </section>
+</div>
+
+  </div>
+  {{ end }}
+  <!-- Ref/Voice/Janis -->
+  <div class="row" style="vertical-align: middle">
+    {{ if .Params.janis}}
+  <div class="4u 12u(narrower)">
+                <section class="box special">
+  <h2>Referee</h2>
+  <!-- Ref -->
+      {{ $referee :=.Params.ref }}
+        {{ if isset $.Site.Data.players $referee }}
+        {{ $p :=  (index $.Site.Data.players $referee) }}
+
+  <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}} {{ end }} {{ with $p.Full_Nickname }} {{ . | markdownify }} {{ end }}</h4></a>
+
+
+            <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><img alt = "{{ $p.FullName }}" src = "/images/players/{{ $p.Photo }}.jpg" class="img-responsive" width = "120px"></a>
+
+
+          {{ end }}
+
+  </section>
+  </div>
+
+  <!-- Voice -->
+  <div class="4u 12u(narrower)">
+              <section class="box special">
+  <h2>Announcer</h2>
+  <!-- Voice -->
+      {{ $voice :=.Params.voice }}
+        {{ if isset $.Site.Data.players $voice }}
+        {{ $p :=  (index $.Site.Data.players $voice) }}
+
+  <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}} {{ end }} {{ with $p.Full_Nickname }} {{ . | markdownify }} {{ end }}</h4></a>
+            <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><img alt = "{{ $p.FullName }}" src = "/images/players/{{$p.Photo}}.jpg" class="img-responsive" width = "120px"></a>
+          {{ end }}
+  </section>
+  </div>
+  <!-- Janis -->
+
+  <div class="4u 12u(narrower)">
+              <section class="box special">
+  <h2>Score Keeper</h2>
+  <!-- Janis -->
+      {{ $janis :=.Params.janis }}
+        {{ if isset $.Site.Data.players $janis }}
+        {{ $p :=  (index $.Site.Data.players $janis) }}
+
+  <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}} {{ end }} {{ with $p.Full_Nickname }} {{ . | markdownify }} {{ end }}</h4></a>
+            <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><img alt = "{{ $p.FullName }}" src = "/images/players/{{$p.Photo}}.jpg" class="img-responsive" width = "120px"></a>
+          {{ end }}
+  </section>
+  </div>
+  {{ else }}
+
+  <div class="6u 12u(narrower)">
+                <section class="box special">
+  <h2>Referee</h2>
+  <!-- Ref -->
+      {{ $referee :=.Params.ref }}
+        {{ if isset $.Site.Data.players $referee }}
+        {{ $p :=  (index $.Site.Data.players $referee) }}
+
+  <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}} {{ end }} {{ with $p.Full_Nickname }} {{ . | markdownify }} {{ end }}</h4></a>
+
+
+            <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><img alt = "{{ $p.FullName }}" src = "/images/players/{{ $p.Photo }}.jpg" class="img-responsive" width = "120px"></a>
+
+
+          {{ end }}
+
+  </section>
+  </div>
+
+  <!-- Voice -->
+  <div class="6u 12u(narrower)">
+              <section class="box special">
+  <h2>Announcer</h2>
+  <!-- Voice -->
+      {{ $voice :=.Params.voice }}
+        {{ if isset $.Site.Data.players $voice }}
+        {{ $p :=  (index $.Site.Data.players $voice) }}
+
+  <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><h4>{{ with $p.Number }}#{{ . | safeHTML}} {{ end }} {{ with $p.Full_Nickname }} {{ . | markdownify }} {{ end }}</h4></a>
+            <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><img alt = "{{ $p.FullName }}" src = "/images/players/{{$p.Photo}}.jpg" class="img-responsive" width = "120px"></a>
+          {{ end }}
+  </section>
+  </div>
+  {{ end }}
+  </div>
+
+  </section>
+  {{ partial "footer" . }}
