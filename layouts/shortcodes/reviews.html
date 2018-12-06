@@ -1,0 +1,13 @@
+{{ range $i, $review := .Site.Data.reviews.review }}
+<div class="review">
+  {{ range seq 5 }}
+       {{if lt . (add (int $review.rating) 1)}}
+       <span class="fa fa-star" style="color:#b52028;"></span>  <!-- ★ -->
+       {{ else }}
+       <span class="fa fa-star-o"></span> <!-- ☆ -->
+       {{ end }}
+  {{ end }} - by {{ $review.person }} {{ dateFormat "January 2, 2006" $review.review_date }}
+    <blockquote>{{ $review.text }} </blockquote>
+
+</div>
+{{ end }}

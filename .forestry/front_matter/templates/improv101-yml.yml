@@ -1,0 +1,46 @@
+---
+label: Class Form
+hide_body: false
+is_partial: false
+fields:
+- name: Name
+  label: Name
+  type: text
+  hidden: false
+  default: ''
+  description: Document Title
+- name: Class_Name
+  label: Class name
+  type: text
+  hidden: false
+  default: ''
+- name: Class_Subtitle
+  label: Class subtitle
+  type: text
+  hidden: false
+  default: ''
+  description: e.g. "Introduction to Fun"
+- name: Day
+  label: Day
+  type: text
+  hidden: false
+  default: ''
+  description: Day of week. e.g. "Saturday"
+- name: Date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+  description: YYYY-MM-DD
+- name: Link
+  label: Link
+  type: textarea
+  hidden: false
+  default: ''
+  description: Link to website for registration. ie Square
+- name: Description
+  label: Description
+  type: textarea
+  hidden: false
+  default: ''
+  description: Full description of the class

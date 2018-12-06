@@ -1,0 +1,33 @@
+<!--
+	Alpha by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+
+{{ partial "header" . }}
+{{ partial "nav" . }}
+
+<section id="main" class="container"  style="padding: 1em">
+  <!-- ENTERING layouts/shows/comedysportz/single.html -->
+<div class="row" style="vertical-align: middle">
+{{ range sort .Pages ".Params.show_date" "desc" }}
+
+  <div class="6u 12u(narrower)">
+    <section class="box special">
+      <h2>ComedySportz {{ dateFormat "Monday, January 2, 2006" .Params.show_date }}</h2>
+{{ if .Params.final_red }}
+<h3>Final Score</h3>
+      <p>Punslingers in Red: {{ .Params.final_red}}</p>
+      <p>Bexars in Blue: {{ .Params.final_blue}}</p>
+{{ end }}
+      <ul class="actions">
+          <li><a href="{{ .URL }}" class="button special">Recap and Stats</a></li>
+      </ul>
+
+    </section>
+  </div>
+
+{{ end }}
+</div>
+  </section>
+  {{ partial "footer" . }}

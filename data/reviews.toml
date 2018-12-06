@@ -1,20 +1,38 @@
 [[ review ]]
+person = "CJ P."
+text = "My wife and I of 18 years try to go on dates every few weeks. They usually consist of a movie or dinner or a band at a bar. When you hear “family oriented fun”, that means lower your expectations to that of a 10 year old. Not tonight. Tonight was different. REALLY different. Outrageous fun without blue overtones. Fun yet silly yet adult yet childlike. I can’t describe it. Just go. GO!"
+rating = 5
+review_date = 2018-11-25
+
+[[ review ]]
+person = "Ryan E."
+text = "Comedy Sportz was amazing! We had a really great time. They got me up on stage and that was a blast too! I can't wait to go back. Thanks for a hilarious night!"
+review_date = 2018-09-01
+rating = 5
+
+[[ review ]]
+person = "Jake C."
+text = "I hadn't been to ComedySportz in years (since i was a little kid) and once I found out there was one in San Antonio I felt like I had to go. I was a little worried it wouldn't be as funny as I remembered it being when I was younger, but I was beyond pleasantly surprised. Going to this show was the most I've laughed in a really long time as an adult, and the improv players were hilarious and talented, and the other staff were friendly and helpful. Despite the theme being family friendly (and kids are allowed), the entertainment is definitely good for all ages, and the place is even BYOB (which I need to remember for next time). I will definitely going back, soon - there's no reason not to! It a ton of fun, and the ticket prices are low enough for it to be reasonable to go even once a week if you really wanted to - it's a different show every time and you'll probably laugh more than if you went to the movies. Thanks for a fantastic time, CSz!"
+rating = 5
+review_date = 2018-09-01
+
+[[ review ]]
 person = "Erin R."
 text = "ComedySportz (Club 185) is my favorite destination for a girls night out, date night, or a family night. Consistently funny, always clean, great value, and so much fun! My face gets sore from smiling so much. Shows are every Friday and Saturday at 7:30 pm. You can bring in food and drink or buy chips/soda/candy at the concession stand. We have been going for years! We like it so much that my husband took several of their improv classes and is now one of the players."
 rating = 5
 review_date = 2018-07-17
 
 [[ review ]]
-person = "Morgan W."
-text = "This is my favorite thing to do on a Friday or Saturday night! This is very similar to “Whose Line Is It Anyway, ” but it’s live right here in SA! The talent is top notch and it’s always different each time we go. They are never vulgar or lewd, but they are still hilarious. The price is right and I love that they are a BYOB establishment."
-rating = 5
-review_date = 2018-03-01
-
-[[ review ]]
 person = "Ryan W."
 text = "Very cool place to see some fun improv. Always have a good time here. Place is BYOB which is nice."
 rating = 5
 review_date = 2018-07-22
+
+[[ review ]]
+person = "April B."
+text = "Hubby and I took the kids, and even the 5 year old was laughing. The bigger kids want to come back and bring friends. It was just the fun we needed. Good ol' clean fun."
+rating = 5
+review_date = 2018-05-11
 
 [[ review ]]
 person = "Tina J."

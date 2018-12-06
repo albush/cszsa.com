@@ -1,0 +1,72 @@
+<!--
+	Alpha by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+
+{{ partial "header" . }}
+{{ partial "nav" . }}
+
+<section id="main" class="container"  style="padding: 1em">
+  <!-- ENTERING layouts/team/single.html -->
+  <!-- Player Card -->
+  <div class="row" >
+
+      <div class="12u">
+        <center><h1>ComedySportz Players</h1></center>
+        <center><a href="/team">View All Players</a></center>
+        <section class="box special">
+
+              {{ $person :=.Params.player }}
+                {{ if isset $.Site.Data.players $person }}
+                {{ $p :=  (index $.Site.Data.players $person) }}
+                <div class="row">
+                  <div class="12u">
+                    <h1>{{ $p.FirstName }} {{ $p.LastName }}</h1>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="4u 12u(narrower)">
+                    <a style="border-bottom:none" href="/team/{{ $p.PlayerPage }}"><img alt = "{{ $p.FullName }}" src = "/images/players/{{$p.Photo}}.jpg" class="img-responsive" width = "200px"></a>
+
+                  </div>
+                  <div class="4u 12u(narrower)" style="text-align:left;margin-bottom:0px;">
+
+                    <p style="margin-bottom:.25em">{{ with $p.Number }}<b>Jersey Number:</b> {{ . | safeHTML}}{{ end }}</p>
+                    <p style="margin-bottom:.25em">{{ with $p.Full_Nickname }}<b>Nickname:</b> "{{ . | markdownify }}"{{ end }}</p>
+                    <p style="margin-bottom:.25em">{{ with $p.CSZ_Year }}<b>Rookie Year:</b> {{ . }}{{ end }}</p>
+                    <p style="margin-bottom:.25em">{{ with $p.Bio }}<b>Bio:</b> {{ . | markdownify }}{{ end }}</p>
+                  </div>
+
+                  {{ end }}
+                  <!-- Begin Player Shows -->
+                  <div class="4u 12u(narrower)" style="text-align:left;margin-bottom:0px;">
+                  <b>Shows This Month:</b>
+                  {{ if .Params.shows }}
+                  {{ range $show := .Params.shows }}
+                      {{ if isset $.Site.Data.shows $show }}
+                      {{ $s :=  (index $.Site.Data.shows $show) }}
+                        {{ $today := now.Format "20060102" }}
+                        {{ if ge ($s.ShowDate | dateFormat "20060102")  $today }}
+                        <p style="margin-bottom:.25em"><a href="/shows/csz-{{$s.ShowDate}}">{{dateFormat "Monday January 2" $s.ShowDate}}</a></p>
+                        {{ else }}
+                        <p style="margin-bottom:.25em"><a href="/matches/csz-{{$s.ShowDate}}">{{dateFormat "Monday January 2" $s.ShowDate}}</a></p>
+                        {{ end }}
+                        {{ end }}
+                      {{ end }}
+                  {{ else }}
+                  <p style="margin-bottom:.25em"><a href="/shows">No shows on the calendar. Check out who else is playing this week</a></p>
+                  {{ end }}
+                  </div>
+                  <!-- End Player shows -->
+                </div>
+
+
+
+
+          </section>
+        </div>
+      </div>
+</section>
+
+{{ partial "footer" . }}

@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>{{ .Site.Params.title }}| {{ .Site.Params.subtitle }}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		{{ with .Site.Params.subtitle }}<meta name="description" content="{{ . }}">{{ end }}
+		{{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
+		{{ .Hugo.Generator }}
+		{{ if eq (getenv "HUGO_ENV") "staging" }}{{ "<!-- NOT LIVE - STAGING ENVIRONMENT - NOT LIVE -->" | safeHTML }}{{ end }}
+		{{ partial "opengraph.html" . }}
+		{{ template "_internal/twitter_cards.html" . }}
+		{{- $css := .Site.Data.libs.css -}}
+		{{ printf "<link rel=\"stylesheet\" href=\"//use.fontawesome.com/releases/v%s/css/all.css\" integrity=\"%s\" crossorigin=\"anonymous\">" $css.fontawesome.version $css.fontawesome.integrity | safeHTML }}
+		<!-- favicons, etc -->
+		<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+		<link rel="manifest" href="/images/manifest.json">
+		<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#0b4e84">
+		<link rel="shortcut icon" href="/images/favicon.ico">
+		<meta name="msapplication-config" content="/images/browserconfig.xml">
+		<meta name="theme-color" content="#0b4e84">
+		{{- $ieStyles := resources.Get "scss/main.scss" | toCSS | minify -}}
+		{{- $ieJs := resources.Get "js/ie/html5shiv.js" | minify -}}
+		{{ printf "<!--[if lte IE 8]><script src=\"%s\"></script><link rel=\"stylesheet\" href=\"%s\" /><![endif]-->" $ieJs.Permalink $ieStyles.Permalink | safeHTML }}
+		{{- $style := resources.Get "scss/main.scss" | toCSS | minify | fingerprint -}}
+		<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
+		{{- range .Site.Params.Assets.customCSS -}}
+    	<link rel='stylesheet' href='{{ . | absURL }}'>
+  	{{- end -}}
+	</head>
