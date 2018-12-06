@@ -32,10 +32,10 @@
 {{ $main := resources.Get "js/main.js" | minify | fingerprint }}
 
 
-<script src="{{ $util.Permalink }}" integrity="{{ $util.Data.Integrity }}"></script>
-<script src="{{ $scrollgress.Permalink }}" integrity="{{ $scrollgress.Data.Integrity }}"></script>
+<script src="{{ $util.Permalink }}" ></script>
+<script src="{{ $scrollgress.Permalink }}" ></script>
 {{ `<!--[if lte IE 8]><script src=" {{ $ie.Permalink }} "></script><![endif]-->` | safeHTML}}
-<script src="{{ $main.Permalink }}" integrity="{{ $main.Data.Integrity }}"></script>
+<script src="{{ $main.Permalink }}" ></script>
 
 
 </body>
