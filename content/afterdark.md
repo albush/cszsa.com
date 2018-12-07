@@ -6,18 +6,19 @@ draft = false
 box_title = "PG-17 Improv. Saturdays at 10pm"
 contact = "true"
 featured_image = "/images/afterdark.jpg"
+images = ["/images/afterdark.jpg"]
 cta = "Get Tickets Now"
 cta_link = "https://squareup.com/store/CSz-SanAntonio/"
 +++
 
-After Dark is Studio 185's Saturday, late night, BYOB, PG-17, anything goes, improv show.
+After Dark is Studio 185's late Saturday night, BYOB, PG-17, anything goes, ready or not here they come, candy bar and soda pop improv show.
 
 #### This week's teams:
 
-**Throuple** - What two people can do, three can do better.
+**Not Here** - watch as this group of improvisers explore relationships, characters, and oddities.
 
-**[Therapy 3.0](https://www.facebook.com/therapy3point0/)** - They put the dysfunction in dysfunctional. Relationships are best when they are awkward.
+**Comedy Boyz** - who says dudez can't be funny? Not these guyz.
 
-**Fight Club** - Energy. Chaos. Madness. Weirdness. Improv.
+**[Grumpy Old Men Improv](https://www.facebook.com/Grumpy-Old-Men-Improv-157669441542132/)** - fresh off their 31th annual spectacular, see what these old geezers have left in their tanks.
 
-**Time Out** - What if Zack Morris was not trash? Or if he shared his magical, fourth wall breaking "Time Out" power with others? Find out.
+**Sis Boom Bah** - this team from Austin packs their Ford Focus full of energy, weirdness, hyperspeed, and zaniness; then dumps it all on the stage for you.
