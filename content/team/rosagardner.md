@@ -1,7 +1,8 @@
-+++
-title = "Rosa Gardner"
-player = "rgardner"
-shows = ["csz-2018-12-14"]
-+++
+---
+player: rgardner
+shows:
+- csz-2018-12-14
+title: Rosa Gardner
+---
 
 Hello World

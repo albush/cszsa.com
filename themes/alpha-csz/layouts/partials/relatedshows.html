@@ -1,0 +1,16 @@
+<!-- If there are shows listed for this player for this month -->
+{{ if .Params.shows}}
+
+<!-- establish the range for the shows -->
+{{ range $show := .Params.shows }}
+{{ range where $.Site.Pages ".Params.show" $show }}
+<p style="margin-bottom:.25em"><a href="{{ .Permalink }}">{{dateFormat "Monday January 2" .Params.show_date}}</a></p>
+<!-- End the $.Site.Pages Range -->
+{{ end }}
+<!-- End the params.shows Range -->
+{{ end }}
+<!-- If there are not shows listed for this player for this month -->
+{{ else }}
+<!-- Show a link to other shows -->
+<p style="margin-bottom:.25em"><a href="/shows">No shows on the calendar. Check out who else is playing this week</a></p>
+{{ end }}

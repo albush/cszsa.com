@@ -1,7 +1,9 @@
-+++
-title = "Greg Camacho"
-player = "gcamacho"
-shows = ["csz-2018-12-07", "csz-2018-12-21"]
-+++
+---
+player: gcamacho
+shows:
+- csz-2018-12-07
+- csz-2018-12-21
+title: Greg Camacho
+---
 
 Hello World

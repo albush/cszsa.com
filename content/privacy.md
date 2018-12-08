@@ -1,7 +1,7 @@
-+++
-title = "Privacy Policy"
-draft = false
-+++
+---
+draft: false
+title: Privacy Policy
+---
 
 ## Privacy Notice
 

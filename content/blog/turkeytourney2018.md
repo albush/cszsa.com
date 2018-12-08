@@ -1,18 +1,18 @@
-+++
-title = "Texas Turkey Tourney 2018"
-date = 2018-11-24T19:30:40-06:00
-start_date = 2018-11-23T19:30:40-06:00
-end_date = 2018-11-24T21:00:40-06:00
-description = "Come out to see All of the ComedySportz Texas teams showcase their hilarious talents on November 23rd and 24th."
-box_title = "Buy Tickets Now"
-cta = "Turkey Tourney Tickets"
-cta_link = "https://squareup.com/store/CSz-SanAntonio/"
-featured = "false"
-featured_image = "/images/turkeytourney2018.jpg"
-images = ["/images/turkeytourney2018.jpg"]
-+++
-
-
+---
+box_title: Buy Tickets Now
+cta: Turkey Tourney Tickets
+cta_link: https://squareup.com/store/CSz-SanAntonio/
+date: "2018-11-24T19:30:40-06:00"
+description: Come out to see All of the ComedySportz Texas teams showcase their hilarious
+  talents on November 23rd and 24th.
+end_date: "2018-11-24T21:00:40-06:00"
+featured: "false"
+featured_image: /images/turkeytourney2018.jpg
+images:
+- /images/turkeytourney2018.jpg
+start_date: "2018-11-23T19:30:40-06:00"
+title: Texas Turkey Tourney 2018
+---
 
 Come out to see All of the ComedySportz Texas teams showcase their hilarious talents on November 23rd and 24th.
 

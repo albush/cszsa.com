@@ -1,7 +1,7 @@
-+++
-title = "Thanks for Contacting Us"
-draft = false
-+++
+---
+draft: false
+title: Thanks for Contacting Us
+---
 
 ## Thank You!
 

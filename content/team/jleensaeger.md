@@ -1,8 +1,8 @@
-+++
-title = "J'Leen Saeger"
-player = "jsaeger"
-shows = ["csz-2018-12-08"]
-
-+++
+---
+player: jsaeger
+shows:
+- csz-2018-12-08
+title: J'Leen Saeger
+---
 
 Hello World

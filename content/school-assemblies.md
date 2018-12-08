@@ -1,9 +1,9 @@
-+++
-title = "School Assemblies"
-draft = false
-cta_text = "Book Your Assembly"
-contact_id = "book-your-school-assembly"
-+++
+---
+contact_id: book-your-school-assembly
+cta_text: Book Your Assembly
+draft: false
+title: School Assemblies
+---
 
 ## ComedySportz At Your School
 

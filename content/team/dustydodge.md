@@ -1,7 +1,7 @@
-+++
-title = "Dusty Dodge"
-draft = false
-player = "ddodge"
-+++
+---
+draft: false
+player: ddodge
+title: Dusty Dodge
+---
 
 Hello World

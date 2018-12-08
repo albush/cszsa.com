@@ -1,15 +1,16 @@
-+++
-title = "Corporate Training and Team Building"
-weight = 30
-draft = false
-menuname = "Team Building"
-box_title = "Applied Improv with ComedySportz"
-featured_image = "/images/comedysportzcorporatetraining.jpg"
-images = ["/images/comedysportzcorporatetraining.jpg"]
-cta = "Schedule Now"
-cta_link = "#appliedimprovcontact"
-featured = "true"
-+++
+---
+box_title: Applied Improv with ComedySportz
+cta: Schedule Now
+cta_link: '#appliedimprovcontact'
+draft: false
+featured: "true"
+featured_image: /images/comedysportzcorporatetraining.jpg
+images:
+- /images/comedysportzcorporatetraining.jpg
+menuname: Team Building
+title: Corporate Training and Team Building
+weight: 30
+---
 
 ## CSz Business Training. Because work is more than numbers.
 

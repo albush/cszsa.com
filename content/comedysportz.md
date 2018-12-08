@@ -1,10 +1,9 @@
-+++
-title = "ComedySportz"
-subtitile = "About ComedySportz San Antonio"
-date = 2018-08-12T13:38:48-05:00
-draft = false
-+++
-
+---
+date: "2018-08-12T13:38:48-05:00"
+draft: false
+subtitile: About ComedySportz San Antonio
+title: ComedySportz
+---
 
 ## What is ComedySportz?
 

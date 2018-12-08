@@ -1,10 +1,11 @@
-+++
-title = "About"
-subtitile = "About ComedySportz San Antonio"
-date = 2018-08-12T13:38:48-05:00
-draft = false
-images = ["/images/sanantonioimprov-background.jpg"]
-+++
+---
+date: "2018-08-12T13:38:48-05:00"
+draft: false
+images:
+- /images/sanantonioimprov-background.jpg
+subtitile: About ComedySportz San Antonio
+title: About
+---
 
 ![](/images/sanantonioimprov-background.jpg)
 

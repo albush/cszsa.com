@@ -1,11 +1,13 @@
-+++
-title = "Learn to be an Improviser"
-weight = 50
-draft = false
-menuname = "Classes"
-classes = ["improv101"]
-intro = "Our next round of Improv 101 classes are forming now for Mondays, starting January 7th. Learn more about our 101 class below."
-+++
+---
+classes:
+- improv101
+draft: false
+intro: Our next round of Improv 101 classes are forming now for Mondays, starting
+  January 7th. Learn more about our 101 class below.
+menuname: Classes
+title: Learn to be an Improviser
+weight: 50
+---
 
 CSz improv and applied improv classes are a fun, supportive way to learn improvisational thinking and gain self-confidence. Don’t be fooled into thinking improv is just for performers - many of our students use improv to develop business soft-skills, and communicate better - and they meet other cool people! There's almost always a CSz improv class running, so check out our class calendar and sign up today!
 

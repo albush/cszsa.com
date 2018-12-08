@@ -1,9 +1,9 @@
-+++
-title = "Reviews"
-weight = 60
-draft = false
-menu = true
-+++
+---
+draft: false
+menu: true
+title: Reviews
+weight: 60
+---
 
 What people are saying about ComedySportz San Antonio
 

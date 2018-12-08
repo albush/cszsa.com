@@ -1,7 +1,7 @@
-+++
-title = "registered"
-draft = false
-+++
+---
+draft: false
+title: registered
+---
 
 ## Thank You!
 
