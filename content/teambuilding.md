@@ -3,7 +3,7 @@ box_title: Applied Improv with ComedySportz
 cta: Schedule Now
 cta_link: '#appliedimprovcontact'
 draft: false
-featured: "true"
+featured: "false"
 featured_image: /images/comedysportzcorporatetraining.jpg
 images:
 - /images/comedysportzcorporatetraining.jpg
