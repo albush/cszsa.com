@@ -1,5 +1,5 @@
 ---
-box_title: Improv Classes Starting Soon
+box_title: Improv 101 Starts January 7th, 2019
 cta: Reserve Your Spot Now
 cta_link: 'https://squareup.com/store/CSz-SanAntonio/item/improv'
 classes:
