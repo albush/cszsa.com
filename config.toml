@@ -189,5 +189,5 @@ service = "Facebook"
 [[params.links]]
 icon = "fa-instagram"
 icon_pack = "fab"
-link = "//www.instagram.com/cszsa/"
+link = "//www.instagram.com/cszsanantonio/"
 service = "Instagram"

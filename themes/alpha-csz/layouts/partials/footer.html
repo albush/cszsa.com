@@ -4,7 +4,7 @@
       {{ range .Site.Params.links }}
       {{ $pack := or .icon_pack "fa" }}
         <li>
-          <a href="{{ .link | safeURL }}" target="_blank" rel="noopener" ><i class="icon {{ $pack }} {{ .icon }}"><span class="label">{{ .service }}</span></i></a>
+          <a href="{{ .link | safeURL }}" target="_blank" rel="noopener" ><i style="color:#b52028;" class="icon {{ $pack }} {{ .icon }}"><span class="label">{{ .service }}</span></i></a>
         </li>
       {{ end }} {{/* range */}}
     </ul>
