@@ -12,14 +12,19 @@ subtitile: Late Night Improv for Adults Only
 title: After Dark
 ---
 
-After Dark is Studio 185's late Saturday night, BYOB, PG-17, anything goes, ready or not here they come, candy bar and soda pop improv show.
+After Dark is Studio 185's late night, BYOB, PG-17, anything goes improv show.
+Also....
 
-#### This week's teams:
+**IT'S THE LAST AFTER DARK SHOW OF 2018!!!**
 
-**Not Here** - watch as this group of improvisers explore relationships, characters, and oddities.
+THE LAST ONE!!!!!
 
-**Comedy Boyz** - who says dudez can't be funny? Not these guyz.
+This week's teams:
 
-**[Grumpy Old Men Improv](https://www.facebook.com/Grumpy-Old-Men-Improv-157669441542132/)** - fresh off their 31th annual spectacular, see what these old geezers have left in their tanks.
+[Flashback](https://www.facebook.com/flashbackimprov/) - Inappropriate. Weird. Awkward. And those are their good qualities.
 
-**Sis Boom Bah** - this team from Austin packs their Ford Focus full of energy, weirdness, hyperspeed, and zaniness; then dumps it all on the stage for you.
+[Whine Time](https://www.facebook.com/WhineTimeImprov/) - Two improvisers. One bottle of wine. Relationships. Conflict.
+
+Half-Life Crisis- Emotions. Situations. Exploration. Humor. Sadness. Rage.
+
+Something's Missing- A musical improv adventure that you'll never forget.
