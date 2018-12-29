@@ -8,7 +8,7 @@ draft: false
 intro: Our next round of Improv 101 classes are forming now for Mondays at 7PM, starting
   January 7th. Learn more about our 101 class below.
 menuname: Classes
-title: Learn to be an Improviser
+title: Learn To Be An Improvisor
 weight: 50
 featured_image: /images/improv301.jpg
 images:
