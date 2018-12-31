@@ -11,7 +11,7 @@ title: Alyssa Garza
 "Nickname": "TinyDancer"
 "Full_Nickname": "Alyssa *TinyDancer* Garza"
 "PlayerPage": "alyssagarza"
-"Photo": "tbd"
+"Photo": "shield"
 "FavoriteGame": "Two Chairs"
 
 ---
