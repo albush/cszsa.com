@@ -1,9 +1,9 @@
 ---
 player: jwelch
 shows:
-- csz-2018-12-08
-- csz-2018-12-14
-- csz-2018-12-22
+- csz-2019-01-04
+- csz-2019-01-05
+- csz-2019-01-18
 title: James Welch
 ---
 

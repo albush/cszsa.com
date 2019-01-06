@@ -1,7 +1,7 @@
 ---
 player: rgardner
 shows:
-- csz-2018-12-14
+- csz-2019-01-05
 title: Rosa Gardner
 ---
 
