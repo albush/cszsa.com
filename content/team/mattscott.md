@@ -2,7 +2,7 @@
 draft: false
 player: mscott
 shows:
-- csz-2018-12-07
+- csz-2019-01-04
 title: Matt Scott
 ---
 

@@ -2,11 +2,8 @@
 draft: false
 player: mwilliams
 shows:
-- csz-2018-12-07
-- csz-2018-12-08
-- csz-2018-12-21
-- csz-2018-12-28
-- csz-2018-12-29
+- csz-2019-01-04
+- csz-2019-01-25
 title: Morgan Williams
 ---
 

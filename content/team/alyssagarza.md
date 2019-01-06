@@ -1,7 +1,7 @@
 ---
 player: agarza
-shows:
-- csz-2018-12-28
+# shows:
+# - csz-2018-12-28
 title: Alyssa Garza
 "FirstName": "Alyssa"
 "LastName": "Garza"

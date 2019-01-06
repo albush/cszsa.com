@@ -1,8 +1,8 @@
 ---
 player: abush
 shows:
-- csz-2018-12-08
-- csz-2018-12-15
+- csz-2019-01-05
+- csz-2019-01-26
 title: Alan Bush
 "FirstName": "Alan"
 "LastName": "Bush"

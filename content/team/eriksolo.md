@@ -2,8 +2,9 @@
 draft: false
 player: esolo
 shows:
-- csz-2018-12-15
-- csz-2018-12-21
+- csz-2019-01-11
+- csz-2019-01-18
+- csz-2019-01-25
 title: Erik Solo
 weight: 60
 ---

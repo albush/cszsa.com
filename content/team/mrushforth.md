@@ -2,7 +2,7 @@
 draft: false
 player: mrushforth
 shows:
-- csz-2018-12-29
+- csz-2019-01-18
 title: Michael Rushforth
 weight: 60
 ---

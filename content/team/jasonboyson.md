@@ -1,9 +1,9 @@
 ---
 player: jboyson
 shows:
-- csz-2018-12-14
-- csz-2018-12-21
-- csz-2018-12-29
+- csz-2019-01-11
+- csz-2019-01-19
+- csz-2019-01-25
 title: Jason Boyson
 ---
 
