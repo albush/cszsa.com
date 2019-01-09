@@ -159,7 +159,7 @@ url = "/privateshows"
 button_text = "Browse List of Possibilities"
 image = "images/comedysportzcorporatetraining.jpg"
 logo = "images/CSz_Business_long_COLOR.png"
-text = "From valuable and customizable training using Applied Improvisation, to the entertaining and hilarious ComedySportz® at your event, to projects where you need the talent and funny, CSz Boston can help make you look like a genius. Visit our CSz Business page to learn how to take your team to the next level."
+text = "From valuable and customizable training using Applied Improvisation, to the entertaining and hilarious ComedySportz® at your event, to projects where you need the talent and funny, CSz San Antonio can help make you look like a genius. Visit our CSz Business page to learn how to take your team to the next level."
 title = "Corporate Training & Team Building"
 url = "/teambuilding"
 [[params.landing.feature_images.tile]]
