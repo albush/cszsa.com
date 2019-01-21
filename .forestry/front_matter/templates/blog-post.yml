@@ -13,7 +13,3 @@ fields:
     shares
   config:
     maxSize: '5'
-pages:
-- content/blog/test.md
-- content/blog/testing-by-guest.md
-- content/blog/another-test.md
