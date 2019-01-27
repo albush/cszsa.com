@@ -1,12 +1,12 @@
 ---
-box_title: Improv 101 Mondays at 7pm Starting Jan. 7
+box_title: Improv 101 Sundays at 1pm Starting March 10
 cta: Reserve Your Spot Now
-cta_link: 'https://squareup.com/store/CSz-SanAntonio/item/improv'
+cta_link: 'https://squareup.com/store/CSz-SanAntonio/item/improv-pm-sundays'
 classes:
 - improv101
 draft: false
-intro: Our next round of Improv 101 classes are forming now for Mondays at 7PM, starting
-  January 7th. Learn more about our 101 class below.
+intro: Our next round of Improv 101 classes are forming now for Sundays at 1PM, starting
+  March 10th. Learn more about our 101 class below.
 menuname: Classes
 title: Learn To Be An Improvisor
 weight: 50
