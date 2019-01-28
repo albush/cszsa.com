@@ -1,9 +1,8 @@
 ---
 player: mrowlett
 shows:
-- csz-2019-01-04
-- csz-2019-01-11
-- csz-2019-01-18
+- csz-2019-02-02
+- csz-2019-02-08
 title: McKenna Rowlett
 ---
 
