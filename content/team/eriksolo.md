@@ -10,5 +10,3 @@ shows:
 title: Erik Solo
 weight: 60
 ---
-
-Hello World

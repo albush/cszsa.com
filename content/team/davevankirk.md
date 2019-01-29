@@ -6,5 +6,3 @@ shows:
 - csz-2019-02-16
 title: Dave Van Kirk
 ---
-
-Hello World

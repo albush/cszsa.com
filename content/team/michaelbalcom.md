@@ -8,5 +8,3 @@ shows:
 - csz-2019-02-22
 title: Michael Balcom
 ---
-
-Hello World

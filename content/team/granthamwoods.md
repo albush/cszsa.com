@@ -5,5 +5,3 @@ shows:
 - csz-2019-02-16
 title: Grantham Woods
 ---
-
-Hello World

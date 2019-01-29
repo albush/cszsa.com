@@ -9,5 +9,3 @@ shows:
 - csz-2019-02-23
 title: Bailey Solo
 ---
-
-Hello World

@@ -16,5 +16,3 @@ title: Adam Smith
 "Photo": "asmith"
 "FavoriteGame": "Word at a Time Express"
 ---
-
-Hello World

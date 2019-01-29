@@ -7,5 +7,3 @@ shows:
 - csz-2019-02-16
 title: Brian Scribner
 ---
-
-Hello World

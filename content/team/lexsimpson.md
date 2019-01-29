@@ -8,5 +8,3 @@ shows:
 - csz-2019-02-16
 title: Lex Simpson
 ---
-
-Hello World

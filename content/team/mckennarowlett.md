@@ -5,5 +5,3 @@ shows:
 - csz-2019-02-08
 title: McKenna Rowlett
 ---
-
-Hello World

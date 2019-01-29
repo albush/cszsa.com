@@ -6,5 +6,3 @@ player: jvillegas
 title: Josh Villegas
 weight: 60
 ---
-
-Hello World

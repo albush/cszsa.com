@@ -7,5 +7,3 @@ shows:
 - csz-2019-02-23
 title: Jason Boyson
 ---
-
-Hello World

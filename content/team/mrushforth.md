@@ -7,5 +7,3 @@ shows:
 title: Michael Rushforth
 weight: 60
 ---
-
-Hello World

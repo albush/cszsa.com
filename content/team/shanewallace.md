@@ -5,5 +5,3 @@ shows:
 - csz-2019-02-22
 title: Shane Wallace
 ---
-
-Hello World
