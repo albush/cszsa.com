@@ -7,5 +7,3 @@ shows:
 - csz-2019-02-09
 title: Elliot Schraer
 ---
-
-Hello World

@@ -6,5 +6,3 @@ player: cgeraci
 # - csz-2019-01-18
 title: Caitlyn Geraci
 ---
-
-Hello World

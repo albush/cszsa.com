@@ -7,5 +7,3 @@ shows:
 - csz-2019-02-22
 title: Morgan Williams
 ---
-
-Hello World

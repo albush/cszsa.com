@@ -8,5 +8,3 @@ shows:
 title: Lisa Little
 weight: 60
 ---
-
-Hello World
