@@ -20,14 +20,6 @@ sections:
   - blog-post
 - type: heading
   label: Temporary Events
-- type: directory
-  path: data/classes
-  label: Classes
-  create: all
-  match: "**/*"
-  new_doc_ext: yml
-  templates:
-  - improv101-yml
 - type: document
   path: README-FORESTRY.md
   label: Help
