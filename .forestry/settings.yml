@@ -7,6 +7,12 @@ sections:
 - type: heading
   label: Content
 - type: directory
+  path: content/shows
+  label: Upcoming Matches
+  create: documents
+  match: "**/*"
+  new_doc_ext: ".md"
+- type: directory
   path: content
   label: Pages
   create: all
