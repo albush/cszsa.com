@@ -2,11 +2,9 @@
 draft: false
 player: llittle
 shows:
-- csz-2019-01-04
-- csz-2019-01-05
-- csz-2019-01-11
-- csz-2019-01-12
-- csz-2019-01-19
+- csz-2019-02-01
+- csz-2019-02-02
+- csz-2019-02-15
 title: Lisa Little
 weight: 60
 ---

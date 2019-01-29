@@ -1,8 +1,8 @@
 ---
 player: jfitzhugh
 shows:
-- csz-2019-01-04
-- csz-2019-01-11
+- csz-2019-02-09
+- csz-2019-02-15
 title: John Fitzhugh
 ---
 

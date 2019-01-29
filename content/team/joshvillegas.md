@@ -1,8 +1,8 @@
 ---
 draft: false
 player: jvillegas
-shows:
-- csz-2019-01-12
+# shows:
+# - csz-2019-01-12
 title: Josh Villegas
 weight: 60
 ---

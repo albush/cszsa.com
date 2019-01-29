@@ -2,9 +2,9 @@
 draft: false
 player: eschraer
 shows:
-- csz-2019-01-11
-- csz-2019-01-12
-- csz-2019-01-18
+- csz-2019-02-01
+- csz-2019-02-02
+- csz-2019-02-09
 title: Elliot Schraer
 ---
 
