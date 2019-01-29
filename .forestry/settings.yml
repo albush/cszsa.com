@@ -21,14 +21,6 @@ sections:
 - type: heading
   label: Temporary Events
 - type: directory
-  path: data/shows
-  label: Shows
-  create: all
-  match: "**/*"
-  new_doc_ext: yml
-  templates:
-  - adreturn-yml
-- type: directory
   path: data/classes
   label: Classes
   create: all
