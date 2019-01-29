@@ -4,8 +4,19 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: directory
+  path: content/team
+  label: Players
+  create: documents
+  match: "**/*"
 - type: heading
   label: Content
+- type: directory
+  path: content/shows
+  label: Upcoming Matches
+  create: documents
+  match: "**/*"
+  new_doc_ext: md
 - type: directory
   path: content
   label: Pages
@@ -20,22 +31,6 @@ sections:
   - blog-post
 - type: heading
   label: Temporary Events
-- type: directory
-  path: data/shows
-  label: Shows
-  create: all
-  match: "**/*"
-  new_doc_ext: yml
-  templates:
-  - adreturn-yml
-- type: directory
-  path: data/classes
-  label: Classes
-  create: all
-  match: "**/*"
-  new_doc_ext: yml
-  templates:
-  - improv101-yml
 - type: document
   path: README-FORESTRY.md
   label: Help
