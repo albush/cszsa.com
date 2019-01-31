@@ -11,7 +11,7 @@ sections:
   label: Player Bios
   create: documents
   match: "**/*"
-  new_doc_ext: ".yml"
+  new_doc_ext: yml
 - type: directory
   path: content/team
   label: Player Shows
