@@ -1,0 +1,60 @@
+---
+label: Player Bio
+hide_body: 
+is_partial: 
+fields:
+- name: FirstName
+  label: Firstname
+  type: text
+  hidden: false
+  default: ''
+- name: LastName
+  label: Lastname
+  type: text
+  hidden: false
+  default: ''
+- name: Bio
+  label: Bio
+  type: textarea
+  hidden: false
+  default: ''
+- name: CSZ_Year
+  label: Csz year
+  type: text
+  hidden: false
+  default: ''
+- name: Number
+  label: Number
+  type: text
+  hidden: false
+  default: ''
+- name: Nickname
+  label: Nickname
+  type: textarea
+  hidden: false
+  default: ''
+- name: Full_Nickname
+  label: Full nickname
+  type: text
+  hidden: false
+  default: ''
+- name: PlayerPage
+  label: Playerpage
+  type: text
+  hidden: false
+  default: ''
+- name: Photo
+  label: Photo
+  type: text
+  hidden: false
+  default: ''
+- name: FavoriteGame
+  label: Favoritegame
+  type: text
+  hidden: false
+  default: ''
+- name: Name
+  label: Name
+  type: text
+  hidden: false
+  default: ''
