@@ -4,9 +4,17 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Players
+- type: directory
+  path: data/players
+  label: Player Bios
+  create: documents
+  match: "**/*"
+  new_doc_ext: yml
 - type: directory
   path: content/team
-  label: Players
+  label: Player Shows
   create: documents
   match: "**/*"
 - type: heading

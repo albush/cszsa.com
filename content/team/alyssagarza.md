@@ -1,7 +1,7 @@
 ---
 player: agarza
-# shows:
-# - csz-2018-12-28
+shows:
+- csz-2019-02-01
 title: Alyssa Garza
 "FirstName": "Alyssa"
 "LastName": "Garza"
@@ -11,7 +11,7 @@ title: Alyssa Garza
 "Nickname": "TinyDancer"
 "Full_Nickname": "Alyssa *TinyDancer* Garza"
 "PlayerPage": "alyssagarza"
-"Photo": "shield"
+"Photo": "agarza"
 "FavoriteGame": "Two Chairs"
 
 ---
