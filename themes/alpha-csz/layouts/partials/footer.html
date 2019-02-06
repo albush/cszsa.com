@@ -1,5 +1,8 @@
 {{ "<!-- Footer -->" | safeHTML}}
-  <footer id="footer">
+  <footer id="footer" style="padding-top:0;">
+    <section id="cta-alt"><a name="newsletter"></a>
+    					{{ partial "newsletter" . }}
+    </section>
     <ul class="icons">
       {{ range .Site.Params.links }}
       {{ $pack := or .icon_pack "fa" }}
@@ -8,6 +11,7 @@
         </li>
       {{ end }} {{/* range */}}
     </ul>
+
     <ul class="copyright">
       {{- range .Site.Params.Footer.copyright -}}
       <li>{{ . | markdownify }}</li>

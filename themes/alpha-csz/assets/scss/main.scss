@@ -1482,7 +1482,8 @@ body.landing {
 #cta-alt {
   background: _palette(accent3, bg);
   color: _palette(accent3, fg);
-  padding: 3.5em 0 4em 0;
+  padding: 1.5em 0 2em 0;
+  margin-bottom: 1.5em;
 
   a {
     color: #fff;
@@ -1495,6 +1496,10 @@ body.landing {
   h5,
   h6 {
     color: inherit;
+  }
+
+  label {
+    color: #fff;
   }
 
   form {
