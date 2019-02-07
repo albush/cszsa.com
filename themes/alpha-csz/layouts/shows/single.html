@@ -14,7 +14,7 @@
 <section class="container">
       <ul class="actions">
     <center>
-      <li><a target="_blank" rel="noopener" href="{{ .Params.ticket_link }}" class="button special">Buy Tickets</a></li>
+      <li><a target="_blank" rel="noopener" href="{{ .Params.ticket_link }}" onclick="trackOutboundLink('{{ .Params.ticket_link | safeHTML }}'); return false;" class="button special">Buy Tickets</a></li>
       <!-- <li><a target="_blank" rel="noopener" href="{{ .Params.ticket_link }}" class="button special">Another Button</a></li> -->
       <a href="/shows">Other Matches</a>
     </center>
