@@ -4,7 +4,15 @@
 <!-- establish the range for the shows -->
 {{ range $show := .Params.shows }}
 {{ range where $.Site.Pages ".Params.show" $show }}
-<p style="margin-bottom:.25em"><a href="{{ .Permalink }}">{{dateFormat "Monday January 2" .Params.show_date}}</a></p>
+<!-- if the show is in the future -->
+{{ $now := now.Format "2006-01-02" }}
+{{ $start := (dateFormat "2006-01-02" .Params.show_date) }}
+{{ if ge $start $now }}
+<p style="margin-bottom:.25em">{{dateFormat "Monday January 2" .Params.show_date}}: <a href="{{ .Permalink }}">Lineup</a> <a href="{{ .Params.ticket_link }} "onclick="trackOutboundLink('{{ .Params.ticket_link | safeHTML }}'); return false;">Buy Tickets</a></p>
+{{ else }}
+<!-- if the show is in the past -->
+<p style="margin-bottom:.25em">{{dateFormat "Monday January 2" .Params.show_date}}: <a href="{{ .Permalink }}">Recap</a></p>
+{{ end }}
 <!-- End the $.Site.Pages Range -->
 {{ end }}
 <!-- End the params.shows Range -->
