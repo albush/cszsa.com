@@ -2,6 +2,7 @@
 box_title: Improv 101 Sundays at 1pm Starting March 10
 cta: Reserve Your Spot Now
 cta_link: 'https://squareup.com/store/CSz-SanAntonio/item/improv-pm-sundays'
+ticket_link: 'https://squareup.com/store/CSz-SanAntonio/item/improv-pm-sundays'
 classes:
 - improv101
 draft: false
@@ -14,6 +15,7 @@ featured_image: /images/improv301.jpg
 images:
 - /images/improv301.jpg
 featured: "true"
+start_date: "2019-03-10T13:00:12-06:00"
 ---
 
 CSz improv and applied improv classes are a fun, supportive way to learn improvisational thinking and gain self-confidence. Don’t be fooled into thinking improv is just for performers - many of our students use improv to develop business soft-skills, and communicate better - and they meet other cool people! There's almost always a CSz improv class running, so check out our class calendar and sign up today!
@@ -24,7 +26,7 @@ CSz improv and applied improv classes are a fun, supportive way to learn improvi
 
 ### Intro to Improv
 
-This free one night drop-in class introduces the student to some basic improv warm-ups and exercises, allowing them an opportunity to see what our improv classes are all about. If you like this drop-in class, you'll love what you'll learn and how much fun you'll have in our Improv 101 classes.
+This free one night drop-in class introduces the student to some basic improv warm-ups and exercises, allowing them an opportunity to see what our improv classes are all about. If you like this drop-in class, you'll love what you'll learn and how much fun you'll have in our Improv 101 classes. Check back later for our next Intro to Improv class.
 
 **Registration fee:** Free!
 
