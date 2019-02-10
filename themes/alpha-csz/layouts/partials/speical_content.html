@@ -1,5 +1,10 @@
+{{ "<!-- ENTERING layouts/partials/special_content.html -->" | safeHTML }}
 <div class="12u">
 <div class="row">
+  {{ with $.Page.Params.start_date }}
+{{ $start := (dateFormat "2006-01-02" . ) }}
+{{ $now := now.Format "2006-01-02" }}
+{{ if ge $start $now }}
   <div class="4u 12u(narrower)">
   <section class="box special">
   <div>
@@ -16,9 +21,12 @@
     </div>
   </section>
   </div>
+  {{ end }}
+  {{ end }}
   <div class="8u 12u(narrower)">
     <span class="image fit"><img src="{{ $.Page.Params.featured_image }}" alt="{{ $.Page.Params.description }}"></span>
   </div>
 
 </div>
 </div>
+{{ "<!-- LEAVING layouts/partials/special_content.html -->" | safeHTML }}
