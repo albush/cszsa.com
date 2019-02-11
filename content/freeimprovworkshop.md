@@ -5,12 +5,12 @@ cta_link: https://www.eventbrite.com/e/copy-of-free-improv-comedy-workshop-intro
 date: "2018-11-26T10:43:47-06:00"
 description: Come check out what this Improv thing is!! It's a free workshop to see
   just how fun improv is.
-end_date: "2019-03-03T16:00:40-06:00"
+end_date: "2019-03-03T17:00:40-06:00"
 featured: "true"
 featured_image: /images/freeimprovclass.jpg
 images:
 - /images/freeimprovclass.jpg
-start_date: "2019-03-03T15:00:40-06:00"
+start_date: "2019-03-03T16:00:40-06:00"
 title: Free Improv Workshop
 ---
 
