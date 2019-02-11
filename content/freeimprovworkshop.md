@@ -1,16 +1,16 @@
 ---
 box_title: Get Registered
 cta: Register Now For Free
-cta_link: https://www.eventbrite.com/e/free-improv-comedy-workshop-intro-to-improv-tickets-52894497867
+cta_link: https://www.eventbrite.com/e/copy-of-free-improv-comedy-workshop-intro-to-improv-tickets-56367483661
 date: "2018-11-26T10:43:47-06:00"
 description: Come check out what this Improv thing is!! It's a free workshop to see
   just how fun improv is.
-end_date: "2018-12-03T20:00:40-06:00"
-featured: "false"
+end_date: "2019-03-10T16:00:40-06:00"
+featured: "true"
 featured_image: /images/freeimprovclass.jpg
 images:
 - /images/freeimprovclass.jpg
-start_date: "2018-12-03T19:00:40-06:00"
+start_date: "2019-03-10T15:00:40-06:00"
 title: Free Improv Workshop
 ---
 
