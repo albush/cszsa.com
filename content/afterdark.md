@@ -2,29 +2,18 @@
 box_title: PG-17 Improv. Saturdays at 10pm
 contact: "true"
 cta: Get Tickets Now
-cta_link: https://squareup.com/store/CSz-SanAntonio/
+cta_link: https://squareup.com/store/CSz-SanAntonio/item/after-dark-improv-game-night-cards-against-improvisors
 date: "2018-08-12T13:38:48-05:00"
 draft: false
-featured_image: /images/afterdark.jpg
+featured_image: /images/C_A_I.jpg
 images:
-- /images/afterdark.jpg
-subtitile: Late Night Improv for Adults Only
-title: After Dark
+- /images/C_A_I.jpg
+subtitile: "Improv Game Night: Cards Against Improvisors"
+title: After Dark Presents
 ---
 
-After Dark is Studio 185's late night, BYOB, PG-17, anything goes improv show.
-Also....
+## We're BAAAAAAAAAAAACK!
 
-**IT'S THE LAST AFTER DARK SHOW OF 2018!!!**
+Our After Dark shows are back! We're kicking things off with an Improv Game Night featuring a totally not copyrighted game of Cards Against Improvisors.
 
-THE LAST ONE!!!!!
-
-This week's teams:
-
-[Flashback](https://www.facebook.com/flashbackimprov/) - Inappropriate. Weird. Awkward. And those are their good qualities.
-
-[Whine Time](https://www.facebook.com/WhineTimeImprov/) - Two improvisers. One bottle of wine. Relationships. Conflict.
-
-Half-Life Crisis- Emotions. Situations. Exploration. Humor. Sadness. Rage.
-
-Something's Missing- A musical improv adventure that you'll never forget.
+This show is BYOB, and only $8 (or less, if you attend the ComedySportz show before it!)
