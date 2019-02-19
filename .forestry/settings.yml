@@ -4,6 +4,21 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: directory
+  path: content/blog
+  label: Blog
+  create: all
+  match: "**/*"
+  new_doc_ext: ".md"
+  templates:
+  - blog-post
+- type: directory
+  path: content/blog
+  label: Blog Posts
+  create: all
+  match: "**/*"
+  templates:
+  - blog-post
 - type: heading
   label: Players
 - type: directory
@@ -30,13 +45,6 @@ sections:
   label: Pages
   create: all
   match: "*"
-- type: directory
-  path: content/blog
-  label: Blog Posts
-  create: all
-  match: "**/*"
-  templates:
-  - blog-post
 - type: heading
   label: Temporary Events
 - type: document
