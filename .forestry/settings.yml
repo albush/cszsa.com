@@ -5,7 +5,7 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
-  label: Blog
+  label: Content
 - type: directory
   path: content/blog
   label: Blog Posts
@@ -13,6 +13,11 @@ sections:
   match: "**/*"
   templates:
   - blog-post
+- type: directory
+  path: content
+  label: Pages
+  create: all
+  match: "*"
 - type: heading
   label: Players
 - type: directory
@@ -27,7 +32,7 @@ sections:
   create: documents
   match: "**/*"
 - type: heading
-  label: Content
+  label: Matches
 - type: directory
   path: content/shows
   label: Upcoming Matches
@@ -35,10 +40,11 @@ sections:
   match: "**/*"
   new_doc_ext: md
 - type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
+  path: content/matches
+  label: Match Recaps
+  create: documents
+  match: "**/*"
+  new_doc_ext: ".md"
 - type: heading
   label: Temporary Events
 - type: document
