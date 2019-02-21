@@ -1,0 +1,6 @@
+{{ $urlPre := "https://api.instagram.com/v1/users/self/media/recent?access_token=" }}
+{{ $id := .Site.Params.inst_access }}
+{{ $inst := getJSON $urlPre $id }}
+{{ range first 5 $inst.data }}
+<li><a href="{{ .link }}" target="_blank"><img src="{{ .images.standard_resolution.url }}" alt="{{ .caption.text }}"></a></li>
+    {{ end }}

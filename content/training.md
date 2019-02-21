@@ -68,7 +68,7 @@ The ComedySportz High School League® is the largest, most successful teen impro
 
 Contact us for more information about the ComedySportz High School League, or any of our other classes
 
-{{< contact_form >}}
+{{< contact-form >}}
 
 ---
 

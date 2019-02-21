@@ -13,6 +13,8 @@ With over 20 years experience, ComedySportz has entertained thousands of student
 
 {{< jumpcontact >}}
 
+{{< instagram Bt6MHoeFiMw >}}
+
 ## What is ComedySportz?
 
 ComedySportz is competitive improvisational comedy.

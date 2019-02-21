@@ -145,7 +145,7 @@ If you're using formspree, you'll also need to set `formspree_email` to your ema
 
 If you're using netlify, you'll also want to set the `confirm_page = "url"` to a page on your site. That way after a user submits the form they'll be sent to a page with your customised thank you message, rather than a generic netlify page.
 
-If you'd like a contact form on another page, use the shortcode `{{< contact_form >}}`
+If you'd like a contact form on another page, use the shortcode `{{< contact-form >}}`
 ### 8. Links
 At the very bottom of each page is a bunch of icons (from FontAwesome) which can be used for links to social media, RSS feeds, or whatever you like!
 ```
