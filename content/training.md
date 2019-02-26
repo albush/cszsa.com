@@ -5,6 +5,7 @@ cta_link: 'https://squareup.com/store/CSz-SanAntonio/item/improv-pm-sundays'
 ticket_link: 'https://squareup.com/store/CSz-SanAntonio/item/improv-pm-sundays'
 classes:
 - improv101
+- improv201
 draft: false
 intro: Our next round of Improv 101 classes are forming now for Sundays at 1PM, starting
   March 10th. Learn more about our 101 class below.
@@ -46,7 +47,7 @@ Each workshop is eight 2.5 hour sessions.
 We build on the basic skills of Improv 101 to further creativity, fun, and technical skills. This workshop focuses on space-object work, creating characters, narrative storytelling, gibberish, initiating (starting scenes), heightening (coming into a scene), and thinking faster. Learn to apply your play in ways to build spontaneous stories and fantastic scenes. For the non-actor, this class provides you with great skills for public speaking, teaching, and impressive leadership. Once you know the art of improv, you'll never worry about forgetting the lines to a speech because you will have the tools to make it work.
 Each workshop is eight 2.5 hour sessions.
 
-**No prerequisites or previous experience required.**
+**Prerequisite**: Completed 101 or equivalent.
 
 **Registration fee:** $200 (Or reserve your spot for $100 and pay the balance at your first class.)
 
@@ -56,7 +57,7 @@ Improv 301 expands the scope of the scene. By connecting further to the scene an
 Additionally you will learn to improve techniques by building the world through multiplayer scenes and object work.
 Each workshop is eight 2.5 hour sessions.
 
-**No prerequisites or previous experience required.**
+**Prerequisite**: Completed 201 or equivalent.
 
 **Registration fee:** $200 (Or reserve your spot for $100 and pay the balance at your first class.)
 
