@@ -2,7 +2,6 @@
 draft: false
 player: pfenoglio
 shows:
-- csz-2019-02-01
-- csz-2019-02-15
+- ccsz-2019-03-01
 title: Paul Fenoglio
 ---

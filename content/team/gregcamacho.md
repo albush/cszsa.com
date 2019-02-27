@@ -1,8 +1,6 @@
 ---
 player: gcamacho
 shows:
-- csz-2019-02-08
-- csz-2019-02-22
-- csz-2019-02-23
+- csz-2019-03-02
 title: Greg Camacho
 ---
