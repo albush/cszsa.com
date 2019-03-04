@@ -1,9 +1,8 @@
 ---
 player: bscribner
 shows:
-- csz-2019-02-02
-- csz-2019-02-08
-- csz-2019-02-15
-- csz-2019-02-16
+- csz-2019-03-23
+- csz-2019-03-29
+- csz-2019-03-30
 title: Brian Scribner
 ---

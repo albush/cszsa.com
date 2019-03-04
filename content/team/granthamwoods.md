@@ -1,7 +1,6 @@
 ---
 player: gwoods
-# shows:
-# - csz-2019-02-15
-# - csz-2019-02-16
+shows:
+- csz-2019-03-23
 title: Grantham Woods
 ---
