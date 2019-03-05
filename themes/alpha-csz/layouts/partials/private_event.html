@@ -1,0 +1,22 @@
+<center><H1>{{ .Title }}</h1></center>
+<section class="container">
+    <ul class="actions">
+  <center>
+    <li><a href="#privateeventcontact" class="button special">Book Your Own Event</a></li>
+    <!-- <li><a target="_blank" rel="noopener" href="{{ .Params.ticket_link }}" class="button special">Another Button</a></li> -->
+    <a href="/shows">Other Matches</a>
+  </center>
+  </ul>
+</section>
+
+  <span class="image fit"><img src="/images/soldout.jpg" alt=""></span>
+
+<p>Hey Loyal Fans - We're closed on {{ dateFormat "Monday January 2" .Params.show_date }} for a private performance of ComedySportz. </p>
+<p>Don't worry, you can still get tickets for one of our <a href="/shows/">other shows</a> - or, you can contact us to book your own event below.</p>
+<p>You didn't know we did private events? Well now you do! ComedySportz can create the perfect show for your private event. We're great for work events, school assemblies, private holiday parties, and so much more. Find out more aobut our private events by dropping us a line below.</p>
+
+<a id="privateeventcontact"></a></br>
+<h2>Book Your Private Event Today</h2>
+Please fill in the form below with your contact info, and we'll get right back to you, or call us directly at (210) 338-0279 or email us at <a href="mailto:info@cszsa.com">info@cszsa.com</a>.
+
+{{ partial "contact" . }}
