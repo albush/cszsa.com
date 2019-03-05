@@ -10,18 +10,28 @@
 <section id="main" class="container"  style="padding: 1em">
   <!-- ENTERING layouts/shows/comedysportz/single.html -->
 
-  <center><H1>{{ .Title }}</h1></center>
+
+
+<!-- if private show -->
+{{ if eq .Params.show_status "private_event" }}
+<!-- partial for private show -->
+{{ partial "private_event" . }}
+<!-- if sold out -->
+{{ else if eq .Params.show_status "sold_out" }}
+<!-- partial for sold out -->
+{{ partial "sold_out" . }}
+<!-- all other events -->
+{{ else }}
+<center><H1>{{ .Title }}</h1></center>
 <section class="container">
-      <ul class="actions">
-    <center>
-      <li><a target="_blank" rel="noopener" href="{{ .Params.ticket_link }}" onclick="trackOutboundLink('{{ .Params.ticket_link | safeHTML }}'); return false;" class="button special">Buy Tickets</a></li>
-      <!-- <li><a target="_blank" rel="noopener" href="{{ .Params.ticket_link }}" class="button special">Another Button</a></li> -->
-      <a href="/shows">Other Matches</a>
-    </center>
-    </ul>
-  </section>
-
-
+    <ul class="actions">
+  <center>
+    <li><a target="_blank" rel="noopener" href="{{ .Params.ticket_link }}" onclick="trackOutboundLink('{{ .Params.ticket_link | safeHTML }}'); return false;" class="button special">Buy Tickets</a></li>
+    <!-- <li><a target="_blank" rel="noopener" href="{{ .Params.ticket_link }}" class="button special">Another Button</a></li> -->
+    <a href="/shows">Other Matches</a>
+  </center>
+  </ul>
+</section>
 <section>
   <center><h2>Who's playing {{ dateFormat "Monday"  .Params.show_date  }}?</h2></center>
 </section>
@@ -260,6 +270,9 @@
   </div>
   {{ end }}
   </div>
+
+{{ end }}
+
 {{ .Content }}
   </section>
 
