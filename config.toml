@@ -147,7 +147,7 @@ image = "images/sanantonioimprovcomedysportz.jpg"
 logo = "images/CSz_Entertainment_long_COLOR.png"
 text = "CSz's entertainment began with ComedySportz®, our flagship show, and we're proud to bring it to San Antonio. Read more about what a ComedySportz match is like at our FAQ."
 title = "Corporate Training & Team Building"
-url = "/buytickets"
+url = "/shows"
 [[params.landing.feature_images.tile]]
 button_text = "Book Something Awesome"
 logo = "images/CSz_Groups_long_COLOR.png"
