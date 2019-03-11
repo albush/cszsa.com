@@ -9,7 +9,12 @@
 
 <section id="main" class="container"  style="padding: 1em">
   <!-- ENTERING layouts/shows/comedysportz/single.html -->
-
+  <!-- if private show -->
+  {{ if eq .Params.show_status "private_event" }}
+  <!-- partial for private show -->
+  {{ partial "private_event" . }}
+  <!-- all other events -->
+  {{ else }}
   <center><H1>Match Recap: {{ dateFormat "Monday, Jan 2, 2006" .Params.show_date }}</h1></center>
 
 
@@ -255,6 +260,7 @@
   </div>
   {{ end }}
   </div>
+  {{ end }}
 <section class="box" style="text-align:left">
   {{ .Content }}
 </section>
