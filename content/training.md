@@ -13,7 +13,7 @@ weight: 50
 featured_image: /images/improv301.jpg
 images:
 - /images/improv301.jpg
-featured: "true"
+featured: "false"
 start_date: "2019-03-11T19:00:12-06:00"
 ---
 
