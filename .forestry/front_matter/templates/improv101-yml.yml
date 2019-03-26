@@ -1,7 +1,6 @@
 ---
 label: Class Form
 hide_body: false
-is_partial: false
 fields:
 - name: Name
   label: Name

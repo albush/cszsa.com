@@ -44,7 +44,7 @@ sections:
   label: Match Recaps
   create: documents
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 - type: heading
   label: Temporary Events
 - type: document
