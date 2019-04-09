@@ -6,7 +6,7 @@ start_date: "2019-04-04T20:00:17-05:00"
 date: "2018-11-26T10:43:47-06:00"
 description: Our City-Wide Improv Showcase
 end_date: "2019-04-06T22:00:17-05:00"
-featured: "true"
+featured: "false"
 featured_image: /images/improvroyale-ing.jpg
 images:
 - /images/improvroyale-ing.jpg
