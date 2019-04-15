@@ -2,7 +2,7 @@ version: 2
 jobs:
   production_build:
     docker:
-      - image: cibuilds/hugo:0.55.0
+      - image: cibuilds/hugo:0.54.0
     working_directory: ~/project
     steps:
       - checkout
@@ -15,7 +15,7 @@ jobs:
             - public
   staging_build:
     docker:
-      - image: cibuilds/hugo:0.55.0
+      - image: cibuilds/hugo:0.54.0
     working_directory: ~/project
     steps:
       - checkout
@@ -28,7 +28,7 @@ jobs:
             - public
   newtheme_build:
     docker:
-      - image: cibuilds/hugo:0.55.0
+      - image: cibuilds/hugo:0.54.0
     working_directory: ~/project
     steps:
       - checkout
