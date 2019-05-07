@@ -1,12 +1,13 @@
 ---
-box_title: Improv 101 Mondays at 7pm Starting May 20
+box_title: Improv 101 & 201 classes start May 19 & 20
 cta: Reserve Your Spot Now
-cta_link: 'https://squareup.com/store/CSz-SanAntonio/item/improv-mondays-at-starting-may'
-ticket_link: 'https://squareup.com/store/CSz-SanAntonio/item/improv-mondays-at-starting-may'
+cta_link: 'https://squareup.com/store/CSz-SanAntonio/'
+ticket_link: 'https://squareup.com/store/CSz-SanAntonio/'
 classes:
 - improv101
+- improv201
 draft: false
-intro: Our next round of Improv 101 classes begins May 20th.
+intro: Our next round of Improv 101 & 201 classes begin May 19 & 20.
 menuname: Classes
 title: Learn To Be An Improvisor
 weight: 50
