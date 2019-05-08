@@ -2,10 +2,10 @@
 draft: false
 player: bsolo
 shows:
-- csz-2019-03-01
-- csz-2019-03-02
-- csz-2019-03-08
-- csz-2019-03-15
-- csz-2019-03-22
+- csz-2019-05-03
+- csz-2019-05-04
+- csz-2019-05-17
+- csz-2019-05-24
+- csz-2019-05-31
 title: Bailey Solo
 ---
