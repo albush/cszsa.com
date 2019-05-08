@@ -1,6 +1,6 @@
 ---
 author: abush
-featured: "true"
+featured: "false"
 featured_image: /images/congratsminors.jpg
 images:
 - /images/congratsminors.jpg
