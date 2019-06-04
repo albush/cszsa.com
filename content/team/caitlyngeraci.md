@@ -2,7 +2,6 @@
 draft: false
 player: cgeraci
 shows:
-- csz-2019-05-18
-- csz-2019-05-24
+- csz-2019-06-29
 title: Caitlyn Geraci
 ---

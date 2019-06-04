@@ -2,7 +2,8 @@
 draft: false
 player: cromero
 shows:
-- csz-2019-05-11
-- csz-2019-06-01
+- csz-2019-06-08
+- csz-2019-06-22
+- csz-2019-06-29
 title: Ceasar X. Romero Jr.
 ---

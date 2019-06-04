@@ -1,6 +1,6 @@
 ---
 player: jscribner
 shows:
-- csz-2019-06-01
+- csz-2019-06-14
 title: Joelle Scribner
 ---

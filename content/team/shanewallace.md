@@ -1,7 +1,7 @@
 ---
 player: swallace
 shows:
-- csz-2019-05-04
-- csz-2019-05-18
+- csz-2019-06-07
+- csz-2019-06-22
 title: Shane Wallace
 ---
