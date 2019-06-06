@@ -5,9 +5,9 @@ cta: Get Tickets Now
 cta_link: "#tickets"
 date: "2018-08-12T13:38:48-05:00"
 draft: false
-featured_image: /images/AD-June.png
+featured_image: /images/afterdarkJune.png
 images:
-- /images/AD-June.png
+- /images/afterdarkJune.png
 subtitile: "Our Weekly Late Night Comedy Show for Grownups"
 title: After Dark Presents
 ---
