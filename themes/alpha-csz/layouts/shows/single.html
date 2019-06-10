@@ -22,7 +22,7 @@
 {{ partial "sold_out" . }}
 <!-- all other events -->
 {{ else }}
-<center><H1>{{ .Title }}</h1></center>
+<center><H1>{{ .Title | markdownify }}</h1></center>
 <section class="container">
     <ul class="actions">
   <center>
