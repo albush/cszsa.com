@@ -9,7 +9,8 @@
 		{{ hugo.Generator }}
 		{{ if eq (getenv "HUGO_ENV") "staging" }}{{ "<!-- NOT LIVE - STAGING ENVIRONMENT - NOT LIVE -->" | safeHTML }}{{ end }}
 		{{ partial "opengraph.html" . }}
-		{{ template "_internal/twitter_cards.html" . }}
+		{{ partial "twitter.html" . }}
+		<!-- {{ template "_internal/twitter_cards.html" . }} -->
 		{{- $css := .Site.Data.libs.css -}}
 		{{ printf "<link rel=\"stylesheet\" href=\"//use.fontawesome.com/releases/v%s/css/all.css\" integrity=\"%s\" crossorigin=\"anonymous\">" $css.fontawesome.version $css.fontawesome.integrity | safeHTML }}
 		<!-- favicons, etc -->
