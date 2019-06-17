@@ -96,8 +96,8 @@ formspree_email = "info@cszsa.com"
 service = "formspree"
 [params.special_event]
 # comment out special event section if no events are scheduled
-events = ["dads2019"]
-description = "All Dads get in FREE this Father's Day Weekend!"
+# events = ["dads2019"]
+# description = "All Dads get in FREE this Father's Day Weekend!"
 [params.footer]
 copyright = ["[CC0 (public domain)](//creativecommons.org/publicdomain/zero/1.0/)", "Design: [HTML5 UP](//html5up.net/alpha)", "[Hugo Port](//gohugo.io) by [Daniel Saunders](//github.com/funkydan2)", "[Privacy Policy](/privacy)"]
 [params.landing.CTA]
