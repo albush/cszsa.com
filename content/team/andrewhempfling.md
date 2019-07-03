@@ -1,7 +1,7 @@
 ---
 player: ahempfling
 shows:
-- csz-2019-06-22
-- csz-2019-06-29
+- csz-2019-07-20
+- csz-2019-07-27
 title: Andrew Hempfling
 ---

@@ -1,8 +1,8 @@
 ---
 draft: false
 player: asmith
-shows:
-- csz-2019-06-07
+# shows:
+# - csz-2019-06-07
 title: Adam Smith
 "FirstName": "Adam"
 "LastName": "Smith"
