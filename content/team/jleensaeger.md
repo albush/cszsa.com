@@ -1,6 +1,6 @@
 ---
 player: jsaeger
-# shows:
-# - csz-2019-06-08
+shows:
+- csz-2019-08-31
 title: J'Leen Saeger
 ---
