@@ -7,7 +7,7 @@ date: "2019-05-08T15:53:09-05:00"
 description: "Watch the next generation of ComedySportz All Stars in our Minor League Matches."
 start_date: "2019-08-18T18:00:38-05:00"
 end_date: "2019-08-18T00:00:40-06:00"
-featured: "true"
+featured: "false"
 featured_image: /images/minorleague-2019-08-18.jpg
 images:
 - /images/minorleague-2019-08-18.jpg
