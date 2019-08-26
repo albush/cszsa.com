@@ -4,6 +4,7 @@ cta: Reserve Your Spot Now
 cta_link: 'https://squareup.com/store/CSz-SanAntonio'
 ticket_link: 'https://squareup.com/store/CSz-SanAntonio'
 classes:
+- improv001  
 - improv101
 - improv201
 draft: false
