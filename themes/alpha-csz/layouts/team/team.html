@@ -16,7 +16,8 @@
   {{ range $i, $player := sort .Site.Data.players "FirstName" }}
     <div class="4u 12u(narrower)">
       <section class="box special">
-      <h4><a style="border-bottom:none" href="/team/{{ $player.PlayerPage}}"># {{ $player.Number | safeHTML }} {{ with $player.Full_Nickname }} {{ . | markdownify }} {{ end }}</a></h4>
+        <h4># {{ $player.Number | safeHTML }} </h4>
+      <h4><a style="border-bottom:none" href="/team/{{ $player.PlayerPage}}">{{ with $player.Full_Nickname }} {{ . | markdownify }} {{ end }}</a></h4>
       <a style="border-bottom:none" href="/team/{{ $player.PlayerPage}}"><img alt = "{{ $player.FullName }}" src = "/images/players/{{$player.Photo}}.jpg" class="img-responsive" width = "120px"></a>
       </section>
     </div>
