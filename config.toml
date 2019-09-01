@@ -97,7 +97,7 @@ service = "formspree"
 [params.special_event]
 # comment out special event section if no events are scheduled
 events = ["training"]
-description = "Love what we do? Then give us a vote!"
+description = "Free Improv Class, and Back To School Sale"
 [params.footer]
 copyright = ["[CC0 (public domain)](//creativecommons.org/publicdomain/zero/1.0/)", "Design: [HTML5 UP](//html5up.net/alpha)", "[Hugo Port](//gohugo.io) by [Daniel Saunders](//github.com/funkydan2)", "[Privacy Policy](/privacy)"]
 [params.landing.CTA]

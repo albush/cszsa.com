@@ -7,7 +7,7 @@ date: "2019-05-08T15:53:09-05:00"
 description: This weekend we’re celebrating Dads!!! Dads get in Free!! So only purchase tickets for the not-Dads this time around.
 start_date: "2019-09-02T00:00:38-05:00"
 end_date: "2019-09-01T00:00:40-06:00"
-featured: "true"
+featured: "false"
 featured_image: /images/sapicks-vote.jpg
 images:
   - /images/sapicks-vote.jpg

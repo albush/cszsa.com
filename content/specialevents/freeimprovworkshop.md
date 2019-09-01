@@ -6,7 +6,7 @@ date: "2018-11-26T10:43:47-06:00"
 description: Come check out what this Improv thing is!! It's a free workshop to see
   just how fun improv is.
 end_date: "2019-09-03T21:00:40-05:00"
-featured: "true"
+featured: "false"
 featured_image: /images/freeimprovclass.jpg
 images:
 - /images/freeimprovclass.jpg

@@ -2,11 +2,11 @@
 draft: false
 player: llittle
 shows:
-- csz-2019-08-02
-- csz-2019-08-03
-- csz-2019-08-09
-- csz-2019-08-10
-- csz-2019-08-16
-- csz-2019-08-23
+- csz-2019-09-06
+- csz-2019-09-13
+- csz-2019-09-14
+- csz-2019-09-20
+- csz-2019-09-27
+- csz-2019-09-28
 title: Lisa Little
 ---
