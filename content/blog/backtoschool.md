@@ -1,6 +1,6 @@
 ---
 author: abush
-featured: "True"
+featured: "true"
 draft: false
 featured_image: /images/BackToSchool.png
 images:

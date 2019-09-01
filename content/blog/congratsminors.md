@@ -1,7 +1,7 @@
 ---
 author: abush
-featured: "True"
-draft: true
+featured: "false"
+draft: false
 featured_image: /images/congratsminors.jpg
 images:
 - /images/congratsminors.jpg
