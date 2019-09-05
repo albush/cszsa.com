@@ -20,4 +20,5 @@ Join us every Saturday night for our **After Dark Presents** series. These shows
 |----------|------|-----------------|
 | **September 7**   |Improvised Game Night: Cards Against Improvisors   |[Tickets $8](https://squareup.com/store/CSz-SanAntonio/item/improv-game-night-cards-against-improvisors-1)   |
 | **September 14** |The Blue Show|[Tickets $8](https://squareup.com/store/CSz-SanAntonio/item/sep-after-dark-the-blue-show)|
+| **September 21**   | Improvised Game Night: Cards Against Improvisors  |[Tickets $8](https://squareup.com/store/CSz-SanAntonio/item/sept-improv-game-night-cards-against-improvisors)  |
 | **September 28**   |The Blue Show   |[Tickets $8](https://squareup.com/store/CSz-SanAntonio/item/sep-after-dark-the-blue-show-1)   |
