@@ -1,0 +1,43 @@
+{{ "<!-- ENTERING layouts/partials/featured_cta.html -->" | safeHTML }}
+<!-- if evergreen -->
+{{ if $.Page.Params.evergreen }}
+<div class="4u 12u(narrower)">
+<section class="box special">
+<div>
+  <h3>{{ $.Page.Params.box_title}}</h3>
+
+</div>
+  <div>
+    <ul class="actions">
+        <li><a href="{{ $.Page.Params.cta_link }}" class="button special" onclick="trackOutboundLink('{{ $.Page.Params.cta_link | safeHTML }}'); return false;" >{{ $.Page.Params.cta }}</a></li>
+    </ul>
+  </div>
+</section>
+</div>
+<!-- end if evergreen -->
+{{ else }}
+<!-- if specific time -->
+{{ with $.Page.Params.start_date }}
+{{ $start := (dateFormat "2006-01-02" . ) }}
+{{ $now := now.Format "2006-01-02" }}
+{{ if ge $start $now }}
+<div class="4u 12u(narrower)">
+<section class="box special">
+<div>
+  <h3>{{ $.Page.Params.box_title}}</h3>
+  {{ with $.Page.Params.start_date }}
+<p><b>{{ dateFormat "3:04 PM Monday, January 2, 2006" . }}</b></p>
+  {{ end }}
+</div>
+  <div>
+    <ul class="actions">
+        <li><a href="{{ $.Page.Params.cta_link }}" class="button special" onclick="trackOutboundLink('{{ $.Page.Params.cta_link | safeHTML }}'); return false;" >{{ $.Page.Params.cta }}</a></li>
+    </ul>
+  </div>
+</section>
+</div>
+{{ end }}
+{{ end }}
+<!-- end if specific time -->
+{{ end }}
+{{ "<!-- LEAVING layouts/partials/featured_cta.html -->" | safeHTML }}
