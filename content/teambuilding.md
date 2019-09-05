@@ -4,17 +4,18 @@ cta: Schedule Now
 cta_link: '#appliedimprovcontact'
 draft: false
 featured: "false"
-featured_image: /images/comedysportzcorporatetraining.jpg
+# featured_image: /images/comedysportzcorporatetraining.jpg
 images:
 - /images/comedysportzcorporatetraining.jpg
 menuname: Team Building
 title: Corporate Training and Team Building
 weight: 30
 ---
+{{< youtube NSQBPpkK8Pk >}}
 
-## CSz Business Training. Because work is more than numbers.
+# CSz Business Training. Because work is more than numbers.
 
-> Customer Service. Leadership. Communications Skills. Soft Skills. Agility. Employee Engagement.
+### Customer Service. Leadership. Communications Skills. Soft Skills. Agility. Employee Engagement.
 
 As CSz performers, we use our improvisation skills onstage to get people laughing. Conveniently, offstage, we use them to run a successful business. We specialize in teaching people HOW to use improvisation techniques in their work lives. We teach the essential, yet often overlooked or discarded, communication and listening skills that will consistently improve the quality of your work, home and social relationships. We call this **Applied Improvisation**.
 
