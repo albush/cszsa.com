@@ -1,17 +1,19 @@
 ---
 box_title: Applied Improv with ComedySportz
-cta: Schedule Now
+cta: Schedule Your Workshop Now
 cta_link: '#appliedimprovcontact'
 draft: false
 featured: "false"
-# featured_image: /images/comedysportzcorporatetraining.jpg
+evergreen: true
+start_date: 2019-09-04
+featured_image: /images/comedysportzcorporatetraining.jpg
 images:
 - /images/comedysportzcorporatetraining.jpg
 menuname: Team Building
 title: Corporate Training and Team Building
 weight: 30
+featured_video: NSQBPpkK8Pk
 ---
-{{< youtube NSQBPpkK8Pk >}}
 
 # CSz Business Training. Because work is more than numbers.
 

@@ -1,0 +1,13 @@
+{{ "<!-- ENTERING layouts/partials/featured_asset.html -->" | safeHTML }}
+<!-- video/image -->
+<div class="8u 12u(narrower)">
+  {{ if $.Page.Params.featured_video }}
+  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+<iframe src="https://www.youtube.com/embed/{{ $.Page.Params.featured_video }}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+{{ else }}
+  <span class="image fit"><img src="{{ $.Page.Params.featured_image }}" alt="{{ $.Page.Params.description }}"></span>
+{{ end }}
+</div>
+<!-- end video/image -->
+{{ "<!-- LEAVING layouts/partials/featured_asset.html -->" | safeHTML }}
