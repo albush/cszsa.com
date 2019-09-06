@@ -4,7 +4,7 @@ cta: Reserve Your Spot Now
 cta_link: 'https://squareup.com/store/CSz-SanAntonio'
 ticket_link: 'https://squareup.com/store/CSz-SanAntonio'
 classes:
-- improv001  
+- improv001
 - improv101
 - improv201
 draft: false
@@ -37,8 +37,8 @@ This free one night drop-in class introduces the student to some basic improv wa
 
 ### Improv 101
 
-We focus on the basics of improvisation: team-building, trust, speed, status, active listening, and agreement. You will learn to be fearless and have fun on stage!This workshop emphasizes basic verbal and physical communication skills by exploring spontaneity, active listening, risk-taking, story-telling, character development, and other fun stuff in a safe, non-judgmental environment. Laughter and positive vibes guaranteed. No prerequisite except willingness for silliness. You learn the fundamentals for creating effective improv scene work. Giggles, chuckles, and guffaws included in course fee. It will be one of the funniest and most fun, life strengthening things you will ever do for yourself.
-Each workshop is eight 2.5 hour sessions.
+We focus on the basics of improvisation: team-building, trust, speed, status, active listening, and agreement. You will learn to be fearless and have fun on stage! This workshop emphasizes basic verbal and physical communication skills by exploring spontaneity, active listening, risk-taking, story-telling, character development, and other fun stuff in a safe, non-judgmental environment. Laughter and positive vibes guaranteed. No prerequisite except willingness for silliness. You learn the fundamentals for creating effective improv scene work. Giggles, chuckles, and guffaws included in course fee. It will be one of the funniest and most fun, life strengthening things you will ever do for yourself.
+Each workshop is six 2.5 hour sessions.
 
 **No prerequisites or previous experience required.**
 
@@ -48,7 +48,7 @@ Each workshop is eight 2.5 hour sessions.
 ### Improv 201
 
 We build on the basic skills of Improv 101 to further creativity, fun, and technical skills. This workshop focuses on space-object work, creating characters, narrative storytelling, gibberish, initiating (starting scenes), heightening (coming into a scene), and thinking faster. Learn to apply your play in ways to build spontaneous stories and fantastic scenes. For the non-actor, this class provides you with great skills for public speaking, teaching, and impressive leadership. Once you know the art of improv, you'll never worry about forgetting the lines to a speech because you will have the tools to make it work.
-Each workshop is eight 2.5 hour sessions.
+Each workshop is six 2.5 hour sessions.
 
 **Prerequisite**: Completed 101 or equivalent.
 
@@ -58,7 +58,7 @@ Each workshop is eight 2.5 hour sessions.
 
 Improv 301 expands the scope of the scene. By connecting further to the scene and group as a whole you will be able to create larger grounded scenes overall.
 Additionally you will learn to improve techniques by building the world through multiplayer scenes and object work.
-Each workshop is eight 2.5 hour sessions.
+Each workshop is six 2.5 hour sessions.
 
 **Prerequisite**: Completed 201 or equivalent.
 
