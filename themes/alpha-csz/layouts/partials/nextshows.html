@@ -1,22 +1,7 @@
 <h3>This Weekend's Matches:</h3>
 
-{{ range first 2 (sort (where .Pages "Section" "shows")  "Params.show_date") }}
-      <h4>ComedySportz {{ dateFormat "Monday, January 2, 2006" .Params.show_date }}</h4>
-      {{ if eq .Params.show_status "private_event" }}
-      <ul class="actions">
+{{ range where .Site.Pages "Section" "shows" }}
 
-          <li><a href="{{ .URL }}" class="button">Closed For Private Event</a></li>
-      </ul>
-      {{ else if eq .Params.show_status "sold_out" }}
-      <ul class="actions">
+<li>{{ .Params.title }}</li>
 
-          <li><a href="{{ .URL }}" class="button">This Match Is Sold Out</a></li>
-      </ul>
-      {{ else }}
-      <ul class="actions">
-
-          <li><a href="{{ .Params.ticket_link }}" onclick="trackOutboundLink('{{ .Params.ticket_link | safeHTML }}'); return false;" class="button special">Buy Tickets</a></li>
-          <li><a href="{{ .URL }}" class="button special">Who's Playing</a></li>
-      </ul>
-      {{ end }}
 {{ end }}
