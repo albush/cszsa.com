@@ -15,7 +15,7 @@ jobs:
             - public
   staging_build:
     docker:
-      - image: cibuilds/hugo:
+      - image: cibuilds/hugo
     working_directory: ~/project
     steps:
       - checkout
