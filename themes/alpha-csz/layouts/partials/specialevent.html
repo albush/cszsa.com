@@ -5,11 +5,11 @@
 <p>{{ .Site.Params.special_event.description | markdownify }}</p>
 <div>
 <ul class="actions">
-  {{ range first 2 (sort (where .Pages ".Params.featured" "true") "Params.start_date") }}
+  {{ range first 2 (sort (where .Site.Pages ".Params.featured" "true") "Params.start_date") }}
         <li><a href="{{ .Permalink }}" class="button special">{{ .Title }}</a></li>
       {{ end }}
   </ul>
-<!-- 
+<!--
 </div>
 <hr>
 <ul class="actions">
