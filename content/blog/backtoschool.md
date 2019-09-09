@@ -2,9 +2,9 @@
 date: 2019-09-01
 author: abush
 featured: "true"
-evergreen: true
+evergreen: false
 draft: false
-start_date: 2019-09-08
+# start_date: 2019-09-08
 featured_image: /images/BackToSchool.png
 images:
 - /images/BackToSchool.png
