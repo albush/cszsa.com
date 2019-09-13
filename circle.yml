@@ -26,19 +26,6 @@ jobs:
           root: ~/project
           paths:
             - public
-  newtheme_build:
-    docker:
-      - image: cibuilds/hugo
-    working_directory: ~/project
-    steps:
-      - checkout
-      - run:
-          name: "Run Hugo"
-          command: HUGO_ENV=staging hugo -v -b http://alt.cszsa.com.s3-website.us-east-2.amazonaws.com/ -s ~/project
-      - persist_to_workspace:
-          root: ~/project
-          paths:
-            - public
   staging_deploy:
     docker:
       - image: cibuilds/aws
@@ -54,21 +41,6 @@ jobs:
             aws s3 sync --cache-control "max-age=31536000" --acl "public-read" ~/project/public/images/ s3://${STAGING_BUCKET}/images/
             aws s3 sync --cache-control "max-age=31536000" --acl "public-read" ~/project/public/js/ s3://${STAGING_BUCKET}/js/
             aws s3 sync --cache-control "max-age=31536000" --acl "public-read" ~/project/public/scss/ s3://${STAGING_BUCKET}/scss/
-  newtheme_deploy:
-    docker:
-      - image: cibuilds/aws
-    steps:
-      - attach_workspace:
-          at: ~/project
-      - run:
-          name: "Upload to Staging - skip static files"
-          command: aws s3 sync --acl "public-read" --storage-class "REDUCED_REDUNDANCY" ~/project/public/ s3://${NEWTHEME_BUCKET}/ --exclude 'images/*' --exclude 'scss/*' --exclude 'js/*'
-      - run:
-          name: "Copy and cache static files"
-          command: |
-            aws s3 sync --cache-control "max-age=31536000" --acl "public-read" ~/project/public/images/ s3://${NEWTHEME_BUCKET}/images/
-            aws s3 sync --cache-control "max-age=31536000" --acl "public-read" ~/project/public/js/ s3://${NEWTHEME_BUCKET}/js/
-            aws s3 sync --cache-control "max-age=31536000" --acl "public-read" ~/project/public/scss/ s3://${NEWTHEME_BUCKET}/scss/
   prod_deploy:
     docker:
       - image: cibuilds/aws
