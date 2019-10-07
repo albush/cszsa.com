@@ -1,5 +1,5 @@
 (function($){skel.breakpoints({wide:"(max-width: 1680px)",normal:"(max-width: 1280px)",narrow:"(max-width: 980px)",narrower:"(max-width: 840px)",mobile:"(max-width: 736px)",mobilep:"(max-width: 480px)"});$(function(){var $window=$(window),$body=$("body"),$header=$("#header"),$banner=$("#banner");$("form").placeholder();skel.on("+narrower -narrower",function(){$.prioritize(".important\\28 narrower\\29",skel.breakpoint("narrower").active);});$("#nav > ul").dropotron({alignment:"right"});$('<div id="navButton">'+
-'<a href="#navPanel" class="toggle"></a>'+
+'<a href="#navPanel" aria-label="menu" class="toggle"></a>'+
 "</div>").appendTo($body);$('<div id="navPanel">'+
 "<nav>"+
 $("#nav").navList()+
