@@ -1,8 +1,8 @@
 ---
-draft: false
 player: gcue
 shows:
-- csz-2019-09-14
-- csz-2019-09-20
+- csz-2019-10-18
+- csz-2019-10-26
 title: George Cue
+
 ---
