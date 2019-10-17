@@ -1,8 +1,8 @@
 ---
-draft: false
 player: jbeene
 shows:
-- csz-2019-09-07
-- csz-2019-09-21
+- csz-2019-10-05
+- csz-2019-10-19
 title: James Beene
+
 ---
