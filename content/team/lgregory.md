@@ -1,8 +1,7 @@
 ---
-draft: false
 player: lgregory
 shows:
-- csz-2019-09-13
-- csz-2019-09-20
+- csz-2019-10-11
 title: Lisa Gregory
+
 ---
