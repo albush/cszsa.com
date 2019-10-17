@@ -1,9 +1,10 @@
 ---
-draft: false
 player: larnette
 shows:
-- csz-2019-09-06
-- csz-2019-09-14
-- csz-2019-09-28
+- csz-2019-10-04
+- csz-2019-10-18
+- csz-2019-10-25
+- csz-2019-10-26
 title: Louie Arnette
+
 ---
