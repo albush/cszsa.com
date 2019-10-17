@@ -1,8 +1,7 @@
 ---
-draft: false
 player: swilliams
 shows:
-- csz-2019-09-14
-- csz-2019-09-27
+- csz-2019-10-12
 title: Sawyer Williams
+
 ---
