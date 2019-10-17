@@ -1,7 +1,7 @@
 ---
-draft: false
 player: jpeden
 shows:
-- csz-2019-09-27
+- csz-2019-10-12
 title: James Peden
+
 ---
