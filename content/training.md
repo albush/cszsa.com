@@ -1,25 +1,24 @@
 ---
-box_title: Improv 101 & 201 Classes Starting Soon!
+box_title: Improv 101 Classes Starting Soon!
 cta: Reserve Your Spot Now
-cta_link: 'https://squareup.com/store/CSz-SanAntonio'
-ticket_link: 'https://squareup.com/store/CSz-SanAntonio'
+cta_link: 'https://squareup.com/store/CSz-SanAntonio/item/improv-sundays-at-noon-starting-nov'
+ticket_link: 'https://squareup.com/store/CSz-SanAntonio/item/improv-sundays-at-noon-starting-nov'
 classes:
 - improv001
 - improv101
-- improv201
 draft: false
-intro: Our next round of Improv 101 classes begin September 7
+intro: Our next round of Improv 101 classes begin November 17th
 menuname: Classes
 title: Learn To Be An Improvisor
 weight: 50
-featured_image: /images/fall_classes.jpg
+featured_image: /images/NOV-101.jpg
 images:
 - /images/fall_classes.jpg
 - /images/101-summer-2019.jpg
 - /images/improv301.jpg
 featured: "true"
-start_date: "2019-08-31T15:00:12-06:00"
-end_date: "2019-08-31T23:00:40-06:00"
+start_date: "2019-11-17T12:00:12-06:00"
+end_date: "2019-11-17T23:00:40-06:00"
 ---
 
 CSz improv and applied improv classes are a fun, supportive way to learn improvisational thinking and gain self-confidence. Don’t be fooled into thinking improv is just for performers - many of our students use improv to develop business soft-skills, and communicate better - and they meet other cool people! There's almost always a CSz improv class running, so check out our class calendar and sign up today!
