@@ -12,7 +12,7 @@ images:
 menuname: Team Building
 title: Corporate Training and Team Building
 weight: 30
-featured_video: NSQBPpkK8Pk
+featured_video: PZ6N6JftQ-w
 ---
 
 # CSz Business Training. Because work is more than numbers.

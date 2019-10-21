@@ -1,14 +1,17 @@
 ---
 box_title: Choose ComedySportz for your next event
-contact: "true"
 cta: Book Us For Your Event
 cta_link: '#privateeventcontact'
 draft: false
+featured: "false"
 featured_image: /images/events_1.jpg
+start_date: 2019-10-21
+evergreen: true
 images:
 - /images/events_1.jpg
 menuname: Private Shows
 title: Book us for your next event
+featured_video: NSQBPpkK8Pk
 ---
 
 You want your event to be special. You want comedy that's fresh, appeals to everyone, and offends no one. You want entertainment that's customized to you? You want ComedySportz®.
