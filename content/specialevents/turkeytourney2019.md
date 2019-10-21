@@ -7,13 +7,23 @@ date: "2019-10-20T12:30:40-06:00"
 description: "Come out to see All of the ComedySportz Texas teams showcase their hilarious
   talents on November 29th and 30th."
 featured: "true"
+featured_image: /images/turkeytourney19.jpg
 images:
 - /images/turkeytourney19.jpg
 title: Texas Turkey Tourney 2019
 aliases: /turkeytourney
-start_date: 2019-11-29T19:30:53-05:00
-end_date: 2019-11-30T22:00:53-05:00
+tickets:
+  - https://squareup.com/store/CSz-SanAntonio/item/friday-nov-texas-turkey-tourney
+  - https://squareup.com/store/CSz-SanAntonio/item/sat-nov-texas-turkey-tourney
 ---
+<h2>Tickets on sale now!</h2>
+
+<div>
+  <ul class="actions">
+      <li><a href="https://squareup.com/store/CSz-SanAntonio/item/friday-nov-texas-turkey-tourney" class="button special">Friday Nov 29th</a></li>
+      <li><a href="https://squareup.com/store/CSz-SanAntonio/item/sat-nov-texas-turkey-tourney " class="button special">Saturday Nov 30th</a></li>
+  </ul>
+</div>
 
 Come out to see All of the ComedySportz Texas teams showcase their hilarious talents on November 29th and 30th.
 
