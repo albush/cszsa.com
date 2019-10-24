@@ -9,25 +9,84 @@
 
 <section id="main" class="container"  style="padding: 1em">
   <!-- ENTERING layouts/shows/comedysportz/single.html -->
+	<center><h1>Recent Match Recaps</h1></center>
+	{{ template "_internal/pagination.html" . }}
 <div class="row" style="vertical-align: middle">
-{{ range sort .Pages ".Params.show_date" "desc" }}
+
+	{{ $pages := .Paginator.Pages }}
+	{{ $len := (len $pages) }}
+	{{ range $index, $key := $pages }}
 
   <div class="6u 12u(narrower)">
     <section class="box special">
-      <h2>ComedySportz {{ dateFormat "Monday, January 2, 2006" .Params.show_date }}</h2>
+			<h2>ComedySportz {{ dateFormat "Monday, January 2, 2006" .Params.show_date }}</h2>
 {{ if .Params.final_red }}
 <h3>Final Score</h3>
-      <p>Punslingers in Red: {{ .Params.final_red}}</p>
-      <p>Bexars in Blue: {{ .Params.final_blue}}</p>
+			<p>Punslingers in Red: {{ .Params.final_red}}</p>
+			<p>Bexars in Blue: {{ .Params.final_blue}}</p>
 {{ end }}
-      <ul class="actions">
-          <li><a href="{{ .URL }}" class="button special">Recap and Stats</a></li>
-      </ul>
-
+			<ul class="actions">
+					<li><a href="{{ .URL }}" class="button special">Recap and Stats</a></li>
+			</ul>
     </section>
   </div>
 
 {{ end }}
 </div>
+{{ template "_internal/pagination.html" . }}
   </section>
+
   {{ partial "footer" . }}
+
+
+<!--
+	Alpha by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<!--
+{{ partial "header" . }}
+{{ partial "nav" . }}
+
+<section id="main" class="container"  style="padding: 1em">
+  <!-- ENTERING layouts/shows/comedysportz/single.html -->
+<!-- <div class="row" style="vertical-align: middle">
+							<!-- <div class="box"> -->
+							<!-- {{ $pages := .Paginator.Pages }}
+							{{ $len := (len $pages) }}
+              {{ range $index, $key := $pages }}
+
+							<div class="6u 12u(narrower)">
+						    <section class="box special">
+						      <h2>ComedySportz {{ dateFormat "Monday, January 2, 2006" .Params.show_date }}</h2>
+						{{ if .Params.final_red }}
+						<h3>Final Score</h3>
+						      <p>Punslingers in Red: {{ .Params.final_red}}</p>
+						      <p>Bexars in Blue: {{ .Params.final_blue}}</p>
+						{{ end }} -->
+						      <!-- <ul class="actions">
+						          <li><a href="{{ .URL }}" class="button special">Recap and Stats</a></li>
+						      </ul>
+
+						    </section>
+						  </div> -->
+								<!-- <div>
+									<a href="{{ .Permalink }}">{{ if .Draft }}DRAFT: {{end}}{{ .Title | markdownify }}</a>
+									<time class="date-meta">({{ .Date.Format "Jan 2, 2006" }})</time>
+									<br>
+									{{ .Summary | plainify | safeHTML }}
+									{{ if .Truncated }}
+										<a class="button small alt" href="{{ .Permalink }}" >
+												Read more<i class="fas fa-angle-double-right"></i>
+										</a>
+									{{ end }} {{/* if */}}
+								</div> -->
+<!--
+								{{ if lt (add $index 1) $len }}
+									<hr />
+								{{ end }}{{/* if */}}
+						{{ end }} {{/* range */}}
+						{{ template "_internal/pagination.html" . }} -->
+					<!-- </div> -->
+					<!-- </div>
+				</section>  -->
