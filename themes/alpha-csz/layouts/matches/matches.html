@@ -10,7 +10,9 @@
 <section id="main" class="container"  style="padding: 1em">
   <!-- ENTERING layouts/shows/comedysportz/single.html -->
 	<center><h1>Recent Match Recaps</h1></center>
-	{{ template "_internal/pagination.html" . }}
+	<div class="pagination">
+		{{ partial "pagination" . }}
+	</div>
 <div class="row" style="vertical-align: middle">
 
 	{{ $pages := .Paginator.Pages }}
@@ -33,7 +35,7 @@
 
 {{ end }}
 </div>
-{{ template "_internal/pagination.html" . }}
+{{ partial "pagination" . }}
   </section>
 
   {{ partial "footer" . }}
