@@ -11,7 +11,7 @@
   <!-- ENTERING layouts/shows/comedysportz/single.html -->
 <div class="row" style="vertical-align: middle">
   <center><h1>Buy Tickets to Upcoming Matches</h1></center>
-{{ range sort .Pages ".Params.show_date" }}
+{{ range (.Paginate (.Pages.ByParam "show_date")).Pages }}
 
   <div class="6u 12u(narrower)">
     <section class="box special">
