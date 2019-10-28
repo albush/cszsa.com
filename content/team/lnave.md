@@ -1,9 +1,7 @@
 ---
 player: lnave
 shows:
-- csz-2019-10-12
-- csz-2019-10-18
-- csz-2019-10-25
+- csz-2019-11-09
 title: Lindsey Nave
 
 ---

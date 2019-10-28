@@ -1,7 +1,8 @@
 ---
 player: eschraer
 shows:
-- csz-2019-10-19
+- csz-2019-11-02
+- csz-2019-11-08
 title: Elliot Schraer
 
 ---

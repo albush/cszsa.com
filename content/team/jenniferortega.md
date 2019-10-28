@@ -1,9 +1,9 @@
 ---
 player: jortega
 shows:
-- csz-2019-10-12
-- csz-2019-10-19
-- csz-2019-10-26
+- csz-2019-11-09
+- csz-2019-11-16
+- csz-2019-11-23
 title: Jennifer Ortega
 
 ---

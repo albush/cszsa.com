@@ -1,7 +1,7 @@
 ---
 player: csmith
 shows:
-- csz-2019-10-19
+- csz-2019-11-16
 title: Carly Smith
 
 ---

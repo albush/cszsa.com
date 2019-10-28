@@ -1,6 +1,6 @@
 ---
 player: jboyson
-shows: []
+# shows: 
 title: Jason Boyson
 
 ---

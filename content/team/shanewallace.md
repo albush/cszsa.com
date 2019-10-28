@@ -1,6 +1,7 @@
 ---
 player: swallace
-shows: []
+shows:
+- csz-2019-11-15
 title: Shane Wallace
 
 ---

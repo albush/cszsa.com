@@ -1,7 +1,7 @@
 ---
 player: cwinchell
 shows:
-- csz-2019-10-11
+- csz-2019-11-02
 title: Channing Winchell
 
 ---

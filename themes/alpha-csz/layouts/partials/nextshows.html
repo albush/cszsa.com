@@ -2,7 +2,7 @@
 <h3>This Weekend's Matches:</h3>
 
 {{ range first 2 (sort (where .Site.Pages "Section" "shows")  "Params.show_date") }}
-      <h4>ComedySportz {{ dateFormat "Monday, January 2, 2006" .Params.show_date }}</h4>
+      <h4>ComedySportz {{ dateFormat "Monday, Jan 2, 2006" .Page.Params.show_date }}</h4>
       {{ if eq .Params.show_status "private_event" }}
       <ul class="actions">
 

@@ -1,7 +1,7 @@
 ---
 player: jpeden
 shows:
-- csz-2019-10-12
+- csz-2019-11-23
 title: James Peden
 
 ---
