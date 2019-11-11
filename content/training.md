@@ -1,20 +1,20 @@
 ---
-box_title: Improv 101 Classes Starting Soon!
+box_title: Improv 101 & 201 Classes Starting Soon!
 cta: Reserve Your Spot Now
-cta_link: 'https://squareup.com/store/CSz-SanAntonio/item/improv-sundays-at-noon-starting-nov'
-ticket_link: 'https://squareup.com/store/CSz-SanAntonio/item/improv-sundays-at-noon-starting-nov'
+cta_link: 'https://cszsa.square.site/classes'
+ticket_link: 'https://cszsa.square.site/classes'
 classes:
-- improv001
 - improv101
+- improv201
 draft: false
-intro: Our next round of Improv 101 classes begin November 17th
+intro: Our next round of Improv 101 & 201 classes begin November 17th
 menuname: Classes
 title: Learn To Be An Improvisor
 weight: 50
-featured_image: /images/NOV-101.jpg
+featured_image: /images/winter_classes.jpg
 images:
-- /images/fall_classes.jpg
-- /images/101-summer-2019.jpg
+- /images/winter_classes.jpg
+- /images/NOV-101.jpg
 - /images/improv301.jpg
 featured: "true"
 start_date: "2019-11-17T12:00:12-06:00"
