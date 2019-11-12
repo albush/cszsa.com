@@ -2,7 +2,7 @@
 author: abush
 box_title: Buy Tickets Now
 cta: Turkey Tourney Tickets
-cta_link: https://squareup.com/store/CSz-SanAntonio/
+cta_link: https://cszsa.square.site/special-events
 date: "2019-10-20T12:30:40-06:00"
 description: "Come out to see All of the ComedySportz Texas teams showcase their hilarious
   talents on November 29th and 30th."
@@ -13,15 +13,15 @@ images:
 title: Texas Turkey Tourney 2019
 aliases: /turkeytourney
 tickets:
-  - https://squareup.com/store/CSz-SanAntonio/item/friday-nov-texas-turkey-tourney
-  - https://squareup.com/store/CSz-SanAntonio/item/sat-nov-texas-turkey-tourney
+  - https://cszsa.square.site/product/friday-nov-29-texas-turkey-tourney-2019/1
+  - https://cszsa.square.site/product/sat-nov-30-texas-turkey-tourney-2019/2
 ---
 <h2>Tickets on sale now!</h2>
 
 <div>
   <ul class="actions">
-      <li><a href="https://squareup.com/store/CSz-SanAntonio/item/friday-nov-texas-turkey-tourney" class="button special">Friday Nov 29th</a></li>
-      <li><a href="https://squareup.com/store/CSz-SanAntonio/item/sat-nov-texas-turkey-tourney " class="button special">Saturday Nov 30th</a></li>
+      <li><a href="https://cszsa.square.site/product/friday-nov-29-texas-turkey-tourney-2019/1" class="button special">Friday Nov 29th</a></li>
+      <li><a href="https://cszsa.square.site/product/sat-nov-30-texas-turkey-tourney-2019/2" class="button special">Saturday Nov 30th</a></li>
   </ul>
 </div>
 
