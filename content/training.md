@@ -16,7 +16,7 @@ images:
 - /images/winter_classes.jpg
 - /images/NOV-101.jpg
 - /images/improv301.jpg
-featured: "true"
+featured: "false"
 start_date: "2019-11-17T12:00:12-06:00"
 end_date: "2019-11-17T23:00:40-06:00"
 ---

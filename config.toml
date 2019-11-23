@@ -96,8 +96,12 @@ formspree_email = "info@cszsa.com"
 service = "formspree"
 [params.special_event]
 #comment out special event section if no events are scheduled
-events = ["training", "turkeytourney19"]
-description = "Improv 101 and the Turkey Tourney Returns!"
+events = ["turkeytourney19"]
+description = "The Texas Turkey Tourney is coming! Get your tickets now!"
+[params.awards]
+#comment out awards section if no awards are featured
+image = "images/familyenterainmentwreath.png"
+description = "Thank you Loyal Fans for voting us for the best family entertainment in San Antonio!"
 [params.footer]
 copyright = ["[CC0 (public domain)](//creativecommons.org/publicdomain/zero/1.0/)", "Design: [HTML5 UP](//html5up.net/alpha)", "[Hugo Port](//gohugo.io) by [Daniel Saunders](//github.com/funkydan2)", "[Privacy Policy](/privacy)"]
 [params.landing.CTA]

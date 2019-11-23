@@ -1,7 +1,7 @@
 ---
 date: 2019-09-01
 author: abush
-featured: "true"
+featured: "false"
 evergreen: false
 draft: false
 # start_date: 2019-09-08
