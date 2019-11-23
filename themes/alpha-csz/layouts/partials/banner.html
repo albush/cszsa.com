@@ -1,6 +1,6 @@
 <section id="banner" style="background-image:url(images/overlay.png), url({{ .Site.Params.Landing.Banner.image | absURL }})">
   <h2>{{ .Site.Params.title }}</h2>
-  <img height="200px" src="{{ .Site.Params.awards.image }}" alt="{{ .Site.Params.awards.description }}">
+<a href="/blog/bestofsathanks/"><img height="200px" src="{{ .Site.Params.awards.image }}" alt="{{ .Site.Params.awards.description }}"></a>
   {{ if .Site.Params.special_event }}
   {{ partial "specialevent.html" . }}
   {{ end }}
