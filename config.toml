@@ -97,7 +97,7 @@ service = "formspree"
 [params.special_event]
 #comment out special event section if no events are scheduled
 events = ["turkeytourney19"]
-description = "The Texas Turkey Tourney is coming! Get your tickets now!"
+description = "What's better than 2 ComedySportz shows each weekend? How about 4?"
 [params.awards]
 #comment out awards section if no awards are featured
 image = "images/familyenterainmentwreath.png"
