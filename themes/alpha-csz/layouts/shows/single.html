@@ -20,6 +20,10 @@
 {{ else if eq .Params.show_status "sold_out" }}
 <!-- partial for sold out -->
 {{ partial "sold_out" . }}
+<!-- if turkey tourney -->
+{{ else if eq .Params.show_status "turkey_tourney" }}
+<!-- partial for sold out -->
+{{ partial "turkey_tourney" . }}
 <!-- all other events -->
 {{ else }}
 <center><H1>{{ .Title | markdownify }}</h1></center>

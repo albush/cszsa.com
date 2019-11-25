@@ -1,0 +1,11 @@
+<center><H1>{{ .Title }}</h1></center>
+<section class="container">
+    <ul class="actions">
+  <center>
+    <li><a href="{{ .Page.Params.ticket_link}}" class="button special">Get your tickets today!</a></li>
+    <a href="/shows">Other Matches</a>
+  </center>
+  </ul>
+</section>
+
+  <span class="image fit"><img src="{{ index .Params.images 0 | absURL }}" alt=""></span>
