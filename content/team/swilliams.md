@@ -1,9 +1,9 @@
 ---
 player: swilliams
 shows:
-- csz-2019-11-01
-- csz-2019-11-09
-- csz-2019-11-16
+- csz-2019-12-06
+- csz-2019-12-21
+- csz-2019-12-28
 title: Sawyer Williams
 
 ---

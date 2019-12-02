@@ -1,8 +1,9 @@
 ---
 player: dvankirk
-# shows:
-# - csz-2019-10-05
-# - csz-2019-10-18
+shows:
+- csz-2019-12-06
+- csz-2019-12-21
+- csz-2019-12-28
 title: Dave Van Kirk
 
 ---

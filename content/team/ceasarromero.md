@@ -1,8 +1,7 @@
 ---
 player: cromero
 shows:
-- csz-2019-11-09
-- csz-2019-11-16
+- csz-2019-12-07
 title: Ceasar X. Romero Jr.
 
 ---

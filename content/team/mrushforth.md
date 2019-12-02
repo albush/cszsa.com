@@ -1,6 +1,6 @@
 ---
 player: mrushforth
 shows:
-- csz-2019-11-22
+- csz-2019-12-20
 title: Michael Rushforth
 ---

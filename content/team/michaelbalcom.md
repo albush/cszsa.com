@@ -1,11 +1,10 @@
 ---
 player: mbalcom
 shows:
-- csz-2019-11-01
-- csz-2019-11-02
-- csz-2019-11-08
-- csz-2019-11-09
-- csz-2019-11-15
+- csz-2019-12-07
+- csz-2019-12-13
+- csz-2019-12-20
+- csz-2019-12-21
 title: Michael Balcom
 
 ---

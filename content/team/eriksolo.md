@@ -1,11 +1,8 @@
 ---
 player: esolo
 shows:
-- csz-2019-11-02
-- csz-2019-11-15
-- csz-2019-11-16
-- csz-2019-11-22
-- csz-2019-11-23
+- csz-2019-12-14
+- csz-2019-12-27
 title: Erik Solo
 
 ---
