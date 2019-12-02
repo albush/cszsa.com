@@ -2,10 +2,10 @@
 box_title: PG-17 Improv. Saturdays at 10pm
 contact: "true"
 cta: Get Tickets Now
-cta_link: "https://squareup.com/store/CSz-SanAntonio/"
+cta_link: "https://cszsa.square.site/afterdark"
 date: "2018-08-12T13:38:48-05:00"
 draft: false
-featured_image: /images/ad_oct.jpg
+featured_image: /images/AD-Dec.jpg
 images:
 - /images/ad_oct.jpg
 subtitile: "Our Weekly Late Night Comedy Show for Grownups"
@@ -18,7 +18,7 @@ Join us every Saturday night for our **After Dark Presents** series. These shows
 
 | **Date** | **Show** | **Tickets** |
 |----------|------|-----------------|
-| **October 5**   |Improvised Game Night: Cards Against Improvisors   |[Tickets $8](https://squareup.com/store/CSz-SanAntonio/item/oct-th-improv-game-night-cards-against-improvisors)   |
-| **October 12** |The Blue Show|[Tickets $8](https://squareup.com/store/CSz-SanAntonio/item/oct-th-after-dark-the-blue-show)|
-| **October 19**   | Community Long Form Night  |[Tickets $8](https://squareup.com/store/CSz-SanAntonio/item/oct-th-community-long-form-night)  |
-| **October 26**   |The Blue Show   |[Tickets $8](https://squareup.com/store/CSz-SanAntonio/item/oct-th-after-dark-the-blue-show-1)   |
+| **December 7**   |Improvised Game Night: Cards Against Improvisors   |[Tickets $8](https://cszsa.square.site/product/dec-7th-improv-game-night-cards-against-improvisors/145?cs=true)   |
+| **December 14** |The Blue Show|[Tickets $8](https://cszsa.square.site/product/dec-14-after-dark-the-blue-show/146?cs=true)|
+| **December 21**   | Community Long Form Night  |[Tickets $8](https://cszsa.square.site/product/dec-21-after-dark-long-form-night/148?cs=true)  |
+| **December 28**   |The Blue Show   |[Tickets $8](https://cszsa.square.site/product/dec-28-after-dark-the-blue-show/147?cs=true)   |
