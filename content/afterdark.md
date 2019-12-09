@@ -18,7 +18,7 @@ Join us every Saturday night for our **After Dark Presents** series. These shows
 
 | **Date** | **Show** | **Tickets** |
 |----------|------|-----------------|
-| **December 7**   |Improvised Game Night: Cards Against Improvisors   |[Tickets $8](https://cszsa.square.site/product/dec-7th-improv-game-night-cards-against-improvisors/145?cs=true)   |
+| **December 7**   |Improvised Game Night: Cards Against Improvisors   ||
 | **December 14** |The Blue Show|[Tickets $8](https://cszsa.square.site/product/dec-14-after-dark-the-blue-show/146?cs=true)|
 | **December 21**   | Community Long Form Night  |[Tickets $8](https://cszsa.square.site/product/dec-21-after-dark-long-form-night/148?cs=true)  |
 | **December 28**   |The Blue Show   |[Tickets $8](https://cszsa.square.site/product/dec-28-after-dark-the-blue-show/147?cs=true)   |
