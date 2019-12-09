@@ -5,16 +5,15 @@ cta_link: 'https://cszsa.square.site/classes'
 ticket_link: 'https://cszsa.square.site/classes'
 classes:
 - improv101
-- improv201
+- improv001
 draft: false
-intro: Our next round of Improv 101 & 201 classes begin November 17th
+intro: Our next round of Improv 101 classes begin January 19th
 menuname: Classes
 title: Learn To Be An Improvisor
 weight: 50
-featured_image: /images/winter_classes.jpg
+featured_image: /images/101-Jan2020.png
 images:
-- /images/winter_classes.jpg
-- /images/NOV-101.jpg
+- /images/101-Jan2020.png
 - /images/improv301.jpg
 featured: "false"
 start_date: "2019-11-17T12:00:12-06:00"
