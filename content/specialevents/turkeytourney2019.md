@@ -6,7 +6,7 @@ cta_link: https://cszsa.square.site/special-events
 date: "2019-10-20T12:30:40-06:00"
 description: "Come out to see All of the ComedySportz Texas teams showcase their hilarious
   talents on November 29th and 30th."
-featured: "true"
+featured: "false"
 featured_image: /images/turkeytourney19.jpg
 images:
 - /images/turkeytourney19.jpg

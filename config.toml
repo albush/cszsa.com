@@ -94,10 +94,10 @@ images = ["images/comedysportzsanantonio.jpg"]
 confirm_page = "/contact_thanks"
 formspree_email = "info@cszsa.com"
 service = "formspree"
-# [params.special_event]
-# #comment out special event section if no events are scheduled
-# events = ["turkeytourney19"]
-description = "What's better than 2 ComedySportz shows each weekend? How about 4?"
+[params.special_event]
+#comment out special event section if no events are scheduled
+events = ["training"]
+description = "Start the New Year with Improv Classes"
 [params.awards]
 #comment out awards section if no awards are featured
 image = "images/familyenterainmentwreath.png"

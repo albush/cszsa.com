@@ -15,9 +15,9 @@ featured_image: /images/101-Jan2020.png
 images:
 - /images/101-Jan2020.png
 - /images/improv301.jpg
-featured: "false"
-start_date: "2019-11-17T12:00:12-06:00"
-end_date: "2019-11-17T23:00:40-06:00"
+featured: "true"
+start_date: "2020-11-17T12:00:12-06:00"
+end_date: "2019-20-17T23:00:40-06:00"
 ---
 
 CSz improv and applied improv classes are a fun, supportive way to learn improvisational thinking and gain self-confidence. Don’t be fooled into thinking improv is just for performers - many of our students use improv to develop business soft-skills, and communicate better - and they meet other cool people! There's almost always a CSz improv class running, so check out our class calendar and sign up today!
