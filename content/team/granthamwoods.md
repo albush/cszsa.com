@@ -1,11 +1,10 @@
 ---
 player: gwoods
 shows:
-- csz-2019-12-13
-- csz-2019-12-14
-- csz-2019-12-21
-- csz-2019-12-27
-- csz-2019-12-28
+- csz-2020-01-10
+- csz-2020-01-11
+- csz-2020-01-31
+- csz-2020-02-01
 title: Grantham Woods
 
 ---

@@ -1,7 +1,7 @@
 ---
 player: asmith
 shows:
-- csz-2019-12-07
+- csz-2020-01-04
 title: Adam Smith
 
 ---

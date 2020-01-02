@@ -1,7 +1,8 @@
 ---
 player: sbrookes
 shows:
-- csz-2019-12-27
+- csz-2020-01-03
+- csz-2020-01-17
 title: Sara Brookes
 
 ---

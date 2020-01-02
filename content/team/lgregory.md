@@ -1,8 +1,7 @@
 ---
 player: lgregory
 shows:
-- csz-2019-12-06
-- csz-2019-12-20
+- csz-2020-01-31
 title: Lisa Gregory
 
 ---

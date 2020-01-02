@@ -1,8 +1,9 @@
 ---
 player: mwilliams
 shows:
-- csz-2019-12-21
-- csz-2019-12-27
+- csz-2020-01-03
+- csz-2020-01-11
+- csz-2020-01-31
 title: Morgan Williams
 
 ---
