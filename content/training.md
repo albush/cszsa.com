@@ -15,7 +15,7 @@ featured_image: /images/101-Jan2020.png
 images:
 - /images/101-Jan2020.png
 - /images/improv301.jpg
-featured: "true"
+featured: "false"
 start_date: "2020-01-19T13:00:12-06:00"
 end_date: "2020-01-19T23:00:40-06:00"
 ---

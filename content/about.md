@@ -13,6 +13,12 @@ ComedySportz San Antonio has something funny for everyone. From our flagship fam
 
 {{<csz-buttons>}}
 
+
+## Food And Drink Policy
+
+We are a BYOB facility for alcoholic beverages. You're welcome to bring your own beverage and drink responsibly at our venue. No outside food or soft drinks allowed; please see our snack bar for some tasty snacks.
+
+
 ## Classes at ComedySportz San Antonio
 
 ComedySportz San Antonio also offers [training classes for improvisors of all skill levels](/training). Join one of our improv classes to learn about improv, feel more comfortable in front of crowds, and make new friends. Many of our current ComedySportz players started in our improv classes. Classes are forming frequently, so reserve your spot now.

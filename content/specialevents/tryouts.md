@@ -1,22 +1,22 @@
 ---
 box_title: It's your chance to become a ComedySportz Player
 cta: Reserve Your Tryout Spot
-cta_link: https://www.eventbrite.com/e/comedysportz-san-antonio-minor-league-tryouts-tickets-59599832704
-start_date: "2019-04-13T13:00:17-05:00"
-date: "2018-11-26T10:43:47-06:00"
+cta_link: https://www.eventbrite.com/e/minor-league-tryouts-tickets-90009997325
+start_date: "2020-03-01T18:00:17-05:00"
+date: "2020-01-18T10:43:47-06:00"
 description: Tryouts for our Minor League ComedySportz Team
-end_date: "2019-04-13T15:00:17-05:00"
-featured: "false"
-featured_image: /images/tryouts.jpeg
+end_date: "2020-03-01T18:00:17-05:00"
+featured: "true"
+featured_image: /images/tryouts2020.jpg
 images:
-- /images/tryouts.jpeg
+- /images/tryouts2020.jpg
 title: Minor League Tryouts
 ---
 
 ## You may be our next Minor League All-Star
 
-We're holding tryouts for our Minor League Team! Come audition to be a part of our improvisational comedy group!
+ComedySportz San Antonio is hosting a tryout for the Minor League team on March 1st at 6pm. If invited to join the Minor League you can expect a weekly practice where you will learn games and advanced short form improv.
 
-Does everyone say you're funny, and should perform in front of crowds? Do you always have that perfect comeback? Have you taken some improv classes and want a chance to perform regularly? Well come out and audition for the ComedySportz Minor League!
+Minor League is a training league that will have matches/shows on Sundays and is the only way to make the main stage team. You will bond with fellow Minor League players and start learning the ropes of ComedySportz. We are looking for committed actors/Improvisors to join our team. Previous improv classes and experience are a plus but not mandatory. We love theatre experience as well.
 
-If you'd like to come spend some time learning improv with weekly workshops, getting monthly opportunities to play ComedySportz on the CSz playing field, and hanging out with some of the coolest people on the planet, then don't miss this!
+This Tryout will be approx 2-2 1/2 hours long. Please wear comfortable shoes and clothes so you can move freely. The best advice we give is come ready to play and have fun!!
