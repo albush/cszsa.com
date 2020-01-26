@@ -5,9 +5,9 @@ cta: Get Tickets Now
 cta_link: "https://cszsa.square.site/afterdark"
 date: "2018-08-12T13:38:48-05:00"
 draft: false
-featured_image: /images/AD-Dec.jpg
+featured_image: /images/AD-Jan2020.png
 images:
-- /images/ad_oct.jpg
+- /images/AD-Jan2020.png
 subtitile: "Our Weekly Late Night Comedy Show for Grownups"
 title: After Dark Presents
 ---
@@ -18,7 +18,7 @@ Join us every Saturday night for our **After Dark Presents** series. These shows
 
 | **Date** | **Show** | **Tickets** |
 |----------|------|-----------------|
-| **December 7**   |Improvised Game Night: Cards Against Improvisors   ||
-| **December 14** |The Blue Show||
-| **December 21**   | Community Long Form Night  ||
-| **December 28**   |The Blue Show   |[Tickets $8](https://cszsa.square.site/product/dec-28-after-dark-the-blue-show/147?cs=true)   |
+| **January 4**   |Improvised Game Night: Clue   ||
+| **January 11** |The Blue Show w/ Frankenstein's Mind||
+| **January 18**   | Long Form Night  ||
+| **January 25**   |Long Form Night   |[Tickets $8](https://cszsa.square.site/product/jan-25-long-form-improv-night/166?cs=true)   |
