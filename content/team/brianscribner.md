@@ -1,7 +1,8 @@
 ---
 player: bscribner
 shows:
-- csz-2020-01-24
+- csz-2020-02-07
+- csz-2020-02-22
 title: Brian Scribner
 
 ---

@@ -1,8 +1,8 @@
 ---
 player: larnette
 shows:
-- csz-2020-01-03
-- csz-2020-01-18
+- csz-2020-02-07
+- csz-2020-02-21
 title: Louie Arnette
 
 ---

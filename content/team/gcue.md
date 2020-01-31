@@ -1,7 +1,7 @@
 ---
 player: gcue
 shows:
-- csz-2020-01-18
+- csz-2020-02-29
 title: George Cue
 
 ---

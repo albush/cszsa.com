@@ -1,8 +1,7 @@
 ---
 player: chernandez
 shows:
-- csz-2020-01-04
-- csz-2020-01-18
+- csz-2020-02-08
 title: Cristal Hernandez
 
 ---
