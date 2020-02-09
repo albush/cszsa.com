@@ -19,7 +19,6 @@ Join us every Saturday night for our **After Dark Presents** series. These shows
 | **Date** | **Show** | **Tickets** |
 |----------|------|-----------------|
 | **February 1**   |Improvised Game Night: Clue   |[Tickets $8](https://cszsa.square.site/product/feb-1-improvised-game-night-clueprov/175?cs=true)|
-| **February 8** |The Blue Show|[Tickets $8](https://cszsa.square.site/product/feb-8-after-dark-the-blue-show-/180?cs=true)|
 | **February 15**   |Improvised Game Night: Clue   |[Tickets $8](https://cszsa.square.site/product/february-15th-improvised-game-night-clueprov/176?cs=true)|
 | **February 22**   |Long Form Night   |[Tickets $8](https://cszsa.square.site/product/feb-22-long-form-improv-night/179?cs=true)   |
 | **February 29** |The Blue Show   |[Tickets $8](https://cszsa.square.site/product/feb-29-after-dark-the-blue-show-/178?cs=true)   |
