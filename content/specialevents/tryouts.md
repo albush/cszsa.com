@@ -6,7 +6,7 @@ start_date: "2020-03-01T18:00:17-05:00"
 date: "2020-01-18T10:43:47-06:00"
 description: Tryouts for our Minor League ComedySportz Team
 end_date: "2020-03-01T18:00:17-05:00"
-featured: "true"
+featured: "false"
 featured_image: /images/tryouts2020.jpg
 images:
 - /images/tryouts2020.jpg

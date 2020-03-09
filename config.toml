@@ -96,8 +96,8 @@ formspree_email = "info@cszsa.com"
 service = "formspree"
 [params.special_event]
 #comment out special event section if no events are scheduled
-# events = ["Tryouts"]
-# description = "Be one of us! Try out for the Minor League Team!"
+events = ["training"]
+description = "Our next Improv 101 Class starts on Sunday April 5th"
 [params.awards]
 #comment out awards section if no awards are featured
 image = "images/familyenterainmentwreath.png"
