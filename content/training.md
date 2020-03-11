@@ -1,19 +1,19 @@
 ---
-box_title: Improv 101 Classes Starting Soon!
+box_title: Improv 101 & 201 Classes Starting Soon!
 cta: Reserve Your Spot Now
 cta_link: 'https://cszsa.square.site/classes'
 ticket_link: 'https://cszsa.square.site/classes'
 classes:
 - improv101
-- improv001
+- improv201
 draft: false
 intro: Our next round of Improv 101 classes begin April 5th
 menuname: Classes
 title: Learn To Be An Improvisor
 weight: 50
-featured_image: /images/101-april.jpg
+featured_image: /images/spring_classes.png
 images:
-- /images/101-april.jpg
+- /images/spring_classes.png
 - /images/improv301.jpg
 featured: "false"
 start_date: "2020-04-05T13:00:12-06:00"

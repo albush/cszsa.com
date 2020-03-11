@@ -97,7 +97,7 @@ service = "formspree"
 [params.special_event]
 #comment out special event section if no events are scheduled
 events = ["training"]
-description = "Our next Improv 101 Class starts on Sunday April 5th"
+description = "Our next Improv 101 & 201 Classes start on Sunday April 5th"
 [params.awards]
 #comment out awards section if no awards are featured
 image = "images/familyenterainmentwreath.png"
