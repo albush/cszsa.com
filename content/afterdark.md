@@ -18,7 +18,7 @@ Join us every Saturday night for our **After Dark Presents** series. These shows
 
 | **Date** | **Show** | **Tickets** |
 |----------|------|-----------------|
-| **March 7**   |Improvised Game Night: Cards Against Improvisors   |[Tickets $8](https://cszsa.square.site/product/march-7th-improv-game-night-cards-against-improvisors/185?cs=true)|
+| **March 7**   |Improvised Game Night: Cards Against Improvisors   ||
 | **March 14**   |The Blue Show w/ Bikini Atoll   |[Tickets $8](https://cszsa.square.site/product/the-blue-show-with-bikini-atoll/186?cs=true)|
 | **March 21**   |Long Form Night   |[Tickets $8](https://cszsa.square.site/product/march-21-long-form-improv-night/187?cs=true)   |
 | **March 28** |The Blue Show w/ Mentirosas  |[Tickets $8](https://cszsa.square.site/product/the-blue-show-with-mentirosas/188?cs=true)   |
