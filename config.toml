@@ -94,6 +94,8 @@ images = ["images/comedysportzsanantonio.jpg"]
 confirm_page = "/contact_thanks"
 formspree_email = "info@cszsa.com"
 service = "formspree"
+[params.urgent]
+content = "covid19.md"
 [params.special_event]
 #comment out special event section if no events are scheduled
 events = ["training"]
