@@ -6,7 +6,7 @@
 
 {{ partial "header" . }}
 {{ partial "nav" . }}
-{{ partial "intro" . }}
+{{ if .Site.Params.urgent }}{{ partial "intro" . }}{{ end }}
 {{ partial "banner" . }}
 
 			{{ "<!-- Main -->" | safeHTML }}
