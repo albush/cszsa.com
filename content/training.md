@@ -3,22 +3,21 @@ box_title: Improv 101 & 201 Classes Starting Soon!
 cta: Reserve Your Spot Now
 cta_link: 'https://cszsa.square.site/classes'
 ticket_link: 'https://cszsa.square.site/classes'
-classes:
-- improv101
-- improv201
+# classes:
+# - improv101
+# - improv201
 draft: false
 intro: Our next round of Improv 101 classes begin April 5th
 menuname: Classes
 title: Learn To Be An Improvisor
 weight: 50
-featured_image: /images/spring_classes.png
+featured_image: /images/improv301.jpg
 images:
-- /images/spring_classes.png
 - /images/improv301.jpg
 featured: "false"
-start_date: "2020-04-05T13:00:12-06:00"
-end_date: "2020-04-05T23:00:40-06:00"
-featured: "true"
+start_date: "2020-03-15T13:00:12-06:00"
+end_date: "2020-03-15T23:00:40-06:00"
+featured: "false"
 ---
 
 CSz improv and applied improv classes are a fun, supportive way to learn improvisational thinking and gain self-confidence. Don’t be fooled into thinking improv is just for performers - many of our students use improv to develop business soft-skills, and communicate better - and they meet other cool people! There's almost always a CSz improv class running, so check out our class calendar and sign up today!
