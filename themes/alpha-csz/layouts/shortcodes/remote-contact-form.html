@@ -1,0 +1,42 @@
+<a id="remotecontact"></a></br>
+<h2>Book Your Remote Team Building Class Today</h2>
+
+<p>Please fill in the form below with your contact info, and we'll get right back to you, or call us directly at (210) 338-0279 or email us at <a href="mailto:info@cszsa.com">info@cszsa.com</a>.</p>
+
+<form method="POST" action="https://formspree.io/{{ $.Site.Params.Contact.formspree_email }}">
+  <div class="row uniform 50%">
+    <div class="4u 12u(mobilep)">
+      <input type="text" aria-label="Name" name="name" id="name" value="" placeholder="Name" />
+    </div>
+    <div class="4u 12u(mobilep)">
+      <input type="email" aria-label="Email" name="_replyto" id="email" value="" placeholder="Email" />
+    </div>
+    <div class="4u 12u(mobilep)">
+      <input type="text" aria-label="Phone" name="phone" id="phone" value="" placeholder="Phone" />
+    </div>
+  </div>
+  <div class="row uniform 50%">
+    <div class="4u 12u(mobilep)">
+      <input type="text" aria-label="Company Name" name="companyname" id="companyname" value="" placeholder="Company Name" />
+    </div>
+    <div class="4u 12u(mobilep)">
+      <input type="text" aria-label="Approximate Number of Attendees" name="attendees" id="attendees" value="" placeholder="Approximate Number of Attendees" />
+    </div>
+    <div class="4u 12u(mobilep)">
+      <input type="date" aria-label="Date of Event" name="date" id="date" value="" placeholder="Date of Event" />
+    </div>
+  </div>
+
+  <div class="row uniform 50%">
+    <div class="12u">
+      <textarea aria-label="Enter Your Message" name="message" id="message" placeholder="Tell us about your event" rows="6"></textarea>
+    </div>
+  </div>
+  <div class="row uniform">
+    <div class="12u">
+      <ul class="actions align-center">
+        <li><input type="submit" value="Send Message" /></li>
+      </ul>
+    </div>
+  </div>
+</form>

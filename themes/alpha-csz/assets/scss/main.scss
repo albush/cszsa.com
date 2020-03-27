@@ -300,6 +300,7 @@ label {
 input[type="text"],
 input[type="password"],
 input[type="email"],
+input[type="date"],
 select,
 textarea {
   @include vendor("appearance", "none");
