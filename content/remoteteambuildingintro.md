@@ -13,6 +13,4 @@ weight: 30
 
 As employees are increasingly navigating remote collaboration, it's more important than ever for businesses to support employee morale and effective communication. With our video conference based applied improv trainings, we can facilitate a number of fun workshops that apply the skills of improvisation to help you develop your team, improve communication, and build morale.
 
-Whether your team has just made the shift or has always been virtual, our unique mix of teambuilding and skill-building is a great way to take a break together and recharge.
-
 {{< virtualteamtraining >}}
