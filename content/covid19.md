@@ -9,5 +9,3 @@ title: COVID 19 Update
 - Stay in touch with us on [Facebook](https://www.facebook.com/ComedySportzSanAntonio/) and in our newsletter.
 
 {{< donategiftcards >}}
-
-{{< newsletter >}}

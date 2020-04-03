@@ -1,23 +1,35 @@
-<section class="intro" style="height:100vh;">
+<section id="virtualjams" class="intro" style="height:100vh;">
+<section class="container">
 
-<div class="box" style="padding-top:8vh;">
-<h3>{{ (.Site.GetPage "remoteteambuildingintro.md").Title }}</h3>
-{{ (.Site.GetPage "remoteteambuildingintro.md").Content }}
+<div class="box special">
+<center><img src="/images/cszsa-black.png" alt=""></center>
+<h3>{{ (.Site.GetPage "virtualjamsintro.md").Title }}</h3>
+{{ (.Site.GetPage "virtualjamsintro.md").Content }}
 </div>
-<section class="intro" style="height:5vh;">
-<center><a href="#temporarilyclosed"><i class="fas fa-chevron-down"></i></a></center>
-  </section>
+<center><a href="#remoteteambuilding"><i class="fas fa-chevron-down"></i></a></center>
 
 </section>
+</section>
+<section class="container">
+<section id="remoteteambuilding" class="intro" style="height:100vh;">
 
-<section id="temporarilyclosed" class="intro" style="height:85vh;">
+<div class="box special">
+<h3>{{ (.Site.GetPage "remoteteambuildingintro.md").Title }}</h3>
+{{ (.Site.GetPage "remoteteambuildingintro.md").Content }}
 
-<div class="box" style="padding-top:8vh;">
+</div>
+<center><a href="#temporarilyclosed"><i class="fas fa-chevron-down"></i></a></center>
+</section>
+</section>
+
+
+<section id="temporarilyclosed" class="intro" style="height:100vh;">
+<section class="container">
+<div class="box special">
 <h3>{{ (.Site.GetPage "covid19.md").Title }}</h3>
 {{ (.Site.GetPage "covid19.md").Content }}
 </div>
-
-</section>
-<section class="intro" style="height:5vh;">
 <center><a href="#banner">Continue To Main Site <i class="fas fa-chevron-down"></i></a></center>
+</section>
+
   </section>
