@@ -14,7 +14,7 @@ title: Virtual Improv Jams
 weight: 30
 ---
 
-![](/images/virtualjams.png)
+![](/images/virtualjams.png)  
 Are you missing the fun of improv  and/or improv class?
 CSz is hosting virtual improv jams! We will meet twice a week from 7-8:30pm for the month of April starting on the 7th. Be ready to play improv games and have fun making things up, virtually!!
 
