@@ -1,4 +1,21 @@
 <section class="container">
+<section id="virtualmatch" class="intro" style="height:100vh;">
+
+<div class="box special">
+<h3>{{ (.Site.GetPage "virtualmatch.md").Title }}</h3>
+<img src="{{ (.Site.GetPage "virtualmatch.md").Params.featured_image }}" alt="">
+<ul class="actions">
+  <li><a href="{{ (.Site.GetPage "virtualmatch.md").Params.cta_link }}" class="button special">{{ (.Site.GetPage "virtualmatch.md").Params.cta }}</a></li>
+</ul>
+{{ (.Site.GetPage "virtualmatch.md").Content }}
+
+</div>
+<center><a href="#temporarilyclosed"><i class="fas fa-chevron-down"></i></a></center>
+</section>
+</section>
+
+
+<section class="container">
 <section id="remoteteambuilding" class="intro" style="height:100vh;">
 
 <div class="box special">
