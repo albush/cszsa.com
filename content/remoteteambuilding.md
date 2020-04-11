@@ -13,6 +13,7 @@ images:
 menuname: Team Building
 title: Learning and Laughter from your Laptop
 weight: 30
+short_description: "As employees are increasingly navigating virtual collaboration, it's more important than ever for businesses to support employee morale and effective communication. With our video conference based applied improv trainings, we can facilitate a number of fun workshops that apply the skills of improvisation to help you develop your team, improve communication, and build morale."
 ---
 
 ## MORALE EVENTS - TEAM BUILDING - COMMUNICATION TRAININGS

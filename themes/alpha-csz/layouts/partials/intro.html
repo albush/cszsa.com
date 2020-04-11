@@ -10,7 +10,7 @@
 {{ (.Site.GetPage "virtualmatch.md").Content }}
 
 </div>
-<center><a href="#temporarilyclosed"><i class="fas fa-chevron-down"></i></a></center>
+<center><a href="#remoteteambuilding"><i class="fas fa-chevron-down"></i></a></center>
 </section>
 </section>
 
@@ -19,9 +19,12 @@
 <section id="remoteteambuilding" class="intro" style="height:100vh;">
 
 <div class="box special">
-<h3>{{ (.Site.GetPage "remoteteambuildingintro.md").Title }}</h3>
-{{ (.Site.GetPage "remoteteambuildingintro.md").Content }}
-
+  <h3>{{ (.Site.GetPage "remoteteambuilding.md").Title }}</h3>
+  <img src="{{ (.Site.GetPage "remoteteambuilding.md").Params.featured_image }}" alt="">
+  <ul class="actions">
+    <li><a href="{{ (.Site.GetPage "remoteteambuilding.md").Params.cta_link }}" class="button special">{{ (.Site.GetPage "remoteteambuilding.md").Params.cta }}</a></li>
+  </ul>
+  {{ (.Site.GetPage "remoteteambuilding.md").Params.short_description }}
 </div>
 <center><a href="#temporarilyclosed"><i class="fas fa-chevron-down"></i></a></center>
 </section>
