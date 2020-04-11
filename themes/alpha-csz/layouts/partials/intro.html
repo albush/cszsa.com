@@ -1,18 +1,19 @@
-{{ range first 3 (sort (where .Site.Pages ".Params.featured" "urgent") "Params.start_date" "desc") }}
   <section class="container">
+{{ range first 3 (sort (where .Site.Pages ".Params.featured" "urgent") "Params.start_date" "desc") }}
+
     <section>
       <div class="box special">
-      <h3>{{ .Title }}</h3>
-      <a href="{{ .Permalink }}"><img src="{{ .Params.featured_image }}" alt=""></a>
-      <ul class="actions">
-      <li><a href="{{ .Params.cta_link }}" class="button special">{{ .Params.cta }}</a></li>
-      </ul>
-      {{ .Summary | safeHTML }}
-      <div>
-        <a href="{{ .RelPermalink }}">Read More…</a>
+        <h3>{{ .Title }}</h3>
+        <a href="{{ .Permalink }}"><img src="{{ .Params.featured_image }}" alt=""></a>
+        <ul class="actions">
+        <li><a href="{{ .Params.cta_link }}" class="button special">{{ .Params.cta }}</a></li>
+        </ul>
+        {{ .Summary }}
+        <div>
+          <a href="{{ .RelPermalink }}">Read More…</a>
+        </div>
+        <center><i class="fas fa-angle-double-down"></i></center>
       </div>
-      </div>
-      <center><i class="fas fa-angle-double-down"></i></center>
     </section>
-  </section>
 {{ end }}
+  </section>

@@ -101,7 +101,7 @@ confirm_page = "/contact_thanks"
 formspree_email = "info@cszsa.com"
 service = "formspree"
 [params.urgent]
-content = ["virtualmatch.md", "virtualteambuilding.md", "covid19.md"]
+urgent = true
 [params.special_event]
 #comment out special event section if no events are scheduled
 # events = ["training"]
