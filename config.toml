@@ -6,6 +6,7 @@ languageCode = "en-us"
 theme = "alpha-csz"
 title = "ComedySportz San Antonio"
 subtitle = "Comedy for Everyone"
+summaryLength = 350
 [[menu.main]]
 name = "Home"
 url = "/"
@@ -100,7 +101,7 @@ confirm_page = "/contact_thanks"
 formspree_email = "info@cszsa.com"
 service = "formspree"
 [params.urgent]
-content = "covid19.md"
+content = ["virtualmatch.md", "virtualteambuilding.md", "covid19.md"]
 [params.special_event]
 #comment out special event section if no events are scheduled
 # events = ["training"]

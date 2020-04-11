@@ -3,9 +3,9 @@ box_title: It's our first ever online match!
 cta: Get your tickets today!
 cta_link: https://cszsa.square.site/product/virtualmatch/193
 draft: false
-featured: "true"
+featured: "urgent"
 evergreen: true
-start_date: 2019-09-04
+start_date: 2020-04-10
 featured_image: /images/cszsavirtualmatch.png
 images:
 - /images/cszsavirtualmatch.png
