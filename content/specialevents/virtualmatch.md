@@ -6,9 +6,9 @@ draft: false
 featured: "urgent"
 evergreen: true
 start_date: 2020-04-10
-featured_image: /images/cszsavirtualmatch.png
+featured_image: /images/cszsavirtualmatch2.png
 images:
-- /images/cszsavirtualmatch.png
+- /images/cszsavirtualmatch2.png
 menuname: Virtual Shows
 title: Live Online Show April 30th!
 weight: 30
