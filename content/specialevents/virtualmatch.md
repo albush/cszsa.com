@@ -10,7 +10,7 @@ featured_image: /images/cszsavirtualmatch.png
 images:
 - /images/cszsavirtualmatch.png
 menuname: Virtual Shows
-title: Live Online Show April 16th!
+title: Live Online Show April 30th!
 weight: 30
 ---
 
