@@ -1,16 +1,16 @@
 ---
-box_title: It's our first ever online match!
+box_title: San Antonio Vs Dallas
 cta: Get your tickets today!
 cta_link: https://cszsa.square.site/product/virtualmatch/193
 draft: false
-featured: "false"
+featured: "urgent"
 evergreen: true
 start_date: 2020-04-10
-featured_image: /images/cszsavirtualmatch2.png
+featured_image: /images/csz-sa-dal.jpeg
 images:
-- /images/cszsavirtualmatch2.png
+- /images/csz-sa-dal.jpeg
 menuname: Virtual Shows
-title: Live Online Show April 30th!
+title: Live Online vs Dallas
 weight: 30
 ---
 
