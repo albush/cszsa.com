@@ -14,4 +14,4 @@ title: Live Online Show April 30th!
 weight: 30
 ---
 
-It's an I-35 Showdown! San Antonio vs Dallas, live on Zoom. ComedySportz San Antonio only has 40 tickets, so be sure to get yours before this best-of-Texas match sells out.
+It's our first ever online match! Join us as we present a new version of our ComedySportz show for loyal fans all over the world. Tickets are limited, so be sure to get yours today!
