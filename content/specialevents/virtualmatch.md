@@ -1,17 +1,17 @@
 ---
-box_title: It's our first ever online match!
+box_title: Join us for an online show
 cta: Get your tickets today!
 cta_link: https://cszsa.square.site/product/virtualmatch/193
 draft: false
-featured: "false"
+featured: "urgent"
 evergreen: true
 start_date: 2020-04-10
-featured_image: /images/cszsavirtualmatch2.png
+featured_image: /images/virtualmatch514.png
 images:
-- /images/cszsavirtualmatch2.png
+- /images/virtualmatch514.png
 menuname: Virtual Shows
-title: Live Online Show April 30th!
+title: Live Online Show May 14th!
 weight: 30
 ---
 
-It's our first ever online match! Join us as we present a new version of our ComedySportz show for loyal fans all over the world. Tickets are limited, so be sure to get yours today!
+ComedySportz! Live! Online! It's our virtual show. New games, mystery guests. Who knows what's going to happen?
