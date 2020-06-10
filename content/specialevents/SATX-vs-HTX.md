@@ -3,7 +3,7 @@ box_title: Join us for an online show
 cta: Get your tickets today!
 cta_link: https://cszsa.square.site/product/virtualmatch/193
 draft: false
-featured: "urgent"
+featured: "false"
 evergreen: true
 start_date: 2020-04-10
 featured_image: /images/virtualmatch528.jpeg

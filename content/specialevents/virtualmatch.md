@@ -1,16 +1,16 @@
 ---
-box_title: Join us for an online show
+box_title: Join us for a free online show
 cta: Get your tickets today!
-cta_link: https://cszsa.square.site/product/virtualmatch/193
+cta_link: https://www.eventbrite.com/e/comedysportz-free-event-tickets-109025295594
 draft: false
-featured: "false"
+featured: "urgent"
 evergreen: true
 start_date: 2020-04-10
-featured_image: /images/virtualmatch514.jpeg
+featured_image: /images/virtualmatch612.png
 images:
-- /images/virtualmatch514.jpeg
+- /images/virtualmatch612.png
 menuname: Virtual Shows
-title: Live Online Show May 14th!
+title: Free Live Online Show June 12th!
 weight: 30
 ---
 
