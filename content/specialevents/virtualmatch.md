@@ -1,17 +1,17 @@
 ---
-box_title: Join us for a free online show
+box_title: ComedySportz Virtual World Championships
 cta: Get your tickets today!
-cta_link: https://www.eventbrite.com/e/comedysportz-free-event-tickets-109025295594
+cta_link: https://us02web.zoom.us/webinar/register/WN_bco2TG1lQxSE3KIfYVI1yg
 draft: false
 featured: "urgent"
 evergreen: true
 start_date: 2020-04-10
-featured_image: /images/virtualmatch612.png
+featured_image: /images/cwc-sa-ptld.jpg
 images:
-- /images/virtualmatch612.png
+- /images/cwc-sa-ptld.jpg
 menuname: Virtual Shows
-title: Free Live Online Show June 12th!
+title: "World Championships Prelim: San Antonio vs Portland"
 weight: 30
 ---
 
-ComedySportz! Live! Online! It's our virtual show. New games, mystery guests. Who knows what's going to happen?
+ComedySportz! Live! Online! Free! A preliminary bout in the ComedySportz Virtual Championship, it's CSz San Antonio vs CSz Portland to determine who moves on in this ComedySportz Worldwide Tournament.
