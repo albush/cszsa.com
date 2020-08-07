@@ -1,17 +1,17 @@
 ---
-box_title: ComedySportz Virtual World Championships
+box_title: ComedySportz Virtual Match
 cta: Get your tickets today!
-cta_link: https://us02web.zoom.us/webinar/register/WN_bco2TG1lQxSE3KIfYVI1yg
+cta_link: https://cszsa.square.site/product/virtualmatch/193?cs=true
 draft: false
 featured: "urgent"
 evergreen: true
 start_date: 2020-04-10
-featured_image: /images/cwc-sa-ptld.jpg
+featured_image: /images/Virtual Match 8_13 at 7pm.png
 images:
-- /images/cwc-sa-ptld.jpg
+- /images/Virtual Match 8_13 at 7pm.png
 menuname: Virtual Shows
-title: "July 29 9pm CDT San Antonio vs Portland"
+title: "August 13th 7pm CDT ComedySportz San Antonio"
 weight: 30
 ---
 
-ComedySportz! Live! Online! A preliminary bout in the ComedySportz Virtual Championship, it's CSz San Antonio vs CSz Portland to determine who moves on in this ComedySportz Worldwide Tournament.
+We're back with Live Online Comedy! Join us from your couch as we bring you San Antonio's favorite Family-Friendly comedy show!
