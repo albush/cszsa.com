@@ -1,6 +1,6 @@
 ---
 box_title: ComedySportz Virtual Match vs Los Angeles
-cta: Get your tickets today!
+cta: Register today!
 cta_link: https://us02web.zoom.us/webinar/register/WN_Awu68-mjSfCN8dM6YaZg2A
 draft: false
 featured: "urgent"
