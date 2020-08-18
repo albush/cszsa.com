@@ -10,8 +10,8 @@ featured_image: /images/cszsa-vs-la-2020-08-20.png
 images:
 - /images/cszsa-vs-la-2020-08-20.png
 menuname: Virtual Shows
-title: "August 13th 7pm CDT ComedySportz San Antonio vs Los Angeles"
+title: "Free Show! August 27th 7pm CDT ComedySportz San Antonio vs Los Angeles"
 weight: 30
 ---
 
-We're back with Live Online Comedy! Join us from your couch as we bring you San Antonio's favorite Family-Friendly comedy show! This week we're taking on the ComedySportz team from Los Angeles.
+We're back with Live Online Comedy! Join us from your couch as we bring you San Antonio's favorite Family-Friendly comedy show! This week we're taking on the ComedySportz team from Los Angeles. This match is completely free, but [donations](https://cszsa.square.site/donate) are always welcome.
