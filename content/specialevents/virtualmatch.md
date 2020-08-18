@@ -1,17 +1,17 @@
 ---
-box_title: ComedySportz Virtual Match
+box_title: ComedySportz Virtual Match vs Los Angeles
 cta: Get your tickets today!
-cta_link: https://cszsa.square.site/product/virtualmatch/193?cs=true
+cta_link: https://us02web.zoom.us/webinar/register/WN_Awu68-mjSfCN8dM6YaZg2A
 draft: false
 featured: "urgent"
 evergreen: true
 start_date: 2020-04-10
-featured_image: /images/Virtual Match 8_13 at 7pm.png
+featured_image: /images/cszsa-vs-la-2020-08-20.png
 images:
-- /images/Virtual Match 8_13 at 7pm.png
+- /images/cszsa-vs-la-2020-08-20.png
 menuname: Virtual Shows
-title: "August 13th 7pm CDT ComedySportz San Antonio"
+title: "August 13th 7pm CDT ComedySportz San Antonio vs Los Angeles"
 weight: 30
 ---
 
-We're back with Live Online Comedy! Join us from your couch as we bring you San Antonio's favorite Family-Friendly comedy show!
+We're back with Live Online Comedy! Join us from your couch as we bring you San Antonio's favorite Family-Friendly comedy show! This week we're taking on the ComedySportz team from Los Angeles.
