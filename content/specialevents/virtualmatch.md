@@ -6,11 +6,11 @@ draft: false
 featured: "urgent"
 evergreen: true
 start_date: 2020-04-10
-featured_image: /images/cszsa-sep10.jpg
+featured_image: /images/cszsa-virtualmatch-2020-09-24.jpg
 images:
-- /images/cszsa-sep10.jpg
+- /images/cszsa-virtualmatch-2020-09-24.jpg
 menuname: Virtual Shows
-title: "ComedySportz Live Improv! September 10th"
+title: "ComedySportz Live Improv! September 24th"
 weight: 30
 ---
 
