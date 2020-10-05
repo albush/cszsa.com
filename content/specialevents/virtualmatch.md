@@ -1,17 +1,18 @@
 ---
 box_title: ComedySportz Virtual Match
 cta: Register today!
-cta_link: https://cszsa.square.site/product/virtualmatch/193?cs=true
+cta_link: https://us02web.zoom.us/webinar/register/WN_Sfb7uhJmT9aKiB3LRzIR6w
 draft: false
 featured: "urgent"
 evergreen: true
 start_date: 2020-04-10
-featured_image: /images/cszsa-virtualmatch-2020-09-24.jpg
+featured_image: /images/cszsa-2020-10-08.png
 images:
-- /images/cszsa-virtualmatch-2020-09-24.jpg
+- /images/cszsa-2020-10-08.png
 menuname: Virtual Shows
-title: "ComedySportz Live Improv! September 24th"
+title: "ComedySportz Live Improv! October 8th"
 weight: 30
 ---
 
-We're back with Live Online Comedy! Join us from your couch as we bring you San Antonio's favorite Family-Friendly comedy show! Come laugh at us from the comfort of your couch!
+All this month our matches are **completely free**! Just join with the link below, and we'll see you on the show!
+If you're interested in helping to sponsor the show, we'll incorporate you into the match. Have a friend or family member with a birthday you'd like to shout out? Want us to share your unfailing love for your partner? [Sponsor the show](https://cszsa.square.site/donate) and we can shout them out during the match.
