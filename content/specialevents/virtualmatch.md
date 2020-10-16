@@ -1,16 +1,16 @@
 ---
 box_title: ComedySportz Virtual Match
 cta: Register today!
-cta_link: https://us02web.zoom.us/webinar/register/WN_Sfb7uhJmT9aKiB3LRzIR6w
+cta_link: https://us02web.zoom.us/webinar/register/WN_ccCNLrtuQ8CU7AZYpDYS9Q
 draft: false
 featured: "urgent"
 evergreen: true
 start_date: 2020-04-10
-featured_image: /images/cszsa-2020-10-08.png
+featured_image: /images/virtualmatch2020-10-22.png
 images:
-- /images/cszsa-2020-10-08.png
+- /images/virtualmatch2020-10-22.png
 menuname: Virtual Shows
-title: "ComedySportz Live Improv! October 8th"
+title: "ComedySportz Live Improv! October 22nd"
 weight: 30
 ---
 
