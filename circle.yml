@@ -44,6 +44,8 @@ jobs:
   prod_deploy:
     docker:
       - image: cibuilds/aws
+    environment:
+      AWS_PAGER: ""
     steps:
       - attach_workspace:
           at: ~/project
@@ -59,7 +61,7 @@ jobs:
       - run:
           name: "Invalidate CloudFront"
           command: aws cloudfront create-invalidation --distribution-id $DISTRIBUTION_ID --paths /index.html /shows/* /team/* /training/* /afterdark/* /specialevents/* /blog/*
-          no_output_timeout: 45m
+          # no_output_timeout: 45m
 
 workflows:
   version: 2
