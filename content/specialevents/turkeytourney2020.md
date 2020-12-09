@@ -2,7 +2,7 @@
 box_title: ComedySportz Virtual Turkey Tourney!
 cta: Register today!
 cta_link: https://cszsa.com/turkeytourney2020/#tix
-draft: false
+draft: true
 featured: "urgent"
 evergreen: true
 start_date: 2020-04-10
