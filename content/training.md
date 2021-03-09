@@ -11,9 +11,9 @@ intro: Our next round of Improv 101 classes begin April 5th
 menuname: Classes
 title: Learn To Be An Improvisor
 weight: 50
-featured_image: /images/improv301.jpg
+featured_image: /images/inpersonclasses.jpg
 images:
-- /images/improv301.jpg
+- /images/inpersonclasses.jpg
 featured: "false"
 start_date: "2020-03-15T13:00:12-06:00"
 end_date: "2020-03-15T23:00:40-06:00"

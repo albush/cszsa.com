@@ -176,7 +176,7 @@ title = "Corporate Training & Team Building"
 url = "/teambuilding"
 [[params.landing.feature_images.tile]]
 button_text = "Start Learning"
-image = "images/improv301.jpg"
+image = "/images/inpersonclasses.jpg"
 logo = "images/CSz_Education_long_COLOR.png"
 text = "CSz improv and applied improv classes are a fun, supportive way to learn improvisational thinking and gain self-confidence. Don't be fooled into thinking improv is just for performers - many of our students use improv to develop business soft-skills, and communicate better - and they meet other cool people! We're constantly adding more training series and drop-in workshops for adults as well as high school students and younger. Visit our CSz Education page to see the latest classes being offered."
 title = "Corporate Training & Team Building"
