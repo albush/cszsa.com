@@ -2,9 +2,9 @@
 box_title: ComedySportz Virtual Match
 cta: Register today!
 cta_link: https://us02web.zoom.us/webinar/register/WN_dLzRNxlOTbCjPL1BG9icPA
-draft: false
+draft: true
 featured: "urgent"
-evergreen: true
+evergreen: false
 start_date: 2020-04-10
 featured_image: /images/virtualmatch1217.png
 images:

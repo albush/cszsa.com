@@ -2,7 +2,7 @@
 box_title: 100% Customizable and amazingly fun workshops designed for your team.
 cta: Schedule Your Workshop Now
 cta_link: 'https://cszsa.com/remoteteambuilding/#remotecontact'
-draft: false
+draft: true
 featured: "urgent"
 evergreen: true
 start_date: 2020-04-01

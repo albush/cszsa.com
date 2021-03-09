@@ -3,9 +3,9 @@ box_title: Improv 101 & 201 Classes Starting Soon!
 cta: Reserve Your Spot Now
 cta_link: 'https://cszsa.square.site/classes'
 ticket_link: 'https://cszsa.square.site/classes'
-# classes:
-# - improv101
-# - improv201
+classes:
+- improv101
+- advancedworkshop
 draft: false
 intro: Our next round of Improv 101 classes begin April 5th
 menuname: Classes
@@ -26,24 +26,33 @@ CSz improv and applied improv classes are a fun, supportive way to learn improvi
 
 ## Our Class Curriculum
 
-### Intro to Improv
+### Advanced Knock the Rust Off Workshop
 
-This free one night drop-in class introduces the student to some basic improv warm-ups and exercises, allowing them an opportunity to see what our improv classes are all about. If you like this drop-in class, you'll love what you'll learn and how much fun you'll have in our Improv 101 classes. Check back later for our next Intro to Improv class.
+Look, it's been a while for all of us. We've tried the video improv thing, the game nights, but if you ask any of us to get on a stage, we'll all feel a little rusty. So join us for a refresher on in person improv skills with an emphasis on doing scenes with feedback from the teacher. This 4 hour workshop has a maximum capacity of 10, so hurry and book your spot now.
+(This class is intended for performers with experience, that need a little in person improv workout.)
 
-**Registration fee:** Free!
+**Registration fee:** $40
+
+**Important Health and Safety Information**
+
+A mask fully covering the nose and chin will be required for every class participant, and waivers must be signed the day of class. Educator is vaccinated. Class maximum capacity is 10 students.
 
 
 ### Improv 101
 
 We focus on the basics of improvisation: team-building, trust, speed, status, active listening, and agreement. You will learn to be fearless and have fun on stage! This workshop emphasizes basic verbal and physical communication skills by exploring spontaneity, active listening, risk-taking, story-telling, character development, and other fun stuff in a safe, non-judgmental environment. Laughter and positive vibes guaranteed. No prerequisite except willingness for silliness. You learn the fundamentals for creating effective improv scene work. Giggles, chuckles, and guffaws included in course fee. It will be one of the funniest and most fun, life strengthening things you will ever do for yourself.
-Each workshop is six 2.5 hour sessions.
+Improv 101 consists of six 2 hour sessions, followed by a showcase jam session on the 7th week.
 
 **No prerequisites or previous experience required.**
 
-**Registration fee:** $200 (Or reserve your spot for $100 and pay the balance at your first class.)
+**Important Health and Safety Information**
+
+A mask fully covering the nose and chin will be required for every class participant, and waivers must be signed the first day of class. $100 non refundable deposit required. Educator is vaccinated. Class maximum capacity is 10 students. 2 hours per class for 7 weeks.
+
+**Registration fee:** $225 ($100 deposit required to hold spot.)
 
 
-### Improv 201
+### Improv 201 - No Classes Available
 
 We build on the basic skills of Improv 101 to further creativity, fun, and technical skills. This workshop focuses on space-object work, creating characters, narrative storytelling, gibberish, initiating (starting scenes), heightening (coming into a scene), and thinking faster. Learn to apply your play in ways to build spontaneous stories and fantastic scenes. For the non-actor, this class provides you with great skills for public speaking, teaching, and impressive leadership. Once you know the art of improv, you'll never worry about forgetting the lines to a speech because you will have the tools to make it work.
 Each workshop is six 2.5 hour sessions.
@@ -52,7 +61,7 @@ Each workshop is six 2.5 hour sessions.
 
 **Registration fee:** $200 (Or reserve your spot for $100 and pay the balance at your first class.)
 
-### Improv 301
+### Improv 301 - No Classes Available
 
 Improv 301 expands the scope of the scene. By connecting further to the scene and group as a whole you will be able to create larger grounded scenes overall.
 Additionally you will learn to improve techniques by building the world through multiplayer scenes and object work.
