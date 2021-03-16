@@ -7,7 +7,7 @@ classes:
 - improv101
 - advancedworkshop
 draft: false
-intro: Our next round of Improv 101 classes begin April 5th
+intro: Our next round of Improv 101 classes begin March 28
 menuname: Classes
 title: Learn To Be An Improvisor
 weight: 50
@@ -26,9 +26,9 @@ CSz improv and applied improv classes are a fun, supportive way to learn improvi
 
 ## Our Class Curriculum
 
-### Advanced Knock the Rust Off Workshop
+### Advanced Knock the Rust Off Workshop Saturday March 27th, 1-4pm
 
-Look, it's been a while for all of us. We've tried the video improv thing, the game nights, but if you ask any of us to get on a stage, we'll all feel a little rusty. So join us for a refresher on in person improv skills with an emphasis on doing scenes with feedback from the teacher. This 4 hour workshop has a maximum capacity of 10, so hurry and book your spot now.
+Look, it's been a while for all of us. We've tried the video improv thing, the game nights, but if you ask any of us to get on a stage, we'll all feel a little rusty. So join us for a refresher on in person improv skills with an emphasis on doing scenes with feedback from the teacher. This 3 hour workshop has a maximum capacity of 10, so hurry and book your spot now.
 (This class is intended for performers with experience, that need a little in person improv workout.)
 
 **Registration fee:** $40
