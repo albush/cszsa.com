@@ -5,9 +5,8 @@ cta_link: 'https://cszsa.square.site/classes'
 ticket_link: 'https://cszsa.square.site/classes'
 classes:
 - improv101
-- advancedworkshop
 draft: false
-intro: Our next round of Improv 101 classes begin March 28
+intro: Our next round of Improv 101 classes begin May 16
 menuname: Classes
 title: Learn To Be An Improvisor
 weight: 50
@@ -26,19 +25,7 @@ CSz improv and applied improv classes are a fun, supportive way to learn improvi
 
 ## Our Class Curriculum
 
-### Advanced Knock the Rust Off Workshop Saturday March 27th, 1-4pm
-
-Look, it's been a while for all of us. We've tried the video improv thing, the game nights, but if you ask any of us to get on a stage, we'll all feel a little rusty. So join us for a refresher on in person improv skills with an emphasis on doing scenes with feedback from the teacher. This 3 hour workshop has a maximum capacity of 10, so hurry and book your spot now.
-(This class is intended for performers with experience, that need a little in person improv workout.)
-
-**Registration fee:** $40
-
-**Important Health and Safety Information**
-
-A mask fully covering the nose and chin will be required for every class participant, and waivers must be signed the day of class. Educator is vaccinated. Class maximum capacity is 10 students.
-
-
-### Improv 101
+### Improv 101 - Classes start may 16th
 
 We focus on the basics of improvisation: team-building, trust, speed, status, active listening, and agreement. You will learn to be fearless and have fun on stage! This workshop emphasizes basic verbal and physical communication skills by exploring spontaneity, active listening, risk-taking, story-telling, character development, and other fun stuff in a safe, non-judgmental environment. Laughter and positive vibes guaranteed. No prerequisite except willingness for silliness. You learn the fundamentals for creating effective improv scene work. Giggles, chuckles, and guffaws included in course fee. It will be one of the funniest and most fun, life strengthening things you will ever do for yourself.
 Improv 101 consists of six 2 hour sessions, followed by a showcase jam session on the 7th week.
