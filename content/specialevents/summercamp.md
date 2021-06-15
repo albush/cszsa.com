@@ -3,7 +3,7 @@ box_title: Who's Ready for Summer Camp?
 cta: Register Today
 cta_link: https://cszsa.square.site/summer-camp
 draft: false
-featured: "urgent"
+featured: "true"
 evergreen: true
 start_date: 2021-05-17
 featured_image: /images/ComedySportz-Summer-Camp.png

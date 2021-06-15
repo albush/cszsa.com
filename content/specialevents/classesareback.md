@@ -3,7 +3,7 @@ box_title: In Person Classes Are Back!
 cta: Available Classes
 cta_link: https://cszsa.square.site/product/july101/198?cs=true
 draft: false
-featured: "urgent"
+featured: "true"
 evergreen: true
 start_date: 2021-03-28
 featured_image: /images/improv101July2021.jpg
