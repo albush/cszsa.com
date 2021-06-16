@@ -1,8 +1,7 @@
 ---
 player: jbeene
 shows:
-- csz-2020-02-01
-- csz-2020-02-08
+- csz-2021-07-24
 title: James Beene
 
 ---

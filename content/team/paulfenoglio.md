@@ -1,7 +1,8 @@
 ---
 player: pfenoglio
 shows:
-- csz-2020-02-14
+- csz-2021-07-23
+- csz-2021-07-30
 title: Paul Fenoglio
 
 ---

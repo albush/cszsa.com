@@ -1,10 +1,9 @@
 ---
 player: ahons
 shows:
-- csz-2020-02-01
-- csz-2020-02-15
-- csz-2020-02-21
-- csz-2020-02-28
+- csz-2021-07-09
+- csz-2021-07-30
+- csz-2021-07-31
 title: Amantha Hons
 
 ---
