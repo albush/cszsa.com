@@ -1,9 +1,9 @@
 ---
 box_title: Who's Ready for Summer Camp?
 cta: Register Today
-cta_link: https://cszsa.square.site/summer-camp
+cta_link: https://cszsa.square.site/product/comedysportz-san-antonio-middle-school-summer-camp-/195?cs=true
 draft: false
-featured: "true"
+featured: "urgent"
 evergreen: true
 start_date: 2021-05-17
 featured_image: /images/ComedySportz-Summer-Camp.png
@@ -13,14 +13,11 @@ menuname: In Person Classes
 title: "Our First Ever Improv Summer Camp!"
 weight: 30
 summer_camp: true
+date: 2021-06-16
 ---
 
-It's ComedySportz San Antonio's first ever Summer Camp for Middle & High Schoolers!
+It's ComedySportz San Antonio's first ever Summer Camp for Middle Schoolers!
 <!--more-->
-## [High School Camp: July 19-23 $275](https://cszsa.square.site/product/highschoolcamp/196?cs=true)
-
-  * Ages 15-17 as of Sept 1st 2021. (Anyone 18 and over is encouraged to join us in our [Improv 101](/training/) classes.)
-  * Free Showcase for friends and family on July 24
 
 ## [Middle School Camp: July 26-30 $275](https://cszsa.square.site/product/comedysportz-san-antonio-middle-school-summer-camp-/195?cs=true)
 

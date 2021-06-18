@@ -1,11 +1,12 @@
 ---
 box_title: We're baaaaaaaaaaaaack!!!!
 cta: Buy Tickets Today
+date: 2021-06-15
 cta_link: /shows/
 draft: false
 featured: "urgent"
 evergreen: true
-start_date: 2021-05-17
+start_date: 2021-06-15
 featured_image: /images/CSz-Is-Back.png
 images:
 - /images/CSz-Is-Back.png
