@@ -6,7 +6,7 @@ draft: false
 featured: "urgent"
 evergreen: true
 start_date: 2021-05-17
-featured_image: /images/ComedySportz-Summer-Camp.png
+featured_image: /images/summercamp.jpeg
 images:
 - /images/ComedySportz-Summer-Camp.png
 menuname: In Person Classes
