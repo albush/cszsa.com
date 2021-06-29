@@ -7,6 +7,6 @@ shows:
 - csz-2021-07-17
 - csz-2021-07-23
 - csz-2021-07-30
-title: Sawyer Williams
+title: Sawyer Wade
 
 ---
