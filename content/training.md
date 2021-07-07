@@ -1,18 +1,18 @@
 ---
 box_title: Improv 101 Classes Starting Soon!
 cta: Reserve Your Spot Now
-cta_link: 'https://cszsa.square.site/product/july101/198?cs=true'
-ticket_link: 'https://cszsa.square.site/product/july101/198?cs=trues'
+cta_link: 'https://cszsa.square.site/product/mondays-at-7pm-improv-101/210?cs=true'
+ticket_link: 'https://cszsa.square.site/product/mondays-at-7pm-improv-101/210?cs=true'
 classes:
 - improv101
 draft: false
-intro: Our next round of Improv 101 classes begin July 11
+intro: Our next round of Improv 101 classes begin August 16
 menuname: Classes
 title: Learn To Be An Improvisor
 weight: 50
-featured_image: improv101July2021.jpgg
+featured_image: imrpov101-aug-2021.jpeg
 images:
-- /images/improv101July2021.jpg
+- /images/imrpov101-aug-2021.jpeg
 featured: "false"
 start_date: "2020-03-15T13:00:12-06:00"
 end_date: "2020-03-15T23:00:40-06:00"
@@ -25,7 +25,7 @@ CSz improv and applied improv classes are a fun, supportive way to learn improvi
 
 ## Our Class Curriculum
 
-### Improv 101 - Classes start July 11th
+### Improv 101 - Classes start August 16th
 
 
 We focus on the basics of improvisation: team-building, trust, speed, status, active listening, and agreement. You will learn to be fearless and have fun on stage! This workshop emphasizes basic verbal and physical communication skills by exploring spontaneity, active listening, risk-taking, story-telling, character development, and other fun stuff in a safe, non-judgmental environment. Laughter and positive vibes guaranteed. No prerequisite except willingness for silliness. You learn the fundamentals for creating effective improv scene work. Giggles, chuckles, and guffaws included in course fee. It will be one of the funniest and most fun, life strengthening things you will ever do for yourself.
